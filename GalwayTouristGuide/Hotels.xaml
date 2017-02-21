@@ -1,0 +1,637 @@
+﻿<Page
+    x:Class="GalwayTouristGuide.Assets.Hotels"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GalwayTouristGuide.Assets"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="Button" x:Key="LinkBtns">
+            <Setter Property="Background" Value="#cc0000"></Setter>
+            <Setter Property="Foreground" Value="#e6e600"></Setter>
+            <Setter Property="FontSize" Value="22"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Place">
+            <Setter Property="FontSize" Value="36"></Setter>
+            <Setter Property="Foreground" Value="#000066"></Setter>
+            <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
+        </Style>
+        <Style TargetType="HyperlinkButton" x:Key="Sites">
+            <Setter Property="FontSize" Value="22"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="Foreground" Value="#000066"></Setter>
+            <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#b3ffb3">
+
+        <ScrollViewer
+                Grid.Row="0" 
+                Height="600"
+                VerticalScrollBarVisibility="Auto"
+            >
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="radImg" Source="Assets\rad.jpg" />
+                <TextBlock Name="radText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Radisson Blu" />
+                <TextBlock Name="radBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Text="This stylish waterfront hotel, set on the Lough Atalia, lies 230 m from the Galway railway station and a 5-minute walk from Eyre Square. Offering free Wi-Fi, the sophisticated rooms also have flat-screens with premium channels, minibars and 24/7 room service. 
+                           
+                           Upgraded rooms add Nespresso machines and sea views, and some include breakfast. Suites have living areas and, in some cases, private terraces." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="radInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="radInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="radFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="radLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="radLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="RadDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 538 300 " />
+                <TextBlock
+                      Name="RadDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Room Deals: " />
+                <HyperlinkButton Name="RadExpedia" Click="RadExpedia_Click" Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="RadBooking" Click="RadBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="RadHotels" Click="RadHotels_Click" Content="hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="RadRadison" Click="RadRadison_Click" Content="RadisonBlu.com"  Style="{StaticResource Sites}"></HyperlinkButton>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="HarbourImg" Source="Assets\harbour.jpg" />
+                <TextBlock Name="HarbourText"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Harbour Hotel"></TextBlock>
+                <TextBlock Name="HarbourBio"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           Text="This upscale waterfront hotel is a 7-minute walk from Eyre Square and a kilometer from Saint Nicholas Collegiate Church. 
+The modern rooms come with free WiFi, desks, flat-screen TVs, pillow-top mattresses, and tea and coffeemaking facilities. Upgrades add free bottled water and snacks. Room service is available." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="HarbourInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="radInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="HarbourFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="HarbourLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="radLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="HarbourDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 894 800 " />
+                <TextBlock
+                      Name="HarbourDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Room Deals: " />
+                <HyperlinkButton Name="HarbourSite" Click="Harbour_Click" Content="harbour.ie" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="HarbourHotels" Click="HarbourHotels_Click" Content="hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="HarbourExpedia" Click="HarbourExpedia_Click_1" Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="HarbourBooking" Click="HarbourBooking_Click" Content="Booking.com"  Style="{StaticResource Sites}"></HyperlinkButton>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="TheGImg" Source="Assets\the-g-hotel.jpg" />
+                <TextBlock Name="TheGText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The g hotel" />
+                <TextBlock Name="TheGBio"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           Text="This ultra-chic hotel in a contemporary building is a 6-minute drive from Eyre Square and a 9-minute drive from the National University of Ireland. 
+
+Posh rooms featuring modern, bespoke decor and furnishings include minifridges and complimentary Wi-Fi. Upgraded rooms add living areas, and suites add fireplaces. There are also 3 elegant specialty suites offering upgraded furnishings, and 1 includes a terrace and a dining room. Room service is available."></TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="TheGInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="radInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="TheGFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="TheGLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="radLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="TheGDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 865 200 " />
+                <TextBlock
+                      Name="TheGDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Exclusive Deal: " />
+                <HyperlinkButton Name="TheGSite" Click="TheGSite_Click" Content="Booking.ie" FontSize="22" HorizontalAlignment="Center" Style="{StaticResource Sites}"></HyperlinkButton>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="FlanImg" Source="Assets\flannerys.jpg" />
+                <TextBlock Name="FlanText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Flannery's" />
+                <TextBlock Name="FlanBio"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           Text="This casual hotel is 2.9 miles from Eyre Square and 7.2 km from Galway Airport. 
+Traditional rooms feature free Wi-Fi, desks, cable TV, and tea and coffeemaking facilities; some have views of Galway Bay. Room service is offered." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="FlanInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                   
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="FlanFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="FlanLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="radLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="FlanDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 755 111 " />
+                <TextBlock
+                      Name="FlanDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Room Deals: " />
+                <HyperlinkButton Name="FlanBooking" Click="FlanBooking_Click" Content="Booking.ie" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="FlanExpedia" Click="FlanExpedia_Click" Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="FlanAmoma" Click="FlanAmoma_Click" Content="Amoma.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="ConnImg" Source="Assets\conn.jpg" />
+                <TextBlock Name="ConnText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The Connacht" />
+                <TextBlock Name="ConnBio"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           Text="This ultra-chic hotel in a contemporary building is a 6-minute drive from Eyre Square and a 9-minute drive from the National University of Ireland. 
+
+Posh rooms featuring modern, bespoke decor and furnishings include minifridges and complimentary Wi-Fi. Upgraded rooms add living areas, and suites add fireplaces. There are also 3 elegant specialty suites offering upgraded furnishings, and 1 includes a terrace and a dining room. Room service is available." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="ConnInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="connFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="connLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="radLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="connDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 381 200 " />
+                <TextBlock
+                      Name="connDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Room Deals: " />
+                <HyperlinkButton Name="connBooking" Click="connBooking_Click" Content="Booking.ie" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="connExpedia" Click="connExpedia_Click" Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="connGala" Click="connGala_Click" Content="galahotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="JuryImg" Source="Assets\jury.jpg" />
+                <TextBlock Name="JuryText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Jurys Inn" />
+                <TextBlock Name="JuryBio"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           Text="This informal hotel overlooking the River Corrib is 3 minutes' walk from the 16th-century Spanish Arch, 4 minutes' walk from shopping and nightlife on Shop Street, and 11 minutes' walk from Galway railway station.
+
+The unfussy rooms provide complimentary Wi-Fi and flat-screen TVs, as well as tea and coffeemaking facilities. Some add sofabeds and/or river views. Room service is available." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="JuryInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="JuryFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="JuryLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="radLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="JuryDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 566 444 " />
+                <TextBlock
+                      Name="JuryDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Room Deals: " />
+                <HyperlinkButton Name="JuryBooking" Click="JuryBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="JuryHotels" Click="JuryHotels_Click" Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="JuryGala" Click="JuryGala_Click" Content="galahotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="SalthillImg" Source="Assets\salthill.jpg" />
+                <TextBlock Name="SalthillText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Salthill Hotel" />
+                <TextBlock Name="SalthillBio"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           Text="On the oceanfront promenade, this modern, upscale hotel overlooking Galway Bay is 4 km from Eyre Square and 3 km from Galway City Museum. 
+
+Bright, contemporary rooms come with free Wi-Fi, desks, flat-screen TVs, and tea and coffeemaking facilities; upgraded rooms provide sea views." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="SalthillInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                   
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="SalthillFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="SalthillLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="SalthillDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 566 444 " />
+                <TextBlock
+                      Name="SalthillDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Room Deals: " />
+                <HyperlinkButton Name="SaltBooking" Click="SaltBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="SaltHotels" Click="SaltHotels_Click" Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="SaltGala" Click="SaltGala_Click" Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="BayImg" Source="Assets\Bay.jpg" />
+                <TextBlock Name="BayText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Galway Bay" />
+                <TextBlock Name="BayBio"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           Text="On Galway's Salthill promenade, this traditional seafront hotel is 0.8 km from the National Aquarium of Ireland. 
+
+The classic rooms offer free Wi-Fi, 24-hr room service, and tea and coffeemaking facilities; suites add Galway Bay views and complimentary wine, fruit, bottled water and homemade treats." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="BayInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                   
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="BayFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="BayLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="BayDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 566 444 " />
+                <TextBlock
+                      Name="BayDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Room Deals: " />
+                <HyperlinkButton Name="BayBooking" Click="BayBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="BayHotels" Click="BayHotels_Click" Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="BayExpedia" Click="BayExpedia_Click" Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="ParkImg" Source="Assets\park.jpg" />
+                <TextBlock Name="ParkText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Park House Hotel" />
+                <TextBlock Name="ParkBio"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           Text="This upscale hotel in a grand Victorian-style stone building with a columned entrance is a 2-minute walk from Eyre Square and an 11-minute walk from Galway City Museum. 
+
+Classic rooms and suites featuring natural wood furnishings and traditional decor include cable TV, tea and coffeemaking equipment, and complimentary Wi-Fi. Upgraded rooms add sitting areas, DVD players and free chocolates." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="ParkInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                   
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="ParkFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="ParkLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="ParkDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 564 924 " />
+                <TextBlock
+                      Name="ParkDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Room Deals: " />
+                <HyperlinkButton Name="ParkBooking" Click="ParkBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="ParkHotels" Click="ParkHotels_Click" Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="ParkExpedia" Click="ParkExpedia_Click" Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="ClayImg" Source="Assets\clayton.jpg" />
+                <TextBlock Name="ClayText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Clayton" />
+                <TextBlock Name="ClayBio"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           Text="This modern, upscale hotel is 3.8 km from Galway Airport and 5.0 km from Eyre Square. 
+
+The airy rooms and suites have free Wi-Fi, desks, flat-screen TVs, and tea and coffeemaking facilities. They also include pillow-top mattresses, as well as bathrooms with rainfall showerheads and heated floors. Upgraded rooms can add private balconies and Bose sound systems. Room service is available." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="ClayInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                   
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="ClayFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="ClayLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="ClayDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 721 900 " />
+                <TextBlock
+                      Name="ClayDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Room Deals: " />
+                <HyperlinkButton Name="ClayBooking" Click="ClayBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="ClayHotels" Click="ClayHotels_Click" Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="ClayExpedia" Click="ClayExpedia_Click" Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="TravelImg" Source="Assets\travel.jpg" />
+                <TextBlock Name="travelText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Travelodge" />
+                <TextBlock Name="travelBio"
+                           Margin="0,10,0,0"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           Text="This budget hotel, set in the city center, is a 2-minute walk from the closest bus stop on Tuam Road. It's also 0.8 miles from Eyre Square and 1.4 miles from Galway City Museum. 
+
+The simple rooms include custom-designed beds, desks, flat-screen TVs and WiFi (fee), as well as tea and coffeemaking facilities. Family rooms add sofabeds." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="travelInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                   
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="travelFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="travelLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="travelDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="WiFi - Free    Phone - (091) 781 400 " />
+                <TextBlock
+                      Name="travelDeals"
+                      TextWrapping="Wrap" 
+                      FontSize="24"
+                      HorizontalAlignment="Center"
+                      Text="Room Deals: " />
+                <HyperlinkButton Name="travelBooking" Click="travelBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="travelHotels" Click="travelHotels_Click" Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton Name="travelgala" Click="travelgala_Click" Content="galahotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

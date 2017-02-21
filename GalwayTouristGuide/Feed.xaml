@@ -1,0 +1,309 @@
+﻿<Page
+    x:Class="GalwayTouristGuide.Feed"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GalwayTouristGuide"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="Button" x:Key="LinkBtns">
+            <Setter Property="Background" Value="#cc0000"></Setter>
+            <Setter Property="Foreground" Value="#e6e600"></Setter>
+            <Setter Property="FontSize" Value="22"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Place">
+            <Setter Property="FontSize" Value="36"></Setter>
+            <Setter Property="Foreground" Value="#000066"></Setter>
+            <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#b3ffb3" >
+      
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <ScrollViewer
+                Grid.Row="0" 
+                Height="600"
+                VerticalScrollBarVisibility="Auto"
+            >
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="SparchImg" Source="Assets\Sparch.jpg" />
+                <TextBlock Name="SpanishArch"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Spanish Arch" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="SparchInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="SparchInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="SparchFav" Content="Fav" 
+                    Width="150"
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="SparchLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="SparchLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="SpachText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="The two arches were part of the extension of the city wall from Martin's Tower to the bank of the River Corrib, as a measure to protect the city's quays, which were in the area once known as the Fish Market. " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="MuseumImg" Source="Assets\GalwayMuseum.jpg" />
+                <TextBlock Name="Museum"
+                           Style="{StaticResource Place}"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Text="Galway City Museum" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="MuseumInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                    <Button Name="MuseumFav" Content="Fav" 
+                    Style="{StaticResource LinkBtns}"
+                    Width="150"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                    ></Button>
+                    <Button Name="MuseumLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22" 
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                </StackPanel>
+                <TextBlock
+                               Name="MuseumText"
+                               TextWrapping="Wrap" 
+                               HorizontalAlignment="Center"
+                               Text="Small displays of documents, photographs, memorabilia and medieval artefacts chronicling urban life.. " />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="ChurchImg" Source="Assets\stnicholascollegiatechurch.jpg" />
+                <TextBlock Name="Church"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="St.Nicholas church" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="ChruchInfo" Content="?" 
+                    Width="150" 
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button Name="ChurchFav" Content="Fav" 
+                    Width="150" 
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="ChurchLoc" Content="Loc" 
+                    Width="150" 
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="ChurchText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="0,10,0,0"
+                      FontFamily="Sitka Small"
+                      Text="Large, 14th-century Anglican Episcopal church visited by Oliver Cromwell and Christopher Columbus. " />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="EyreSquareImg" Source="Assets\eyre.jpg" />
+                <TextBlock Name="EyreSquare"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Eyre Square" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="EyreInfo" Content="?" 
+                    Width="150" 
+                    Style="{StaticResource LinkBtns}"
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button Name="EyreFav" Content="Fav" 
+                    Width="150" 
+                    FontSize="22" 
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="EyreLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22" 
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                    ></Button>
+                </StackPanel>
+                <TextBlock
+                      Name="EyreText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Eyre Square, also known as John F. Kennedy Memorial Park is an inner-city public park in Galway, Ireland. The park is within the city centre in the heart of Galway " />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="DunguaireImg" Source="Assets\dunguaire-castle.jpg" />
+                <TextBlock Name="Dunguaire"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Dunguaire Castle" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="DunguaireInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22" 
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button Name="DunguaireFav" Content="Fav" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="DunguaireLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                    Style="{StaticResource LinkBtns}"
+                    ></Button>
+                </StackPanel>
+                <TextBlock
+                      Name="DunguaireText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Immaculately restored, 16th-century bay-side fortress with a literary history and evening banquets. " />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="CathedralImg" Source="Assets\Galway_cathedral.jpg" />
+                <TextBlock Name="Cathedra"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="St Nicholas Cathedral" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="CathedraInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button Name="CathedraFav" Content="Fav" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50" 
+                    Style="{StaticResource LinkBtns}"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="CathedraLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                    ></Button>
+                </StackPanel>
+                <TextBlock
+                      Name="CathedraText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Modern and airy, green-domed, renaissance-style Catholic cathedral, with a mosaic of JF Kennedy. " />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="JamesMitchellImg" Source="Assets\JamesMitchell.jpg" />
+                <TextBlock Name="JamesMitchell"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="James Mitchell Museum" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="JamesMitchellInfo" Content="?" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button Name="JamesMitchellFav" Content="Fav" 
+                    Width="150" 
+                    FontSize="22" 
+                    Height="50" 
+                    Style="{StaticResource LinkBtns}"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="JamesMitchellLoc" Content="Loc" 
+                    Width="150" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    HorizontalAlignment="Center"
+                    ></Button>
+                </StackPanel>
+                <TextBlock
+                      Name="JamesMitchellText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="James Mitchell Museum is a geological museum based in NUI Galway, the only remnant of the university's defunct Natural History Museum. " />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+
+
+            </StackPanel>
+        </ScrollViewer>
+        <Frame Name="MyFrame">
+
+        </Frame>
+    </Grid>
+</Page>
