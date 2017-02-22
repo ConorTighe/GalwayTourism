@@ -139,5 +139,6 @@
       <RootProperty Name="MapServiceToken" />
     </RootType>
     <RootType FullName="GalwayTouristGuide.MapView" />
+    <RootType FullName="GalwayTouristGuide.Nightlife" />
   </Roots.RootTypes>
 </Roots>

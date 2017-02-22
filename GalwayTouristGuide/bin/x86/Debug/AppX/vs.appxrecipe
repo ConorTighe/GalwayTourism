@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-21T17:07:58.279</Modified>
+      <Modified>2017-02-22T23:14:41.223</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\GalwayTouristGuide.exe">
       <PackagePath>entrypoint\GalwayTouristGuide.exe</PackagePath>
-      <Modified>2017-02-21T17:07:54.105</Modified>
+      <Modified>2017-02-22T23:14:36.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -460,6 +460,10 @@
       <PackagePath>Assets\Bay.jpg</PackagePath>
       <Modified>2017-02-21T15:08:42.808</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\carbon.jpg">
+      <PackagePath>Assets\carbon.jpg</PackagePath>
+      <Modified>2017-02-22T22:53:12.205</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\clayton.jpg">
       <PackagePath>Assets\clayton.jpg</PackagePath>
       <Modified>2017-02-21T15:35:24.260</Modified>
@@ -468,9 +472,21 @@
       <PackagePath>Assets\conn.jpg</PackagePath>
       <Modified>2017-02-21T14:03:23.135</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\elec.jpg">
+      <PackagePath>Assets\elec.jpg</PackagePath>
+      <Modified>2017-02-22T23:02:30.031</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\flannerys.jpg">
       <PackagePath>Assets\flannerys.jpg</PackagePath>
       <Modified>2017-02-21T13:40:40.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\front.jpg">
+      <PackagePath>Assets\front.jpg</PackagePath>
+      <Modified>2017-02-22T22:31:30.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\halo.jpg">
+      <PackagePath>Assets\halo.jpg</PackagePath>
+      <Modified>2017-02-22T23:05:28.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\harbour.jpg">
       <PackagePath>Assets\harbour.jpg</PackagePath>
@@ -479,6 +495,10 @@
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\jury.jpg">
       <PackagePath>Assets\jury.jpg</PackagePath>
       <Modified>2017-02-21T14:15:32.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\karma.jpg">
+      <PackagePath>Assets\karma.jpg</PackagePath>
+      <Modified>2017-02-22T22:45:38.273</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\biteclub.jpg">
       <PackagePath>Assets\biteclub.jpg</PackagePath>
@@ -520,6 +540,10 @@
       <PackagePath>Assets\Kings-Head.jpg</PackagePath>
       <Modified>2017-02-13T01:49:25.080</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\kings.jpg">
+      <PackagePath>Assets\kings.jpg</PackagePath>
+      <Modified>2017-02-22T22:25:01.695</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\McDonaghs.jpg">
       <PackagePath>Assets\McDonaghs.jpg</PackagePath>
       <Modified>2017-02-12T22:35:13.743</Modified>
@@ -536,6 +560,10 @@
       <PackagePath>Assets\park.jpg</PackagePath>
       <Modified>2017-02-21T15:20:55.834</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\pucan.jpg">
+      <PackagePath>Assets\pucan.jpg</PackagePath>
+      <Modified>2017-02-22T22:36:12.333</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\quay.jpg">
       <PackagePath>Assets\quay.jpg</PackagePath>
       <Modified>2017-02-12T21:14:39.294</Modified>
@@ -543,6 +571,10 @@
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\rad.jpg">
       <PackagePath>Assets\rad.jpg</PackagePath>
       <Modified>2017-02-20T13:39:15.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\roisin.jpg">
+      <PackagePath>Assets\roisin.jpg</PackagePath>
+      <Modified>2017-02-22T22:02:29.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\salthill.jpg">
       <PackagePath>Assets\salthill.jpg</PackagePath>
@@ -636,7 +668,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\GalwayTouristGuide.xr.xml">
       <PackagePath>GalwayTouristGuide.xr.xml</PackagePath>
-      <Modified>2017-02-21T16:24:34.132</Modified>
+      <Modified>2017-02-22T22:11:26.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -645,11 +677,11 @@
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-21T17:07:56.933</Modified>
+      <Modified>2017-02-22T23:14:39.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\Core\GalwayTouristGuide.exe">
       <PackagePath>GalwayTouristGuide.exe</PackagePath>
-      <Modified>2017-02-21T17:07:58.256</Modified>
+      <Modified>2017-02-22T23:14:41.200</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

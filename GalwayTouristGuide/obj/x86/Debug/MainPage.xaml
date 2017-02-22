@@ -28,7 +28,7 @@
                            FontSize="40"
                            FontFamily="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"
                            RelativePanel.RightOf="MainMenuBtn"
-                           Margin="65,0,0,0"
+                           Margin="75,0,0,0"
                            Text="Galway Tourism"/>
             </RelativePanel>
             <SplitView x:ConnectionId='1' Name="MySplitView" 
@@ -82,15 +82,15 @@
                                 <TextBlock Text="Rooms" FontSize="24" Margin="20,0,0,0" />
                             </StackPanel>
                         </ListBoxItem>
-                        <ListBoxItem x:ConnectionId='6' Name="ClubsListBoxItem">
+                        <ListBoxItem x:ConnectionId='6' Name="NightListBoxItem">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:ConnectionId='9' Name="ClubsBtn" 
+                                <Button x:ConnectionId='9' Name="NightBtn" 
                                         FontFamily="Assets/Irish.ttf#Irish" 
                                         Content="&#x002C;" 
                                         FontSize="26"
                                         Height="40"
                                         Width="40"
-                                                             ></Button>
+                                                              ></Button>
                                 <TextBlock Text="Nightlife" FontSize="24" Margin="20,0,0,0" />
                             </StackPanel>
                         </ListBoxItem>

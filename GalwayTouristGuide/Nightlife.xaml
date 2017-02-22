@@ -1,0 +1,333 @@
+﻿<Page
+    x:Class="GalwayTouristGuide.Nightlife"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GalwayTouristGuide"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="Button" x:Key="LinkBtns">
+            <Setter Property="Background" Value="#cc0000"></Setter>
+            <Setter Property="Foreground" Value="#e6e600"></Setter>
+            <Setter Property="FontSize" Value="22"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Place">
+            <Setter Property="FontSize" Value="36"></Setter>
+            <Setter Property="Foreground" Value="#000066"></Setter>
+            <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <ScrollViewer
+                Grid.Row="0" 
+                Height="600"
+                VerticalScrollBarVisibility="Auto"
+            >
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="RosinImg" Source="Assets\roisin.jpg" />
+                <TextBlock Name="radText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Róisín Dubh" />
+                <TextBlock Name="radBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Text=" Bar and club with two separate stages showcasing local and international live music and comedy acts." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="rosinInfo" Content="?" 
+                    Width="220" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="rosinInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="rosinLoc" Content="Loc" 
+                    Width="220" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="rosinLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="RadDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Phone - (091) 586 540 " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="kingsImg" Source="Assets\kings.jpg" />
+                <TextBlock Name="kingsText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The Kings Head" />
+                <TextBlock Name="kingsBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Text=" Rich in period-detail, this 17th-century, 3-storey pub offers local seafood dishes and live music." />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="kingsInfo" Content="?" 
+                    Width="220" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="rosinInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="KingsLoc" Content="Loc" 
+                    Width="220" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="rosinLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="KingsDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Phone - (091) 566 630 " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="frontImg" Source="Assets\front.jpg" />
+                <TextBlock Name="frontText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Front Door" />
+                <TextBlock Name="frontBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Text=" Laid-back, long-standing watering hole with 5 bars across 2 floors and cosy nook-and-cranny seating" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="frontInfo" Content="?" 
+                    Width="220" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="frontInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="frontLoc" Content="Loc" 
+                    Width="220" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="rosinLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="frontDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Phone - (091) 563 757 " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="pucanImg" Source="Assets\pucan.jpg" />
+                <TextBlock Name="pucanText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="An Púcán" />
+                <TextBlock Name="pucanBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Text=" An Púcán is now open off Eyre Square. We have live music daily from 9pm. On Fridays and Saturdays we have live bands down the back and on Saturdays we have a late night resident DJ. " />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="pucanInfo" Content="?" 
+                    Width="220" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="frontInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="pucanLoc" Content="Loc" 
+                    Width="220" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="rosinLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="pucanDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Phone - (091) 376 561 " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="karmaImg" Source="Assets\karma.jpg" />
+                <TextBlock Name="karmaText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Karma" />
+                <TextBlock Name="KarmaBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Text=" A club located just off Eyre Square, a great location for partys and nights out. " />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="karmaInfo" Content="?" 
+                    Width="220" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="frontInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="karmaLoc" Content="Loc" 
+                    Width="220" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="rosinLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="karmaDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Phone - (091) 500 330 " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="carbonImg" Source="Assets\carbon.jpg" />
+                <TextBlock Name="carbonText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Carbon" />
+                <TextBlock Name="carbonBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Text=" A club found on eglinton street, well known for its cheap drink events, boiler room and world renound DJ appearances. " />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="carbonInfo" Content="?" 
+                    Width="220" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="frontInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="carbonLoc" Content="Loc" 
+                    Width="220" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="rosinLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="carbonDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Phone - (091) 449 204 " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="electricImg" Source="Assets\elec.jpg" />
+                <TextBlock Name="electricText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Electric Garden" />
+                <TextBlock Name="electricBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Text=" Just off shop street Electric is host to great music in a spectacular venue. " />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="electricInfo" Content="?" 
+                    Width="220" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="frontInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="elecLoc" Content="Loc" 
+                    Width="220" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="rosinLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="elecDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Phone - (091) 565 976 " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="HaloImg" Source="Assets\halo.jpg" />
+                <TextBlock Name="HaloText"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Halo" />
+                <TextBlock Name="haloBio"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           TextWrapping="Wrap"
+                           Text=" Beside electric, this club is one of the biggest venues in Galway, know as 44 during the week and then turns into Halo for over 22s during the weekend. " />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="haloInfo" Content="?" 
+                    Width="220" 
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="frontInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+                    <Button Name="haloLoc" Content="Loc" 
+                    Width="220" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="rosinLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="haloDetails"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Phone - (091) 565 976 " />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

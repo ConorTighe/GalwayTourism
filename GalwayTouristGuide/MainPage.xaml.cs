@@ -51,5 +51,10 @@ namespace GalwayTouristGuide
         {
             MyFrame.Navigate(typeof(Hotels));
         }
+
+        private void NightBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(typeof(Nightlife));
+        }
     }
 }

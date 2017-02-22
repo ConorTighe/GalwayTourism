@@ -132,7 +132,7 @@ namespace GalwayTouristGuide.GalwayTouristGuide_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[7];
+            _typeNameTable = new string[8];
             _typeNameTable[0] = "GalwayTouristGuide.Assets.Hotels";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -140,8 +140,9 @@ namespace GalwayTouristGuide.GalwayTouristGuide_XamlTypeInfo
             _typeNameTable[4] = "GalwayTouristGuide.Food";
             _typeNameTable[5] = "GalwayTouristGuide.MainPage";
             _typeNameTable[6] = "GalwayTouristGuide.MapView";
+            _typeNameTable[7] = "GalwayTouristGuide.Nightlife";
 
-            _typeTable = new global::System.Type[7];
+            _typeTable = new global::System.Type[8];
             _typeTable[0] = typeof(global::GalwayTouristGuide.Assets.Hotels);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -149,6 +150,7 @@ namespace GalwayTouristGuide.GalwayTouristGuide_XamlTypeInfo
             _typeTable[4] = typeof(global::GalwayTouristGuide.Food);
             _typeTable[5] = typeof(global::GalwayTouristGuide.MainPage);
             _typeTable[6] = typeof(global::GalwayTouristGuide.MapView);
+            _typeTable[7] = typeof(global::GalwayTouristGuide.Nightlife);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -188,6 +190,7 @@ namespace GalwayTouristGuide.GalwayTouristGuide_XamlTypeInfo
         private object Activate_4_Food() { return new global::GalwayTouristGuide.Food(); }
         private object Activate_5_MainPage() { return new global::GalwayTouristGuide.MainPage(); }
         private object Activate_6_MapView() { return new global::GalwayTouristGuide.MapView(); }
+        private object Activate_7_Nightlife() { return new global::GalwayTouristGuide.Nightlife(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -238,6 +241,13 @@ namespace GalwayTouristGuide.GalwayTouristGuide_XamlTypeInfo
             case 6:   //  GalwayTouristGuide.MapView
                 userType = new global::GalwayTouristGuide.GalwayTouristGuide_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_6_MapView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 7:   //  GalwayTouristGuide.Nightlife
+                userType = new global::GalwayTouristGuide.GalwayTouristGuide_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_Nightlife;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

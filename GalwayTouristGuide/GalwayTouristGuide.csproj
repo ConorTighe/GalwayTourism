@@ -90,12 +90,17 @@
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Content Include="Assets\Bay.jpg" />
+    <Content Include="Assets\carbon.jpg" />
     <Content Include="Assets\clayton.jpg" />
     <Content Include="Assets\conn.jpg" />
+    <Content Include="Assets\elec.jpg" />
     <Content Include="Assets\flannerys.jpg" />
+    <Content Include="Assets\front.jpg" />
+    <Content Include="Assets\halo.jpg" />
     <Content Include="Assets\harbour.jpg" />
     <Content Include="Assets\Irish.ttf" />
     <Content Include="Assets\jury.jpg" />
+    <Content Include="Assets\karma.jpg" />
     <Content Include="Assets\KGLuckoftheIrish.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -124,6 +129,9 @@
     <Compile Include="MapView.xaml.cs">
       <DependentUpon>MapView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Nightlife.xaml.cs">
+      <DependentUpon>Nightlife.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -143,13 +151,16 @@
     <Content Include="Assets\Galway_cathedral.jpg" />
     <Content Include="Assets\JamesMitchell.jpg" />
     <Content Include="Assets\Kings-Head.jpg" />
+    <Content Include="Assets\kings.jpg" />
     <Content Include="Assets\McDonaghs.jpg" />
     <Content Include="Assets\McGettigans.jpg" />
     <Content Include="Assets\oscars.jpg" />
     <Content Include="Assets\park.jpg" />
+    <Content Include="Assets\pucan.jpg" />
     <Content Include="Assets\pushpin.png" />
     <Content Include="Assets\quay.jpg" />
     <Content Include="Assets\rad.jpg" />
+    <Content Include="Assets\roisin.jpg" />
     <Content Include="Assets\salthill.jpg" />
     <Content Include="Assets\SaltHouse.jpg" />
     <Content Include="Assets\Sparch.jpg" />
@@ -190,6 +201,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="MapView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Nightlife.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
