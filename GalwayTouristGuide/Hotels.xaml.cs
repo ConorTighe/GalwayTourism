@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Devices.Geolocation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -27,14 +28,16 @@ namespace GalwayTouristGuide.Assets
             this.InitializeComponent();
         }
 
-        private void radInfo_Click(object sender, RoutedEventArgs e)
+        private async void radInfo_Click(object sender, RoutedEventArgs e)
         {
-
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.radissonhotelgalway.com/"));
         }
 
         private void radLoc_Click(object sender, RoutedEventArgs e)
         {
-
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2742, Longitude = -9.0438 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
         }
 
         private async void RadBooking_Click(object sender, RoutedEventArgs e)
@@ -200,6 +203,127 @@ namespace GalwayTouristGuide.Assets
         private async void travelgala_Click(object sender, RoutedEventArgs e)
         {
             await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.galahotels.com/en/Hotel/ireland_109/galway_10542/travelodge_galway_city_135407?sid=102926553&hc=1&ppn=1&psort=popularity&utm_source=googlehotelads&utm_medium=Meta&utm_campaign=#available-rooms"));
+        }
+
+        private async void HarbourInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.harbour.ie/"));
+        }
+
+        private void HarbourLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2708, Longitude = -9.0477 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void TheGInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.theghotel.ie/"));
+        }
+
+        private void TheGLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2821, Longitude = -9.0329 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void FlanInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.flanneryshotelgalway.com/"));
+        }
+
+        private void FlanLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2781, Longitude = -9.0149 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void ConnInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.theconnacht.ie/"));
+        }
+
+        private void connLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.8376, Longitude = -8.9584 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void JuryInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.jurysinns.com/hotels/galway"));
+        }
+
+       
+        private void JuryLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2708, Longitude = -9.0546 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void SalthillInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.salthillhotel.com/en/"));
+        }
+
+        private void SalthillLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2586, Longitude = -9.0873 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void BayInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.galwaybayhotel.net/"));
+        }
+
+        private void BayLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2582, Longitude = -9.0849 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void ParkInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.parkhousehotel.ie/"));
+        }
+
+        private void ParkLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2745, Longitude = -9.0467 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void ClayInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.claytonhotelgalway.ie/"));
+        }
+
+        private void ClayLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2913, Longitude = -8.9893 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void travelInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://www.travelodge.ie/hotels/252/Galway-City-hotel"));
+        }
+
+        private void travelLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2828, Longitude = -9.0363 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
         }
     }
 }

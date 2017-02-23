@@ -12,7 +12,7 @@
             <Setter Property="Background" Value="#B9314F"></Setter>
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontSize" Value="22"></Setter>
-            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Width" Value="225"></Setter>
             <Setter Property="Height" Value="50"></Setter>
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
         </Style>
@@ -39,13 +39,13 @@
 
             <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='1' Name="radImg" Source="Assets\rad.jpg" />
-                <TextBlock x:ConnectionId='2' Name="radText"
+                <Image x:ConnectionId='2' Name="radImg" Source="Assets\rad.jpg" />
+                <TextBlock x:ConnectionId='3' Name="radText"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Radisson Blu" />
-                <TextBlock x:ConnectionId='3' Name="radBio"
+                <TextBlock x:ConnectionId='4' Name="radBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            TextWrapping="Wrap"
@@ -53,109 +53,81 @@
                            
                            Upgraded rooms add Nespresso machines and sea views, and some include breakfast. Suites have living areas and, in some cases, private terraces." />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='119' Name="radInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button x:ConnectionId='110' Name="radInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
                                          
-                    HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='120' Name="radFav" Content="Fav" 
-                    Width="150"
+                    
+                    <Button x:ConnectionId='111' Name="radLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='121' Name="radLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
                                         
-                    HorizontalAlignment="Center"
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='4'
+                <TextBlock x:ConnectionId='5'
                       Name="RadDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 538 300 " />
-                <TextBlock x:ConnectionId='5'
+                <TextBlock x:ConnectionId='6'
                       Name="RadDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
-                <HyperlinkButton x:ConnectionId='6' Name="RadExpedia"                          Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='7' Name="RadBooking"                          Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='8' Name="RadHotels"                         Content="hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='9' Name="RadRadison"                          Content="RadisonBlu.com"  Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='7' Name="RadExpedia"                          Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='8' Name="RadBooking"                          Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='9' Name="RadHotels"                         Content="hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='10' Name="RadRadison"                          Content="RadisonBlu.com"  Style="{StaticResource Sites}"></HyperlinkButton>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='10' Name="HarbourImg" Source="Assets\harbour.jpg" />
-                <TextBlock x:ConnectionId='11' Name="HarbourText"
+                <Image x:ConnectionId='11' Name="HarbourImg" Source="Assets\harbour.jpg" />
+                <TextBlock x:ConnectionId='12' Name="HarbourText"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Harbour Hotel"></TextBlock>
-                <TextBlock x:ConnectionId='12' Name="HarbourBio"
+                <TextBlock x:ConnectionId='13' Name="HarbourBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
                            Text="This upscale waterfront hotel is a 7-minute walk from Eyre Square and a kilometer from Saint Nicholas Collegiate Church. 
 The modern rooms come with free WiFi, desks, flat-screen TVs, pillow-top mattresses, and tea and coffeemaking facilities. Upgrades add free bottled water and snacks. Room service is available." />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='116' Name="HarbourInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button x:ConnectionId='108' Name="HarbourInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
-                                         
-                    HorizontalAlignment="Center"
+                                             
                    ></Button>
-                    <Button x:ConnectionId='117' Name="HarbourFav" Content="Fav" 
-                    Width="150"
+                   
+                    <Button x:ConnectionId='109' Name="HarbourLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='118' Name="HarbourLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                                        
-                    HorizontalAlignment="Center"
+                                            
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='13'
+                <TextBlock x:ConnectionId='14'
                       Name="HarbourDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 894 800 " />
-                <TextBlock x:ConnectionId='14'
+                <TextBlock x:ConnectionId='15'
                       Name="HarbourDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
-                <HyperlinkButton x:ConnectionId='15' Name="HarbourSite"                       Content="harbour.ie" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='16' Name="HarbourHotels"                             Content="hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='17' Name="HarbourExpedia"                                Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='18' Name="HarbourBooking"                              Content="Booking.com"  Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='16' Name="HarbourSite"                       Content="harbour.ie" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='17' Name="HarbourHotels"                             Content="hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='18' Name="HarbourExpedia"                                Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='19' Name="HarbourBooking"                              Content="Booking.com"  Style="{StaticResource Sites}"></HyperlinkButton>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='19' Name="TheGImg" Source="Assets\the-g-hotel.jpg" />
-                <TextBlock x:ConnectionId='20' Name="TheGText"
+                <Image x:ConnectionId='20' Name="TheGImg" Source="Assets\the-g-hotel.jpg" />
+                <TextBlock x:ConnectionId='21' Name="TheGText"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="The g hotel" />
-                <TextBlock x:ConnectionId='21' Name="TheGBio"
+                <TextBlock x:ConnectionId='22' Name="TheGBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
@@ -163,104 +135,75 @@ The modern rooms come with free WiFi, desks, flat-screen TVs, pillow-top mattres
 
 Posh rooms featuring modern, bespoke decor and furnishings include minifridges and complimentary Wi-Fi. Upgraded rooms add living areas, and suites add fireplaces. There are also 3 elegant specialty suites offering upgraded furnishings, and 1 includes a terrace and a dining room. Room service is available."></TextBlock>
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='113' Name="TheGInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button x:ConnectionId='106' Name="TheGInfo" Content="?" 
+                    Style="{StaticResource LinkBtns}"
+                                          
+                   ></Button>
+                    
+                    <Button x:ConnectionId='107' Name="TheGLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
                                          
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='114' Name="TheGFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='115' Name="TheGLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                                        
-                    HorizontalAlignment="Center"
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='22'
+                <TextBlock x:ConnectionId='23'
                       Name="TheGDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 865 200 " />
-                <TextBlock x:ConnectionId='23'
+                <TextBlock x:ConnectionId='24'
                       Name="TheGDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Exclusive Deal: " />
-                <HyperlinkButton x:ConnectionId='24' Name="TheGSite"                        Content="Booking.ie" FontSize="22" HorizontalAlignment="Center" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='25' Name="TheGSite"                        Content="Booking.ie" FontSize="22" HorizontalAlignment="Center" Style="{StaticResource Sites}"></HyperlinkButton>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='25' Name="FlanImg" Source="Assets\flannerys.jpg" />
-                <TextBlock x:ConnectionId='26' Name="FlanText"
+                <Image x:ConnectionId='26' Name="FlanImg" Source="Assets\flannerys.jpg" />
+                <TextBlock x:ConnectionId='27' Name="FlanText"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Flannery's" />
-                <TextBlock x:ConnectionId='27' Name="FlanBio"
+                <TextBlock x:ConnectionId='28' Name="FlanBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
                            Text="This casual hotel is 2.9 miles from Eyre Square and 7.2 km from Galway Airport. 
 Traditional rooms feature free Wi-Fi, desks, cable TV, and tea and coffeemaking facilities; some have views of Galway Bay. Room service is offered." />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='110' Name="FlanInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button x:ConnectionId='104' Name="FlanInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
-                   
-                    HorizontalAlignment="Center"
+                                          
                    ></Button>
-                    <Button x:ConnectionId='111' Name="FlanFav" Content="Fav" 
-                    Width="150"
+                    <Button x:ConnectionId='105' Name="FlanLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='112' Name="FlanLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                                        
-                    HorizontalAlignment="Center"
+                                         
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='28'
+                <TextBlock x:ConnectionId='29'
                       Name="FlanDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 755 111 " />
-                <TextBlock x:ConnectionId='29'
+                <TextBlock x:ConnectionId='30'
                       Name="FlanDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
-                <HyperlinkButton x:ConnectionId='30' Name="FlanBooking"                           Content="Booking.ie" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='31' Name="FlanExpedia"                           Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='32' Name="FlanAmoma"                         Content="Amoma.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='31' Name="FlanBooking"                           Content="Booking.ie" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='32' Name="FlanExpedia"                           Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='33' Name="FlanAmoma"                         Content="Amoma.com" Style="{StaticResource Sites}"></HyperlinkButton>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='33' Name="ConnImg" Source="Assets\conn.jpg" />
-                <TextBlock x:ConnectionId='34' Name="ConnText"
+                <Image x:ConnectionId='34' Name="ConnImg" Source="Assets\conn.jpg" />
+                <TextBlock x:ConnectionId='35' Name="ConnText"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="The Connacht" />
-                <TextBlock x:ConnectionId='35' Name="ConnBio"
+                <TextBlock x:ConnectionId='36' Name="ConnBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
@@ -268,53 +211,38 @@ Traditional rooms feature free Wi-Fi, desks, cable TV, and tea and coffeemaking 
 
 Posh rooms featuring modern, bespoke decor and furnishings include minifridges and complimentary Wi-Fi. Upgraded rooms add living areas, and suites add fireplaces. There are also 3 elegant specialty suites offering upgraded furnishings, and 1 includes a terrace and a dining room. Room service is available." />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='107' Name="ConnInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button x:ConnectionId='102' Name="ConnInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
-                    
-                    HorizontalAlignment="Center"
+                                          
                    ></Button>
-                    <Button x:ConnectionId='108' Name="connFav" Content="Fav" 
-                    Width="150"
+                    <Button x:ConnectionId='103' Name="connLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='109' Name="connLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                                        
-                    HorizontalAlignment="Center"
+                                         
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='36'
+                <TextBlock x:ConnectionId='37'
                       Name="connDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 381 200 " />
-                <TextBlock x:ConnectionId='37'
+                <TextBlock x:ConnectionId='38'
                       Name="connDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
-                <HyperlinkButton x:ConnectionId='38' Name="connBooking"                           Content="Booking.ie" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='39' Name="connExpedia"                           Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='40' Name="connGala"                        Content="galahotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='39' Name="connBooking"                           Content="Booking.ie" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='40' Name="connExpedia"                           Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='41' Name="connGala"                        Content="galahotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='41' Name="JuryImg" Source="Assets\jury.jpg" />
-                <TextBlock x:ConnectionId='42' Name="JuryText"
+                <Image x:ConnectionId='42' Name="JuryImg" Source="Assets\jury.jpg" />
+                <TextBlock x:ConnectionId='43' Name="JuryText"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Jurys Inn" />
-                <TextBlock x:ConnectionId='43' Name="JuryBio"
+                <TextBlock x:ConnectionId='44' Name="JuryBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
@@ -322,53 +250,39 @@ Posh rooms featuring modern, bespoke decor and furnishings include minifridges a
 
 The unfussy rooms provide complimentary Wi-Fi and flat-screen TVs, as well as tea and coffeemaking facilities. Some add sofabeds and/or river views. Room service is available." />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='104' Name="JuryInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button x:ConnectionId='100' Name="JuryInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
-                    
-                    HorizontalAlignment="Center"
+                                          
                    ></Button>
-                    <Button x:ConnectionId='105' Name="JuryFav" Content="Fav" 
-                    Width="150"
+               
+                    <Button x:ConnectionId='101' Name="JuryLoc" Content="Loc"
                     Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='106' Name="JuryLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                                        
-                    HorizontalAlignment="Center"
+                                         
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='44'
+                <TextBlock x:ConnectionId='45'
                       Name="JuryDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 566 444 " />
-                <TextBlock x:ConnectionId='45'
+                <TextBlock x:ConnectionId='46'
                       Name="JuryDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
-                <HyperlinkButton x:ConnectionId='46' Name="JuryBooking"                           Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='47' Name="JuryHotels"                          Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='48' Name="JuryGala"                        Content="galahotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='47' Name="JuryBooking"                           Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='48' Name="JuryHotels"                          Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='49' Name="JuryGala"                        Content="galahotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='49' Name="SalthillImg" Source="Assets\salthill.jpg" />
-                <TextBlock x:ConnectionId='50' Name="SalthillText"
+                <Image x:ConnectionId='50' Name="SalthillImg" Source="Assets\salthill.jpg" />
+                <TextBlock x:ConnectionId='51' Name="SalthillText"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Salthill Hotel" />
-                <TextBlock x:ConnectionId='51' Name="SalthillBio"
+                <TextBlock x:ConnectionId='52' Name="SalthillBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
@@ -376,53 +290,38 @@ The unfussy rooms provide complimentary Wi-Fi and flat-screen TVs, as well as te
 
 Bright, contemporary rooms come with free Wi-Fi, desks, flat-screen TVs, and tea and coffeemaking facilities; upgraded rooms provide sea views." />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='101' Name="SalthillInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button x:ConnectionId='98' Name="SalthillInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
-                   
-                    HorizontalAlignment="Center"
+                                              
                    ></Button>
-                    <Button x:ConnectionId='102' Name="SalthillFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='103' Name="SalthillLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     
-                    HorizontalAlignment="Center"
+                    <Button x:ConnectionId='99' Name="SalthillLoc" Content="Loc" 
+                    Style="{StaticResource LinkBtns}"
+                                             
                     ></Button>
-
                 </StackPanel>
-                <TextBlock x:ConnectionId='52'
+                <TextBlock x:ConnectionId='53'
                       Name="SalthillDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 566 444 " />
-                <TextBlock x:ConnectionId='53'
+                <TextBlock x:ConnectionId='54'
                       Name="SalthillDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
-                <HyperlinkButton x:ConnectionId='54' Name="SaltBooking"                           Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='55' Name="SaltHotels"                          Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='56' Name="SaltGala"                        Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='55' Name="SaltBooking"                           Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='56' Name="SaltHotels"                          Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='57' Name="SaltGala"                        Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='57' Name="BayImg" Source="Assets\Bay.jpg" />
-                <TextBlock x:ConnectionId='58' Name="BayText"
+                <Image x:ConnectionId='58' Name="BayImg" Source="Assets\Bay.jpg" />
+                <TextBlock x:ConnectionId='59' Name="BayText"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Galway Bay" />
-                <TextBlock x:ConnectionId='59' Name="BayBio"
+                <TextBlock x:ConnectionId='60' Name="BayBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
@@ -430,53 +329,39 @@ Bright, contemporary rooms come with free Wi-Fi, desks, flat-screen TVs, and tea
 
 The classic rooms offer free Wi-Fi, 24-hr room service, and tea and coffeemaking facilities; suites add Galway Bay views and complimentary wine, fruit, bottled water and homemade treats." />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='98' Name="BayInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button x:ConnectionId='96' Name="BayInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
-                   
-                    HorizontalAlignment="Center"
+                                         
                    ></Button>
-                    <Button x:ConnectionId='99' Name="BayFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='100' Name="BayLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     
-                    HorizontalAlignment="Center"
+                    <Button x:ConnectionId='97' Name="BayLoc" Content="Loc"
+                    Style="{StaticResource LinkBtns}"
+                                        
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='60'
+                <TextBlock x:ConnectionId='61'
                       Name="BayDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 566 444 " />
-                <TextBlock x:ConnectionId='61'
+                <TextBlock x:ConnectionId='62'
                       Name="BayDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
-                <HyperlinkButton x:ConnectionId='62' Name="BayBooking"                          Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='63' Name="BayHotels"                         Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='64' Name="BayExpedia"                          Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='63' Name="BayBooking"                          Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='64' Name="BayHotels"                         Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='65' Name="BayExpedia"                          Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='65' Name="ParkImg" Source="Assets\park.jpg" />
-                <TextBlock x:ConnectionId='66' Name="ParkText"
+                <Image x:ConnectionId='66' Name="ParkImg" Source="Assets\park.jpg" />
+                <TextBlock x:ConnectionId='67' Name="ParkText"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Park House Hotel" />
-                <TextBlock x:ConnectionId='67' Name="ParkBio"
+                <TextBlock x:ConnectionId='68' Name="ParkBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
@@ -484,53 +369,41 @@ The classic rooms offer free Wi-Fi, 24-hr room service, and tea and coffeemaking
 
 Classic rooms and suites featuring natural wood furnishings and traditional decor include cable TV, tea and coffeemaking equipment, and complimentary Wi-Fi. Upgraded rooms add sitting areas, DVD players and free chocolates." />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='95' Name="ParkInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button x:ConnectionId='94' Name="ParkInfo" Content="?" 
+                                          
                     Style="{StaticResource LinkBtns}"
                    
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='96' Name="ParkFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='97' Name="ParkLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     
-                    HorizontalAlignment="Center"
+                    <Button x:ConnectionId='95' Name="ParkLoc" Content="Loc" 
+                    Style="{StaticResource LinkBtns}"
+                                         
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='68'
+                <TextBlock x:ConnectionId='69'
                       Name="ParkDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 564 924 " />
-                <TextBlock x:ConnectionId='69'
+                <TextBlock x:ConnectionId='70'
                       Name="ParkDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
-                <HyperlinkButton x:ConnectionId='70' Name="ParkBooking"                           Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='71' Name="ParkHotels"                          Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='72' Name="ParkExpedia"                           Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='71' Name="ParkBooking"                           Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='72' Name="ParkHotels"                          Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='73' Name="ParkExpedia"                           Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='73' Name="ClayImg" Source="Assets\clayton.jpg" />
-                <TextBlock x:ConnectionId='74' Name="ClayText"
+                <Image x:ConnectionId='74' Name="ClayImg" Source="Assets\clayton.jpg" />
+                <TextBlock x:ConnectionId='75' Name="ClayText"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Clayton" />
-                <TextBlock x:ConnectionId='75' Name="ClayBio"
+                <TextBlock x:ConnectionId='76' Name="ClayBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
@@ -539,52 +412,37 @@ Classic rooms and suites featuring natural wood furnishings and traditional deco
 The airy rooms and suites have free Wi-Fi, desks, flat-screen TVs, and tea and coffeemaking facilities. They also include pillow-top mattresses, as well as bathrooms with rainfall showerheads and heated floors. Upgraded rooms can add private balconies and Bose sound systems. Room service is available." />
                 <StackPanel Orientation="Horizontal">
                     <Button x:ConnectionId='92' Name="ClayInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                   
-                    HorizontalAlignment="Center"
+                                          
                    ></Button>
-                    <Button x:ConnectionId='93' Name="ClayFav" Content="Fav" 
-                    Width="150"
+                    <Button x:ConnectionId='93' Name="ClayLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='94' Name="ClayLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    
-                    HorizontalAlignment="Center"
+                                         
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='76'
+                <TextBlock x:ConnectionId='77'
                       Name="ClayDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 721 900 " />
-                <TextBlock x:ConnectionId='77'
+                <TextBlock x:ConnectionId='78'
                       Name="ClayDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
-                <HyperlinkButton x:ConnectionId='78' Name="ClayBooking"                           Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='79' Name="ClayHotels"                          Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='80' Name="ClayExpedia"                           Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='79' Name="ClayBooking"                           Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='80' Name="ClayHotels"                          Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='81' Name="ClayExpedia"                           Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='81' Name="TravelImg" Source="Assets\travel.jpg" />
-                <TextBlock x:ConnectionId='82' Name="travelText"
+                <Image x:ConnectionId='82' Name="TravelImg" Source="Assets\travel.jpg" />
+                <TextBlock x:ConnectionId='83' Name="travelText"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Travelodge" />
-                <TextBlock x:ConnectionId='83' Name="travelBio"
+                <TextBlock x:ConnectionId='84' Name="travelBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
@@ -592,47 +450,36 @@ The airy rooms and suites have free Wi-Fi, desks, flat-screen TVs, and tea and c
 
 The simple rooms include custom-designed beds, desks, flat-screen TVs and WiFi (fee), as well as tea and coffeemaking facilities. Family rooms add sofabeds." />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='89' Name="travelInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button x:ConnectionId='90' Name="travelInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
-                   
-                    HorizontalAlignment="Center"
+                                            
                    ></Button>
-                    <Button x:ConnectionId='90' Name="travelFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button x:ConnectionId='91' Name="travelLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     
-                    HorizontalAlignment="Center"
+                    <Button x:ConnectionId='91' Name="travelLoc" Content="Loc"
+                    Style="{StaticResource LinkBtns}"
+                                           
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='84'
+                <TextBlock x:ConnectionId='85'
                       Name="travelDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 781 400 " />
-                <TextBlock x:ConnectionId='85'
+                <TextBlock x:ConnectionId='86'
                       Name="travelDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
-                <HyperlinkButton x:ConnectionId='86' Name="travelBooking"                             Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='87' Name="travelHotels"                            Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
-                <HyperlinkButton x:ConnectionId='88' Name="travelgala"                          Content="galahotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='87' Name="travelBooking"                             Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='88' Name="travelHotels"                            Content="Hotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
+                <HyperlinkButton x:ConnectionId='89' Name="travelgala"                          Content="galahotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
             </StackPanel>
         </ScrollViewer>
+        <Frame x:ConnectionId='1' Name="MyFrame">
+
+        </Frame>
     </Grid>
 </Page>
 

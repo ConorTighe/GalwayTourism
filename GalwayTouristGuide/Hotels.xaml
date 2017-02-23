@@ -12,7 +12,7 @@
             <Setter Property="Background" Value="#B9314F"></Setter>
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontSize" Value="22"></Setter>
-            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Width" Value="225"></Setter>
             <Setter Property="Height" Value="50"></Setter>
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
         </Style>
@@ -54,27 +54,13 @@
                            Upgraded rooms add Nespresso machines and sea views, and some include breakfast. Suites have living areas and, in some cases, private terraces." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="radInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
                     Click="radInfo_Click"
-                    HorizontalAlignment="Center"
                    ></Button>
-                    <Button Name="radFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
+                    
                     <Button Name="radLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     Click="radLoc_Click"
-                    HorizontalAlignment="Center"
                     ></Button>
 
                 </StackPanel>
@@ -109,27 +95,13 @@
 The modern rooms come with free WiFi, desks, flat-screen TVs, pillow-top mattresses, and tea and coffeemaking facilities. Upgrades add free bottled water and snacks. Room service is available." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="HarbourInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                    Click="radInfo_Click"
-                    HorizontalAlignment="Center"
+                    Click="HarbourInfo_Click"
                    ></Button>
-                    <Button Name="HarbourFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
+                   
                     <Button Name="HarbourLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="radLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="HarbourLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -164,27 +136,13 @@ The modern rooms come with free WiFi, desks, flat-screen TVs, pillow-top mattres
 Posh rooms featuring modern, bespoke decor and furnishings include minifridges and complimentary Wi-Fi. Upgraded rooms add living areas, and suites add fireplaces. There are also 3 elegant specialty suites offering upgraded furnishings, and 1 includes a terrace and a dining room. Room service is available."></TextBlock>
                 <StackPanel Orientation="Horizontal">
                     <Button Name="TheGInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                    Click="radInfo_Click"
-                    HorizontalAlignment="Center"
+                    Click="TheGInfo_Click"
                    ></Button>
-                    <Button Name="TheGFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
+                    
                     <Button Name="TheGLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="radLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="TheGLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -215,27 +173,12 @@ Posh rooms featuring modern, bespoke decor and furnishings include minifridges a
 Traditional rooms feature free Wi-Fi, desks, cable TV, and tea and coffeemaking facilities; some have views of Galway Bay. Room service is offered." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="FlanInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                   
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button Name="FlanFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
+                    Click="FlanInfo_Click"
                    ></Button>
                     <Button Name="FlanLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="radLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="FlanLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -269,27 +212,12 @@ Traditional rooms feature free Wi-Fi, desks, cable TV, and tea and coffeemaking 
 Posh rooms featuring modern, bespoke decor and furnishings include minifridges and complimentary Wi-Fi. Upgraded rooms add living areas, and suites add fireplaces. There are also 3 elegant specialty suites offering upgraded furnishings, and 1 includes a terrace and a dining room. Room service is available." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="ConnInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                    
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button Name="connFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
+                    Click="ConnInfo_Click"
                    ></Button>
                     <Button Name="connLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="radLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="connLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -323,27 +251,13 @@ Posh rooms featuring modern, bespoke decor and furnishings include minifridges a
 The unfussy rooms provide complimentary Wi-Fi and flat-screen TVs, as well as tea and coffeemaking facilities. Some add sofabeds and/or river views. Room service is available." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="JuryInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                    
-                    HorizontalAlignment="Center"
+                    Click="JuryInfo_Click"
                    ></Button>
-                    <Button Name="JuryFav" Content="Fav" 
-                    Width="150"
+               
+                    <Button Name="JuryLoc" Content="Loc"
                     Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button Name="JuryLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="radLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="JuryLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -377,29 +291,14 @@ The unfussy rooms provide complimentary Wi-Fi and flat-screen TVs, as well as te
 Bright, contemporary rooms come with free Wi-Fi, desks, flat-screen TVs, and tea and coffeemaking facilities; upgraded rooms provide sea views." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="SalthillInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                   
-                    HorizontalAlignment="Center"
+                    Click="SalthillInfo_Click"
                    ></Button>
-                    <Button Name="SalthillFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button Name="SalthillLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     
-                    HorizontalAlignment="Center"
+                    <Button Name="SalthillLoc" Content="Loc" 
+                    Style="{StaticResource LinkBtns}"
+                    Click="SalthillLoc_Click"
                     ></Button>
-
                 </StackPanel>
                 <TextBlock
                       Name="SalthillDetails"
@@ -431,27 +330,13 @@ Bright, contemporary rooms come with free Wi-Fi, desks, flat-screen TVs, and tea
 The classic rooms offer free Wi-Fi, 24-hr room service, and tea and coffeemaking facilities; suites add Galway Bay views and complimentary wine, fruit, bottled water and homemade treats." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="BayInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                   
-                    HorizontalAlignment="Center"
+                    Click="BayInfo_Click"
                    ></Button>
-                    <Button Name="BayFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button Name="BayLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     
-                    HorizontalAlignment="Center"
+                    <Button Name="BayLoc" Content="Loc"
+                    Style="{StaticResource LinkBtns}"
+                    Click="BayLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -485,27 +370,15 @@ The classic rooms offer free Wi-Fi, 24-hr room service, and tea and coffeemaking
 Classic rooms and suites featuring natural wood furnishings and traditional decor include cable TV, tea and coffeemaking equipment, and complimentary Wi-Fi. Upgraded rooms add sitting areas, DVD players and free chocolates." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="ParkInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
+                    Click="ParkInfo_Click"
                     Style="{StaticResource LinkBtns}"
                    
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button Name="ParkFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button Name="ParkLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     
-                    HorizontalAlignment="Center"
+                    <Button Name="ParkLoc" Content="Loc" 
+                    Style="{StaticResource LinkBtns}"
+                    Click="ParkLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -539,27 +412,12 @@ Classic rooms and suites featuring natural wood furnishings and traditional deco
 The airy rooms and suites have free Wi-Fi, desks, flat-screen TVs, and tea and coffeemaking facilities. They also include pillow-top mattresses, as well as bathrooms with rainfall showerheads and heated floors. Upgraded rooms can add private balconies and Bose sound systems. Room service is available." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="ClayInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                   
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button Name="ClayFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
+                    Click="ClayInfo_Click"
                    ></Button>
                     <Button Name="ClayLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    
-                    HorizontalAlignment="Center"
+                    Click="ClayLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -593,27 +451,13 @@ The airy rooms and suites have free Wi-Fi, desks, flat-screen TVs, and tea and c
 The simple rooms include custom-designed beds, desks, flat-screen TVs and WiFi (fee), as well as tea and coffeemaking facilities. Family rooms add sofabeds." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="travelInfo" Content="?" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                   
-                    HorizontalAlignment="Center"
+                    Click="travelInfo_Click"
                    ></Button>
-                    <Button Name="travelFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-                    <Button Name="travelLoc" Content="Loc" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     
-                    HorizontalAlignment="Center"
+                    <Button Name="travelLoc" Content="Loc"
+                    Style="{StaticResource LinkBtns}"
+                    Click="travelLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -633,5 +477,8 @@ The simple rooms include custom-designed beds, desks, flat-screen TVs and WiFi (
                 <HyperlinkButton Name="travelgala" Click="travelgala_Click" Content="galahotels.com" Style="{StaticResource Sites}"></HyperlinkButton>
             </StackPanel>
         </ScrollViewer>
+        <Frame Name="MyFrame">
+
+        </Frame>
     </Grid>
 </Page>

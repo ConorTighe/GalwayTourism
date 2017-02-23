@@ -12,7 +12,7 @@
             <Setter Property="Background" Value="#B9314F"></Setter>
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontSize" Value="22"></Setter>
-            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Width" Value="225"></Setter>
             <Setter Property="Height" Value="50"></Setter>
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
         </Style>
@@ -37,12 +37,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="SkeffInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                            Click="SkeffInfo_Click"
                    ></Button>
-                    <Button Name="SkeffFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                    
                     <Button Name="SkeffLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="SkeffLoc_Click"
                     ></Button>
                 </StackPanel>
                 <RelativePanel>
@@ -150,12 +150,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="ChilliInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                    Click="ChilliInfo_Click"
                    ></Button>
-                    <Button Name="ChilliFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+        
                     <Button Name="ChilliLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="ChilliLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -265,12 +265,11 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="DoughInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
-                   ></Button>
-                    <Button Name="DoughFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
+                            Click="DoughInfo_Click"
                    ></Button>
                     <Button Name="DoughLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="DoughLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -379,12 +378,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="QuayInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                            Click="QuayInfo_Click"
                    ></Button>
-                    <Button Name="QuayFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                 
                     <Button Name="QuayLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="QuayLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -493,12 +492,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="McDonaghsInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                            Click="McDonaghsInfo_Click"
                    ></Button>
-                    <Button Name="McDonaghsFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                   
                     <Button Name="McDonaghsLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="McDonaghsLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -607,12 +606,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="McGettiganInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                            Click="McGettiganInfo_Click"
                    ></Button>
-                    <Button Name="McGettiganFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                   
                     <Button Name="McGettiganLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="McGettiganLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -721,12 +720,13 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="BuskerBrownesInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                            Click="BuskerBrownesInfo_Click"
                    ></Button>
-                    <Button Name="BuskerBrownesFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                    
+                    
                     <Button Name="BuskerBrownesLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="BuskerBrownesLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -835,12 +835,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="DailInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                            Click="DailInfo_Click"
                    ></Button>
-                    <Button Name="DailFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                   
                     <Button Name="DailLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="DailLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -949,12 +949,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="SaltInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                            Click="SaltInfo_Click"
                    ></Button>
-                    <Button Name="SaltFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                    
                     <Button Name="SaltLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="SaltLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -1063,12 +1063,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="KingsInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                            Click="KingsInfo_Click"
                    ></Button>
-                    <Button Name="KingsFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                   
                     <Button Name="KingsLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="KingsLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -1176,13 +1176,13 @@
                            Text="Oscars Seafood" />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="OscarsInfo" Content="?" 
+                            Click="OscarsInfo_Click"
                     Style="{StaticResource LinkBtns}"
                    ></Button>
-                    <Button Name="OscarsFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                   
                     <Button Name="OscarsLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="OscarsLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -1291,12 +1291,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="FrontInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                            Click="FrontInfo_Click"
                    ></Button>
-                    <Button Name="FronFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                   
                     <Button Name="FrontLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="FrontLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -1405,12 +1405,12 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="BiteInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
+                            Click="BiteInfo_Click"
                    ></Button>
-                    <Button Name="BiteFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                   ></Button>
+                    
                     <Button Name="BiteLoc" Content="Loc" 
                     Style="{StaticResource LinkBtns}"
+                            Click="BiteLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -1512,5 +1512,8 @@
 
             </StackPanel>
         </ScrollViewer>
+        <Frame Name="MyFrame">
+
+        </Frame>
     </Grid>
 </Page>

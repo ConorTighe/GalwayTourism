@@ -12,7 +12,7 @@
             <Setter Property="Background" Value="#B9314F"></Setter>
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontSize" Value="22"></Setter>
-            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Width" Value="225"></Setter>
             <Setter Property="Height" Value="50"></Setter>
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
         </Style>
@@ -54,23 +54,15 @@
                            HorizontalAlignment="Center"
                            Text="Spanish Arch" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="SparchInfo" Content="?" 
-                    Width="150" 
+                    <Button Name="SparchInfo" Content="?"
                     FontSize="22" 
                     Height="50"
                     Style="{StaticResource LinkBtns}"
                     Click="SparchInfo_Click"
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button Name="SparchFav" Content="Fav" 
-                    Width="150"
-                    Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
+                    
                     <Button Name="SparchLoc" Content="Loc" 
-                    Width="150" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -94,26 +86,19 @@
                            Text="Galway City Museum" />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="MuseumInfo" Content="?" 
-                    Width="150" 
+                    Click="MuseumInfo_Click"
                     FontSize="22" 
                     Height="50"
                     Style="{StaticResource LinkBtns}"
                     HorizontalAlignment="Center"
                     ></Button>
 
-                    <Button Name="MuseumFav" Content="Fav" 
-                    Style="{StaticResource LinkBtns}"
-                    Width="150"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                    ></Button>
                     <Button Name="MuseumLoc" Content="Loc" 
-                    Width="150" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
                     HorizontalAlignment="Center"
+                    Click="MuseumLoc_Click"
                    ></Button>
                 </StackPanel>
                 <TextBlock
@@ -130,25 +115,17 @@
                            Text="St.Nicholas church" />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="ChruchInfo" Content="?" 
-                    Width="150" 
                     Style="{StaticResource LinkBtns}"
-                    FontSize="22" 
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-
-                    <Button Name="ChurchFav" Content="Fav" 
-                    Width="150" 
-                    Style="{StaticResource LinkBtns}"
+                    Click="ChruchInfo_Click"
                     FontSize="22" 
                     Height="50" 
                     HorizontalAlignment="Center"
                    ></Button>
                     <Button Name="ChurchLoc" Content="Loc" 
-                    Width="150" 
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
                     Height="50" 
+                    Click="ChurchLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
 
@@ -169,25 +146,18 @@
                            Text="Eyre Square" />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="EyreInfo" Content="?" 
-                    Width="150" 
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
                     Height="50" 
+                    Click="EyreInfo_Click"
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button Name="EyreFav" Content="Fav" 
-                    Width="150" 
-                    FontSize="22" 
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
                     <Button Name="EyreLoc" Content="Loc" 
-                    Width="150" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
+                    Click="EyreLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
                 </StackPanel>
@@ -205,25 +175,18 @@
                            Text="Dunguaire Castle" />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="DunguaireInfo" Content="?" 
-                    Width="150" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
+                    Click="DunguaireInfo_Click"
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button Name="DunguaireFav" Content="Fav" 
-                    Width="150" 
-                    FontSize="22"
-                    Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
                     <Button Name="DunguaireLoc" Content="Loc" 
-                    Width="150" 
                     FontSize="22" 
                     Height="50" 
                     HorizontalAlignment="Center"
+                    Click="DunguaireLoc_Click"
                     Style="{StaticResource LinkBtns}"
                     ></Button>
                 </StackPanel>
@@ -241,25 +204,17 @@
                            Text="St Nicholas Cathedral" />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="CathedraInfo" Content="?" 
-                    Width="150" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
-                    HorizontalAlignment="Center"
-                   ></Button>
-
-                    <Button Name="CathedraFav" Content="Fav" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50" 
-                    Style="{StaticResource LinkBtns}"
+                    Click="CathedraInfo_Click"
                     HorizontalAlignment="Center"
                    ></Button>
                     <Button Name="CathedraLoc" Content="Loc" 
-                    Width="150" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
+                    Click="CathedraLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
                 </StackPanel>
@@ -276,26 +231,19 @@
                            HorizontalAlignment="Center"
                            Text="James Mitchell Museum" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="JamesMitchellInfo" Content="?" 
-                    Width="150" 
+                    <Button Name="JamesMitchellInfo" Content="?"  
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
+                            Click="JamesMitchellInfo_Click"
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button Name="JamesMitchellFav" Content="Fav" 
-                    Width="150" 
-                    FontSize="22" 
-                    Height="50" 
-                    Style="{StaticResource LinkBtns}"
-                    HorizontalAlignment="Center"
-                   ></Button>
                     <Button Name="JamesMitchellLoc" Content="Loc" 
-                    Width="150" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
+                    Click="JamesMitchellLoc_Click"
                     HorizontalAlignment="Center"
                     ></Button>
                 </StackPanel>

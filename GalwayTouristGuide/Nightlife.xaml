@@ -12,7 +12,7 @@
             <Setter Property="Background" Value="#B9314F"></Setter>
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontSize" Value="22"></Setter>
-            <Setter Property="Width" Value="150"></Setter>
+            <Setter Property="Width" Value="225"></Setter>
             <Setter Property="Height" Value="50"></Setter>
             <Setter Property="HorizontalAlignment" Value="Center"></Setter>
         </Style>
@@ -45,21 +45,13 @@
                            TextWrapping="Wrap"
                            Text=" Bar and club with two separate stages showcasing local and international live music and comedy acts." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="rosinInfo" Content="?" 
-                    Width="220" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button Name="rosinInfo" Content="?"
                     Style="{StaticResource LinkBtns}"
                     Click="rosinInfo_Click"
-                    HorizontalAlignment="Center"
                    ></Button>
-                    <Button Name="rosinLoc" Content="Loc" 
-                    Width="220" 
-                    FontSize="22"
+                    <Button Name="rosinLoc" Content="Loc"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     Click="rosinLoc_Click"
-                    HorizontalAlignment="Center"
                     ></Button>
 
                 </StackPanel>
@@ -83,20 +75,12 @@
                            Text=" Rich in period-detail, this 17th-century, 3-storey pub offers local seafood dishes and live music." />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="kingsInfo" Content="?" 
-                    Width="220" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
                     Click="rosinInfo_Click"
-                    HorizontalAlignment="Center"
                    ></Button>
-                    <Button Name="KingsLoc" Content="Loc" 
-                    Width="220" 
-                    FontSize="22"
+                    <Button Name="KingsLoc" Content="Loc"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
                     Click="rosinLoc_Click"
-                    HorizontalAlignment="Center"
                     ></Button>
 
                 </StackPanel>
@@ -119,21 +103,13 @@
                            TextWrapping="Wrap"
                            Text=" Laid-back, long-standing watering hole with 5 bars across 2 floors and cosy nook-and-cranny seating" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="frontInfo" Content="?" 
-                    Width="220" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button Name="frontInfo" Content="?"
                     Style="{StaticResource LinkBtns}"
                     Click="frontInfo_Click"
-                    HorizontalAlignment="Center"
                    ></Button>
-                    <Button Name="frontLoc" Content="Loc" 
-                    Width="220" 
-                    FontSize="22"
+                    <Button Name="frontLoc" Content="Loc"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="rosinLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="frontLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -157,20 +133,12 @@
                            Text=" An Púcán is now open off Eyre Square. We have live music daily from 9pm. On Fridays and Saturdays we have live bands down the back and on Saturdays we have a late night resident DJ. " />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="pucanInfo" Content="?" 
-                    Width="220" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                    Click="frontInfo_Click"
-                    HorizontalAlignment="Center"
+                    Click="pucanInfo_Click"
                    ></Button>
-                    <Button Name="pucanLoc" Content="Loc" 
-                    Width="220" 
-                    FontSize="22"
+                    <Button Name="pucanLoc" Content="Loc"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="rosinLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="pucanLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -194,20 +162,12 @@
                            Text=" A club located just off Eyre Square, a great location for partys and nights out. " />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="karmaInfo" Content="?" 
-                    Width="220" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                    Click="frontInfo_Click"
-                    HorizontalAlignment="Center"
+                    Click="karmaInfo_Click"
                    ></Button>
-                    <Button Name="karmaLoc" Content="Loc" 
-                    Width="220" 
-                    FontSize="22"
+                    <Button Name="karmaLoc" Content="Loc"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="rosinLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="karmaLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -230,21 +190,13 @@
                            TextWrapping="Wrap"
                            Text=" A club found on eglinton street, well known for its cheap drink events, boiler room and world renound DJ appearances. " />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="carbonInfo" Content="?" 
-                    Width="220" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button Name="carbonInfo" Content="?"
                     Style="{StaticResource LinkBtns}"
-                    Click="frontInfo_Click"
-                    HorizontalAlignment="Center"
+                    Click="carbonInfo_Click"
                    ></Button>
                     <Button Name="carbonLoc" Content="Loc" 
-                    Width="220" 
-                    FontSize="22"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="rosinLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="carbonLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -267,21 +219,13 @@
                            TextWrapping="Wrap"
                            Text=" Just off shop street Electric is host to great music in a spectacular venue. " />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="electricInfo" Content="?" 
-                    Width="220" 
-                    FontSize="22" 
-                    Height="50"
+                    <Button Name="electricInfo" Content="?"
                     Style="{StaticResource LinkBtns}"
-                    Click="frontInfo_Click"
-                    HorizontalAlignment="Center"
+                    Click="electricInfo_Click"
                    ></Button>
-                    <Button Name="elecLoc" Content="Loc" 
-                    Width="220" 
-                    FontSize="22"
+                    <Button Name="elecLoc" Content="Loc"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="rosinLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="elecLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -305,20 +249,12 @@
                            Text=" Beside electric, this club is one of the biggest venues in Galway, know as 44 during the week and then turns into Halo for over 22s during the weekend. " />
                 <StackPanel Orientation="Horizontal">
                     <Button Name="haloInfo" Content="?" 
-                    Width="220" 
-                    FontSize="22" 
-                    Height="50"
                     Style="{StaticResource LinkBtns}"
-                    Click="frontInfo_Click"
-                    HorizontalAlignment="Center"
+                    Click="haloInfo_Click"
                    ></Button>
-                    <Button Name="haloLoc" Content="Loc" 
-                    Width="220" 
-                    FontSize="22"
+                    <Button Name="haloLoc" Content="Loc"
                     Style="{StaticResource LinkBtns}"
-                    Height="50" 
-                    Click="rosinLoc_Click"
-                    HorizontalAlignment="Center"
+                    Click="haloLoc_Click"
                     ></Button>
 
                 </StackPanel>
@@ -329,5 +265,8 @@
                       Text="Phone - (091) 565 976 " />
             </StackPanel>
         </ScrollViewer>
+        <Frame Name="MyFrame">
+
+        </Frame>
     </Grid>
 </Page>
