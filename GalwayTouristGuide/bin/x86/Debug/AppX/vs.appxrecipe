@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-22T23:14:41.223</Modified>
+      <Modified>2017-02-23T01:11:09.088</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\GalwayTouristGuide.exe">
       <PackagePath>entrypoint\GalwayTouristGuide.exe</PackagePath>
-      <Modified>2017-02-22T23:14:36.520</Modified>
+      <Modified>2017-02-23T01:11:06.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -484,6 +484,10 @@
       <PackagePath>Assets\front.jpg</PackagePath>
       <Modified>2017-02-22T22:31:30.039</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtown.jpg">
+      <PackagePath>Assets\gtown.jpg</PackagePath>
+      <Modified>2017-02-23T01:10:42.578</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\halo.jpg">
       <PackagePath>Assets\halo.jpg</PackagePath>
       <Modified>2017-02-22T23:05:28.570</Modified>
@@ -677,11 +681,11 @@
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-02-22T23:14:39.515</Modified>
+      <Modified>2017-02-23T01:11:08.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\Core\GalwayTouristGuide.exe">
       <PackagePath>GalwayTouristGuide.exe</PackagePath>
-      <Modified>2017-02-22T23:14:41.200</Modified>
+      <Modified>2017-02-23T01:11:09.069</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

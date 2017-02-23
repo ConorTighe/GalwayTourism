@@ -56,5 +56,10 @@ namespace GalwayTouristGuide
         {
             MyFrame.Navigate(typeof(Nightlife));
         }
+
+        private async void EventsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.galwaytourism.ie/pgalway-events-calendar.html"));
+        }
     }
 }

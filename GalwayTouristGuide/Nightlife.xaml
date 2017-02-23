@@ -9,8 +9,8 @@
 
     <Page.Resources>
         <Style TargetType="Button" x:Key="LinkBtns">
-            <Setter Property="Background" Value="#cc0000"></Setter>
-            <Setter Property="Foreground" Value="#e6e600"></Setter>
+            <Setter Property="Background" Value="#B9314F"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontSize" Value="22"></Setter>
             <Setter Property="Width" Value="150"></Setter>
             <Setter Property="Height" Value="50"></Setter>
@@ -18,12 +18,12 @@
         </Style>
         <Style TargetType="TextBlock" x:Key="Place">
             <Setter Property="FontSize" Value="36"></Setter>
-            <Setter Property="Foreground" Value="#000066"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
         </Style>
     </Page.Resources>
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="#3A4F41">
 
         <ScrollViewer
                 Grid.Row="0" 

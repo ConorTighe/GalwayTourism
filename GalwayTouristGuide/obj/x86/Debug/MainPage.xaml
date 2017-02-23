@@ -14,7 +14,7 @@
         </Grid.RowDefinitions>
 
         <StackPanel>
-            <RelativePanel Grid.Row="0" Background="GreenYellow">
+            <RelativePanel Grid.Row="0" Background="#B9314F">
                 <Button x:ConnectionId='14' Name="MainMenuBtn" 
                         FontFamily="Assets/Irish.ttf#Irish" 
                         Content="&#x00F9;"  
@@ -39,11 +39,11 @@
                    HorizontalAlignment="Left" 
                    VerticalAlignment="Top"
                    Grid.Row="1"
-                   Background="GreenYellow">
+                   Background="#B9314F">
                 <SplitView.Pane >
                     <ListBox x:ConnectionId='2' SelectionMode="Single" 
                  Name="IconsListBox"
-                 Background="GreenYellow"
+                 Background="#B9314F"
                  >
                         <ListBoxItem x:ConnectionId='3' Name="LandmarksListBoxItem">
                             <StackPanel Orientation="Horizontal" >
@@ -102,7 +102,8 @@
                                         FontSize="26"
                                         Height="40"
                                         Width="40"
-                                                             ></Button>
+                                                               
+                                        ></Button>
                                 <TextBlock Text="Events" FontSize="24" Margin="20,0,0,0" />
                             </StackPanel>
                         </ListBoxItem>

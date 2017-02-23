@@ -9,8 +9,8 @@
 
     <Page.Resources>
         <Style TargetType="Button" x:Key="LinkBtns">
-            <Setter Property="Background" Value="#cc0000"></Setter>
-            <Setter Property="Foreground" Value="#e6e600"></Setter>
+            <Setter Property="Background" Value="#B9314F"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontSize" Value="22"></Setter>
             <Setter Property="Width" Value="150"></Setter>
             <Setter Property="Height" Value="50"></Setter>
@@ -18,12 +18,12 @@
         </Style>
         <Style TargetType="TextBlock" x:Key="Place">
             <Setter Property="FontSize" Value="36"></Setter>
-            <Setter Property="Foreground" Value="#000066"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
         </Style>
     </Page.Resources>
 
-    <Grid Background="#b3ffb3" >
+    <Grid Background="#3A4F41" >
       
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -40,14 +40,21 @@
 
             <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='2' Name="SparchImg" Source="Assets\Sparch.jpg" />
-                <TextBlock x:ConnectionId='3' Name="SpanishArch"
+                <Image x:ConnectionId='2' Name="GalwayImg" Source="Assets\gtown.jpg" />
+                <TextBlock x:ConnectionId='3' Name="GalwayMain"
+                           TextWrapping="Wrap"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Text="Galway, a harbour city on Ireland's west coast, sits where the River Corrib meets the Atlantic Ocean. The city's hub is 18th-century Eyre Square, a popular meeting spot surrounded by shops and traditional pubs that often offer live Irish folk music. Nearby, stone-clad cafes, boutiques and art galleries line the winding lanes of the Latin Quarter, which retains portions of the medieval city walls." />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image x:ConnectionId='4' Name="SparchImg" Source="Assets\Sparch.jpg" />
+                <TextBlock x:ConnectionId='5' Name="SpanishArch"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Spanish Arch" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='41' Name="SparchInfo" Content="?" 
+                    <Button x:ConnectionId='43' Name="SparchInfo" Content="?" 
                     Width="150" 
                     FontSize="22" 
                     Height="50"
@@ -55,14 +62,14 @@
                                             
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='42' Name="SparchFav" Content="Fav" 
+                    <Button x:ConnectionId='44' Name="SparchFav" Content="Fav" 
                     Width="150"
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
                     Height="50" 
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='43' Name="SparchLoc" Content="Loc" 
+                    <Button x:ConnectionId='45' Name="SparchLoc" Content="Loc" 
                     Width="150" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
@@ -72,21 +79,21 @@
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='4'
+                <TextBlock x:ConnectionId='6'
                       Name="SpachText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="The two arches were part of the extension of the city wall from Martin's Tower to the bank of the River Corrib, as a measure to protect the city's quays, which were in the area once known as the Fish Market. " />
 
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='5' Name="MuseumImg" Source="Assets\GalwayMuseum.jpg" />
-                <TextBlock x:ConnectionId='6' Name="Museum"
+                <Image x:ConnectionId='7' Name="MuseumImg" Source="Assets\GalwayMuseum.jpg" />
+                <TextBlock x:ConnectionId='8' Name="Museum"
                            Style="{StaticResource Place}"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Text="Galway City Museum" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='38' Name="MuseumInfo" Content="?" 
+                    <Button x:ConnectionId='40' Name="MuseumInfo" Content="?" 
                     Width="150" 
                     FontSize="22" 
                     Height="50"
@@ -94,14 +101,14 @@
                     HorizontalAlignment="Center"
                     ></Button>
 
-                    <Button x:ConnectionId='39' Name="MuseumFav" Content="Fav" 
+                    <Button x:ConnectionId='41' Name="MuseumFav" Content="Fav" 
                     Style="{StaticResource LinkBtns}"
                     Width="150"
                     FontSize="22" 
                     Height="50" 
                     HorizontalAlignment="Center"
                     ></Button>
-                    <Button x:ConnectionId='40' Name="MuseumLoc" Content="Loc" 
+                    <Button x:ConnectionId='42' Name="MuseumLoc" Content="Loc" 
                     Width="150" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
@@ -109,20 +116,20 @@
                     HorizontalAlignment="Center"
                    ></Button>
                 </StackPanel>
-                <TextBlock x:ConnectionId='7'
+                <TextBlock x:ConnectionId='9'
                                Name="MuseumText"
                                TextWrapping="Wrap" 
                                HorizontalAlignment="Center"
                                Text="Small displays of documents, photographs, memorabilia and medieval artefacts chronicling urban life.. " />
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='8' Name="ChurchImg" Source="Assets\stnicholascollegiatechurch.jpg" />
-                <TextBlock x:ConnectionId='9' Name="Church"
+                <Image x:ConnectionId='10' Name="ChurchImg" Source="Assets\stnicholascollegiatechurch.jpg" />
+                <TextBlock x:ConnectionId='11' Name="Church"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="St.Nicholas church" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='35' Name="ChruchInfo" Content="?" 
+                    <Button x:ConnectionId='37' Name="ChruchInfo" Content="?" 
                     Width="150" 
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
@@ -130,14 +137,14 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='36' Name="ChurchFav" Content="Fav" 
+                    <Button x:ConnectionId='38' Name="ChurchFav" Content="Fav" 
                     Width="150" 
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
                     Height="50" 
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='37' Name="ChurchLoc" Content="Loc" 
+                    <Button x:ConnectionId='39' Name="ChurchLoc" Content="Loc" 
                     Width="150" 
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
@@ -146,7 +153,7 @@
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='10'
+                <TextBlock x:ConnectionId='12'
                       Name="ChurchText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
@@ -154,14 +161,14 @@
                       FontFamily="Sitka Small"
                       Text="Large, 14th-century Anglican Episcopal church visited by Oliver Cromwell and Christopher Columbus. " />
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='11' Name="EyreSquareImg" Source="Assets\eyre.jpg" />
-                <TextBlock x:ConnectionId='12' Name="EyreSquare"
+                <Image x:ConnectionId='13' Name="EyreSquareImg" Source="Assets\eyre.jpg" />
+                <TextBlock x:ConnectionId='14' Name="EyreSquare"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Eyre Square" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='32' Name="EyreInfo" Content="?" 
+                    <Button x:ConnectionId='34' Name="EyreInfo" Content="?" 
                     Width="150" 
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
@@ -169,14 +176,14 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='33' Name="EyreFav" Content="Fav" 
+                    <Button x:ConnectionId='35' Name="EyreFav" Content="Fav" 
                     Width="150" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='34' Name="EyreLoc" Content="Loc" 
+                    <Button x:ConnectionId='36' Name="EyreLoc" Content="Loc" 
                     Width="150" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
@@ -184,20 +191,20 @@
                     HorizontalAlignment="Center"
                     ></Button>
                 </StackPanel>
-                <TextBlock x:ConnectionId='13'
+                <TextBlock x:ConnectionId='15'
                       Name="EyreText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="Eyre Square, also known as John F. Kennedy Memorial Park is an inner-city public park in Galway, Ireland. The park is within the city centre in the heart of Galway " />
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='14' Name="DunguaireImg" Source="Assets\dunguaire-castle.jpg" />
-                <TextBlock x:ConnectionId='15' Name="Dunguaire"
+                <Image x:ConnectionId='16' Name="DunguaireImg" Source="Assets\dunguaire-castle.jpg" />
+                <TextBlock x:ConnectionId='17' Name="Dunguaire"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Dunguaire Castle" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='29' Name="DunguaireInfo" Content="?" 
+                    <Button x:ConnectionId='31' Name="DunguaireInfo" Content="?" 
                     Width="150" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
@@ -205,14 +212,14 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='30' Name="DunguaireFav" Content="Fav" 
+                    <Button x:ConnectionId='32' Name="DunguaireFav" Content="Fav" 
                     Width="150" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='31' Name="DunguaireLoc" Content="Loc" 
+                    <Button x:ConnectionId='33' Name="DunguaireLoc" Content="Loc" 
                     Width="150" 
                     FontSize="22" 
                     Height="50" 
@@ -220,20 +227,20 @@
                     Style="{StaticResource LinkBtns}"
                     ></Button>
                 </StackPanel>
-                <TextBlock x:ConnectionId='16'
+                <TextBlock x:ConnectionId='18'
                       Name="DunguaireText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="Immaculately restored, 16th-century bay-side fortress with a literary history and evening banquets. " />
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='17' Name="CathedralImg" Source="Assets\Galway_cathedral.jpg" />
-                <TextBlock x:ConnectionId='18' Name="Cathedra"
+                <Image x:ConnectionId='19' Name="CathedralImg" Source="Assets\Galway_cathedral.jpg" />
+                <TextBlock x:ConnectionId='20' Name="Cathedra"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="St Nicholas Cathedral" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='26' Name="CathedraInfo" Content="?" 
+                    <Button x:ConnectionId='28' Name="CathedraInfo" Content="?" 
                     Width="150" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
@@ -241,14 +248,14 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='27' Name="CathedraFav" Content="Fav" 
+                    <Button x:ConnectionId='29' Name="CathedraFav" Content="Fav" 
                     Width="150" 
                     FontSize="22" 
                     Height="50" 
                     Style="{StaticResource LinkBtns}"
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='28' Name="CathedraLoc" Content="Loc" 
+                    <Button x:ConnectionId='30' Name="CathedraLoc" Content="Loc" 
                     Width="150" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
@@ -256,20 +263,20 @@
                     HorizontalAlignment="Center"
                     ></Button>
                 </StackPanel>
-                <TextBlock x:ConnectionId='19'
+                <TextBlock x:ConnectionId='21'
                       Name="CathedraText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Text="Modern and airy, green-domed, renaissance-style Catholic cathedral, with a mosaic of JF Kennedy. " />
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='20' Name="JamesMitchellImg" Source="Assets\JamesMitchell.jpg" />
-                <TextBlock x:ConnectionId='21' Name="JamesMitchell"
+                <Image x:ConnectionId='22' Name="JamesMitchellImg" Source="Assets\JamesMitchell.jpg" />
+                <TextBlock x:ConnectionId='23' Name="JamesMitchell"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="James Mitchell Museum" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='23' Name="JamesMitchellInfo" Content="?" 
+                    <Button x:ConnectionId='25' Name="JamesMitchellInfo" Content="?" 
                     Width="150" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
@@ -277,14 +284,14 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='24' Name="JamesMitchellFav" Content="Fav" 
+                    <Button x:ConnectionId='26' Name="JamesMitchellFav" Content="Fav" 
                     Width="150" 
                     FontSize="22" 
                     Height="50" 
                     Style="{StaticResource LinkBtns}"
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='25' Name="JamesMitchellLoc" Content="Loc" 
+                    <Button x:ConnectionId='27' Name="JamesMitchellLoc" Content="Loc" 
                     Width="150" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
@@ -292,7 +299,7 @@
                     HorizontalAlignment="Center"
                     ></Button>
                 </StackPanel>
-                <TextBlock x:ConnectionId='22'
+                <TextBlock x:ConnectionId='24'
                       Name="JamesMitchellText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"

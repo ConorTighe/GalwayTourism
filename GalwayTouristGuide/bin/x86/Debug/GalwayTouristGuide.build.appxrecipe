@@ -361,6 +361,9 @@
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\front.jpg">
       <PackagePath>Assets\front.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtown.jpg">
+      <PackagePath>Assets\gtown.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\halo.jpg">
       <PackagePath>Assets\halo.jpg</PackagePath>
     </AppxPackagedFile>

@@ -9,8 +9,8 @@
 
     <Page.Resources>
         <Style TargetType="Button" x:Key="LinkBtns">
-            <Setter Property="Background" Value="#cc0000"></Setter>
-            <Setter Property="Foreground" Value="#e6e600"></Setter>
+            <Setter Property="Background" Value="#B9314F"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontSize" Value="22"></Setter>
             <Setter Property="Width" Value="150"></Setter>
             <Setter Property="Height" Value="50"></Setter>
@@ -18,12 +18,12 @@
         </Style>
         <Style TargetType="TextBlock" x:Key="Place">
             <Setter Property="FontSize" Value="36"></Setter>
-            <Setter Property="Foreground" Value="#000066"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
         </Style>
     </Page.Resources>
 
-    <Grid Background="#b3ffb3" >
+    <Grid Background="#3A4F41" >
       
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -39,6 +39,13 @@
             >
 
             <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="GalwayImg" Source="Assets\gtown.jpg" />
+                <TextBlock Name="GalwayMain"
+                           TextWrapping="Wrap"
+                           Margin="0,10,0,0"
+                           HorizontalAlignment="Center"
+                           Text="Galway, a harbour city on Ireland's west coast, sits where the River Corrib meets the Atlantic Ocean. The city's hub is 18th-century Eyre Square, a popular meeting spot surrounded by shops and traditional pubs that often offer live Irish folk music. Nearby, stone-clad cafes, boutiques and art galleries line the winding lanes of the Latin Quarter, which retains portions of the medieval city walls." />
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
                 <Image Name="SparchImg" Source="Assets\Sparch.jpg" />
                 <TextBlock Name="SpanishArch"
