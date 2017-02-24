@@ -35,12 +35,12 @@
                            HorizontalAlignment="Center"
                            Text="The Skeff" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='234' Name="SkeffInfo" Content="?" 
+                    <Button x:ConnectionId='234' Name="SkeffInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                    
                    ></Button>
                     
-                    <Button x:ConnectionId='235' Name="SkeffLoc" Content="Loc" 
+                    <Button x:ConnectionId='235' Name="SkeffLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                   
                     ></Button>
@@ -148,12 +148,12 @@
                            HorizontalAlignment="Center"
                            Text="The Chilli Shack" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='218' Name="ChilliInfo" Content="?" 
+                    <Button x:ConnectionId='218' Name="ChilliInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                             
                    ></Button>
         
-                    <Button x:ConnectionId='219' Name="ChilliLoc" Content="Loc" 
+                    <Button x:ConnectionId='219' Name="ChilliLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                    
                     ></Button>
@@ -263,11 +263,11 @@
                            HorizontalAlignment="Center"
                            Text="The Dough Bros" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='202' Name="DoughInfo" Content="?" 
+                    <Button x:ConnectionId='202' Name="DoughInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                    
                    ></Button>
-                    <Button x:ConnectionId='203' Name="DoughLoc" Content="Loc" 
+                    <Button x:ConnectionId='203' Name="DoughLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                   
                     ></Button>
@@ -376,12 +376,12 @@
                            HorizontalAlignment="Center"
                            Text="The Quay Street Kitchen" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='186' Name="QuayInfo" Content="?" 
+                    <Button x:ConnectionId='186' Name="QuayInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                   
                    ></Button>
                  
-                    <Button x:ConnectionId='187' Name="QuayLoc" Content="Loc" 
+                    <Button x:ConnectionId='187' Name="QuayLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                  
                     ></Button>
@@ -490,12 +490,12 @@
                            HorizontalAlignment="Center"
                            Text="McDonaghs" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='170' Name="McDonaghsInfo" Content="?" 
+                    <Button x:ConnectionId='170' Name="McDonaghsInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                        
                    ></Button>
                    
-                    <Button x:ConnectionId='171' Name="McDonaghsLoc" Content="Loc" 
+                    <Button x:ConnectionId='171' Name="McDonaghsLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                       
                     ></Button>
@@ -604,12 +604,12 @@
                            HorizontalAlignment="Center"
                            Text="McGettigans" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='154' Name="McGettiganInfo" Content="?" 
+                    <Button x:ConnectionId='154' Name="McGettiganInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                         
                    ></Button>
                    
-                    <Button x:ConnectionId='155' Name="McGettiganLoc" Content="Loc" 
+                    <Button x:ConnectionId='155' Name="McGettiganLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                        
                     ></Button>
@@ -718,13 +718,13 @@
                            HorizontalAlignment="Center"
                            Text="Busker Brownes" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='138' Name="BuskerBrownesInfo" Content="?" 
+                    <Button x:ConnectionId='138' Name="BuskerBrownesInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                            
                    ></Button>
                     
                     
-                    <Button x:ConnectionId='139' Name="BuskerBrownesLoc" Content="Loc" 
+                    <Button x:ConnectionId='139' Name="BuskerBrownesLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                           
                     ></Button>
@@ -833,12 +833,12 @@
                            HorizontalAlignment="Center"
                            Text="The Dail" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='122' Name="DailInfo" Content="?" 
+                    <Button x:ConnectionId='122' Name="DailInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                   
                    ></Button>
                    
-                    <Button x:ConnectionId='123' Name="DailLoc" Content="Loc" 
+                    <Button x:ConnectionId='123' Name="DailLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                  
                     ></Button>
@@ -947,12 +947,12 @@
                            HorizontalAlignment="Center"
                            Text="The Salt House" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='106' Name="SaltInfo" Content="?" 
+                    <Button x:ConnectionId='106' Name="SaltInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                   
                    ></Button>
                     
-                    <Button x:ConnectionId='107' Name="SaltLoc" Content="Loc" 
+                    <Button x:ConnectionId='107' Name="SaltLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                  
                     ></Button>
@@ -1061,12 +1061,12 @@
                            HorizontalAlignment="Center"
                            Text="The Kings Head" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='90' Name="KingsInfo" Content="?" 
+                    <Button x:ConnectionId='90' Name="KingsInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                    
                    ></Button>
                    
-                    <Button x:ConnectionId='91' Name="KingsLoc" Content="Loc" 
+                    <Button x:ConnectionId='91' Name="KingsLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                   
                     ></Button>
@@ -1175,12 +1175,12 @@
                            HorizontalAlignment="Center"
                            Text="Oscars Seafood" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='74' Name="OscarsInfo" Content="?" 
+                    <Button x:ConnectionId='74' Name="OscarsInfo" Content="More Info" 
                                                     
                     Style="{StaticResource LinkBtns}"
                    ></Button>
                    
-                    <Button x:ConnectionId='75' Name="OscarsLoc" Content="Loc" 
+                    <Button x:ConnectionId='75' Name="OscarsLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                    
                     ></Button>
@@ -1289,12 +1289,12 @@
                            HorizontalAlignment="Center"
                            Text="The Front Door" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='58' Name="FrontInfo" Content="?" 
+                    <Button x:ConnectionId='58' Name="FrontInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                    
                    ></Button>
                    
-                    <Button x:ConnectionId='59' Name="FrontLoc" Content="Loc" 
+                    <Button x:ConnectionId='59' Name="FrontLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                   
                     ></Button>
@@ -1403,12 +1403,12 @@
                            HorizontalAlignment="Center"
                            Text="Biteclub" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='42' Name="BiteInfo" Content="?" 
+                    <Button x:ConnectionId='42' Name="BiteInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                                   
                    ></Button>
                     
-                    <Button x:ConnectionId='43' Name="BiteLoc" Content="Loc" 
+                    <Button x:ConnectionId='43' Name="BiteLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                                                  
                     ></Button>

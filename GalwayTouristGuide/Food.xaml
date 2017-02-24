@@ -35,12 +35,12 @@
                            HorizontalAlignment="Center"
                            Text="The Skeff" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="SkeffInfo" Content="?" 
+                    <Button Name="SkeffInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="SkeffInfo_Click"
                    ></Button>
                     
-                    <Button Name="SkeffLoc" Content="Loc" 
+                    <Button Name="SkeffLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="SkeffLoc_Click"
                     ></Button>
@@ -148,12 +148,12 @@
                            HorizontalAlignment="Center"
                            Text="The Chilli Shack" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="ChilliInfo" Content="?" 
+                    <Button Name="ChilliInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="ChilliInfo_Click"
                    ></Button>
         
-                    <Button Name="ChilliLoc" Content="Loc" 
+                    <Button Name="ChilliLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="ChilliLoc_Click"
                     ></Button>
@@ -263,11 +263,11 @@
                            HorizontalAlignment="Center"
                            Text="The Dough Bros" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="DoughInfo" Content="?" 
+                    <Button Name="DoughInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="DoughInfo_Click"
                    ></Button>
-                    <Button Name="DoughLoc" Content="Loc" 
+                    <Button Name="DoughLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="DoughLoc_Click"
                     ></Button>
@@ -376,12 +376,12 @@
                            HorizontalAlignment="Center"
                            Text="The Quay Street Kitchen" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="QuayInfo" Content="?" 
+                    <Button Name="QuayInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="QuayInfo_Click"
                    ></Button>
                  
-                    <Button Name="QuayLoc" Content="Loc" 
+                    <Button Name="QuayLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="QuayLoc_Click"
                     ></Button>
@@ -490,12 +490,12 @@
                            HorizontalAlignment="Center"
                            Text="McDonaghs" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="McDonaghsInfo" Content="?" 
+                    <Button Name="McDonaghsInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="McDonaghsInfo_Click"
                    ></Button>
                    
-                    <Button Name="McDonaghsLoc" Content="Loc" 
+                    <Button Name="McDonaghsLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="McDonaghsLoc_Click"
                     ></Button>
@@ -604,12 +604,12 @@
                            HorizontalAlignment="Center"
                            Text="McGettigans" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="McGettiganInfo" Content="?" 
+                    <Button Name="McGettiganInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="McGettiganInfo_Click"
                    ></Button>
                    
-                    <Button Name="McGettiganLoc" Content="Loc" 
+                    <Button Name="McGettiganLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="McGettiganLoc_Click"
                     ></Button>
@@ -718,13 +718,13 @@
                            HorizontalAlignment="Center"
                            Text="Busker Brownes" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="BuskerBrownesInfo" Content="?" 
+                    <Button Name="BuskerBrownesInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="BuskerBrownesInfo_Click"
                    ></Button>
                     
                     
-                    <Button Name="BuskerBrownesLoc" Content="Loc" 
+                    <Button Name="BuskerBrownesLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="BuskerBrownesLoc_Click"
                     ></Button>
@@ -833,12 +833,12 @@
                            HorizontalAlignment="Center"
                            Text="The Dail" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="DailInfo" Content="?" 
+                    <Button Name="DailInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="DailInfo_Click"
                    ></Button>
                    
-                    <Button Name="DailLoc" Content="Loc" 
+                    <Button Name="DailLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="DailLoc_Click"
                     ></Button>
@@ -947,12 +947,12 @@
                            HorizontalAlignment="Center"
                            Text="The Salt House" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="SaltInfo" Content="?" 
+                    <Button Name="SaltInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="SaltInfo_Click"
                    ></Button>
                     
-                    <Button Name="SaltLoc" Content="Loc" 
+                    <Button Name="SaltLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="SaltLoc_Click"
                     ></Button>
@@ -1061,12 +1061,12 @@
                            HorizontalAlignment="Center"
                            Text="The Kings Head" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="KingsInfo" Content="?" 
+                    <Button Name="KingsInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="KingsInfo_Click"
                    ></Button>
                    
-                    <Button Name="KingsLoc" Content="Loc" 
+                    <Button Name="KingsLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="KingsLoc_Click"
                     ></Button>
@@ -1175,12 +1175,12 @@
                            HorizontalAlignment="Center"
                            Text="Oscars Seafood" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="OscarsInfo" Content="?" 
+                    <Button Name="OscarsInfo" Content="More Info" 
                             Click="OscarsInfo_Click"
                     Style="{StaticResource LinkBtns}"
                    ></Button>
                    
-                    <Button Name="OscarsLoc" Content="Loc" 
+                    <Button Name="OscarsLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="OscarsLoc_Click"
                     ></Button>
@@ -1289,12 +1289,12 @@
                            HorizontalAlignment="Center"
                            Text="The Front Door" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="FrontInfo" Content="?" 
+                    <Button Name="FrontInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="FrontInfo_Click"
                    ></Button>
                    
-                    <Button Name="FrontLoc" Content="Loc" 
+                    <Button Name="FrontLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="FrontLoc_Click"
                     ></Button>
@@ -1403,12 +1403,12 @@
                            HorizontalAlignment="Center"
                            Text="Biteclub" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="BiteInfo" Content="?" 
+                    <Button Name="BiteInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                             Click="BiteInfo_Click"
                    ></Button>
                     
-                    <Button Name="BiteLoc" Content="Loc" 
+                    <Button Name="BiteLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                             Click="BiteLoc_Click"
                     ></Button>

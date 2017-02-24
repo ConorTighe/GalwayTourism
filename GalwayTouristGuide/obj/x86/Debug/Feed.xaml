@@ -54,7 +54,7 @@
                            HorizontalAlignment="Center"
                            Text="Spanish Arch" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='37' Name="SparchInfo" Content="?"
+                    <Button x:ConnectionId='37' Name="SparchInfo" Content="More Info"
                     FontSize="22" 
                     Height="50"
                     Style="{StaticResource LinkBtns}"
@@ -62,7 +62,7 @@
                     HorizontalAlignment="Center"
                    ></Button>
                     
-                    <Button x:ConnectionId='38' Name="SparchLoc" Content="Loc" 
+                    <Button x:ConnectionId='38' Name="SparchLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -85,7 +85,7 @@
                            HorizontalAlignment="Center"
                            Text="Galway City Museum" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='35' Name="MuseumInfo" Content="?" 
+                    <Button x:ConnectionId='35' Name="MuseumInfo" Content="More Info" 
                                             
                     FontSize="22" 
                     Height="50"
@@ -93,7 +93,7 @@
                     HorizontalAlignment="Center"
                     ></Button>
 
-                    <Button x:ConnectionId='36' Name="MuseumLoc" Content="Loc" 
+                    <Button x:ConnectionId='36' Name="MuseumLoc" Content="Location" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -114,14 +114,14 @@
                            HorizontalAlignment="Center"
                            Text="St.Nicholas church" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='33' Name="ChruchInfo" Content="?" 
+                    <Button x:ConnectionId='33' Name="ChruchInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                             
                     FontSize="22" 
                     Height="50" 
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='34' Name="ChurchLoc" Content="Loc" 
+                    <Button x:ConnectionId='34' Name="ChurchLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
                     Height="50" 
@@ -145,7 +145,7 @@
                            HorizontalAlignment="Center"
                            Text="Eyre Square" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='31' Name="EyreInfo" Content="?" 
+                    <Button x:ConnectionId='31' Name="EyreInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
                     Height="50" 
@@ -153,7 +153,7 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='32' Name="EyreLoc" Content="Loc" 
+                    <Button x:ConnectionId='32' Name="EyreLoc" Content="Location" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -174,7 +174,7 @@
                            HorizontalAlignment="Center"
                            Text="Dunguaire Castle" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='29' Name="DunguaireInfo" Content="?" 
+                    <Button x:ConnectionId='29' Name="DunguaireInfo" Content="More Info" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -182,7 +182,7 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='30' Name="DunguaireLoc" Content="Loc" 
+                    <Button x:ConnectionId='30' Name="DunguaireLoc" Content="Location" 
                     FontSize="22" 
                     Height="50" 
                     HorizontalAlignment="Center"
@@ -203,14 +203,14 @@
                            HorizontalAlignment="Center"
                            Text="St Nicholas Cathedral" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='27' Name="CathedraInfo" Content="?" 
+                    <Button x:ConnectionId='27' Name="CathedraInfo" Content="More Info" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
                                               
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='28' Name="CathedraLoc" Content="Loc" 
+                    <Button x:ConnectionId='28' Name="CathedraLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -231,7 +231,7 @@
                            HorizontalAlignment="Center"
                            Text="James Mitchell Museum" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='25' Name="JamesMitchellInfo" Content="?"  
+                    <Button x:ConnectionId='25' Name="JamesMitchellInfo" Content="More Info"  
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -239,7 +239,7 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='26' Name="JamesMitchellLoc" Content="Loc" 
+                    <Button x:ConnectionId='26' Name="JamesMitchellLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 

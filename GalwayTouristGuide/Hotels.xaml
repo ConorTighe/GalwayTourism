@@ -53,12 +53,12 @@
                            
                            Upgraded rooms add Nespresso machines and sea views, and some include breakfast. Suites have living areas and, in some cases, private terraces." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="radInfo" Content="?" 
+                    <Button Name="radInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="radInfo_Click"
                    ></Button>
                     
-                    <Button Name="radLoc" Content="Loc" 
+                    <Button Name="radLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Click="radLoc_Click"
                     ></Button>
@@ -94,12 +94,12 @@
                            Text="This upscale waterfront hotel is a 7-minute walk from Eyre Square and a kilometer from Saint Nicholas Collegiate Church. 
 The modern rooms come with free WiFi, desks, flat-screen TVs, pillow-top mattresses, and tea and coffeemaking facilities. Upgrades add free bottled water and snacks. Room service is available." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="HarbourInfo" Content="?" 
+                    <Button Name="HarbourInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="HarbourInfo_Click"
                    ></Button>
                    
-                    <Button Name="HarbourLoc" Content="Loc" 
+                    <Button Name="HarbourLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Click="HarbourLoc_Click"
                     ></Button>
@@ -135,12 +135,12 @@ The modern rooms come with free WiFi, desks, flat-screen TVs, pillow-top mattres
 
 Posh rooms featuring modern, bespoke decor and furnishings include minifridges and complimentary Wi-Fi. Upgraded rooms add living areas, and suites add fireplaces. There are also 3 elegant specialty suites offering upgraded furnishings, and 1 includes a terrace and a dining room. Room service is available."></TextBlock>
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="TheGInfo" Content="?" 
+                    <Button Name="TheGInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="TheGInfo_Click"
                    ></Button>
                     
-                    <Button Name="TheGLoc" Content="Loc" 
+                    <Button Name="TheGLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Click="TheGLoc_Click"
                     ></Button>
@@ -172,11 +172,11 @@ Posh rooms featuring modern, bespoke decor and furnishings include minifridges a
                            Text="This casual hotel is 2.9 miles from Eyre Square and 7.2 km from Galway Airport. 
 Traditional rooms feature free Wi-Fi, desks, cable TV, and tea and coffeemaking facilities; some have views of Galway Bay. Room service is offered." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="FlanInfo" Content="?" 
+                    <Button Name="FlanInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="FlanInfo_Click"
                    ></Button>
-                    <Button Name="FlanLoc" Content="Loc" 
+                    <Button Name="FlanLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Click="FlanLoc_Click"
                     ></Button>
@@ -211,11 +211,11 @@ Traditional rooms feature free Wi-Fi, desks, cable TV, and tea and coffeemaking 
 
 Posh rooms featuring modern, bespoke decor and furnishings include minifridges and complimentary Wi-Fi. Upgraded rooms add living areas, and suites add fireplaces. There are also 3 elegant specialty suites offering upgraded furnishings, and 1 includes a terrace and a dining room. Room service is available." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="ConnInfo" Content="?" 
+                    <Button Name="ConnInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="ConnInfo_Click"
                    ></Button>
-                    <Button Name="connLoc" Content="Loc" 
+                    <Button Name="connLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Click="connLoc_Click"
                     ></Button>
@@ -250,12 +250,12 @@ Posh rooms featuring modern, bespoke decor and furnishings include minifridges a
 
 The unfussy rooms provide complimentary Wi-Fi and flat-screen TVs, as well as tea and coffeemaking facilities. Some add sofabeds and/or river views. Room service is available." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="JuryInfo" Content="?" 
+                    <Button Name="JuryInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="JuryInfo_Click"
                    ></Button>
                
-                    <Button Name="JuryLoc" Content="Loc"
+                    <Button Name="JuryLoc" Content="Location"
                     Style="{StaticResource LinkBtns}"
                     Click="JuryLoc_Click"
                     ></Button>
@@ -290,12 +290,12 @@ The unfussy rooms provide complimentary Wi-Fi and flat-screen TVs, as well as te
 
 Bright, contemporary rooms come with free Wi-Fi, desks, flat-screen TVs, and tea and coffeemaking facilities; upgraded rooms provide sea views." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="SalthillInfo" Content="?" 
+                    <Button Name="SalthillInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="SalthillInfo_Click"
                    ></Button>
                     
-                    <Button Name="SalthillLoc" Content="Loc" 
+                    <Button Name="SalthillLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Click="SalthillLoc_Click"
                     ></Button>
@@ -329,12 +329,12 @@ Bright, contemporary rooms come with free Wi-Fi, desks, flat-screen TVs, and tea
 
 The classic rooms offer free Wi-Fi, 24-hr room service, and tea and coffeemaking facilities; suites add Galway Bay views and complimentary wine, fruit, bottled water and homemade treats." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="BayInfo" Content="?" 
+                    <Button Name="BayInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="BayInfo_Click"
                    ></Button>
                     
-                    <Button Name="BayLoc" Content="Loc"
+                    <Button Name="BayLoc" Content="Location"
                     Style="{StaticResource LinkBtns}"
                     Click="BayLoc_Click"
                     ></Button>
@@ -369,14 +369,14 @@ The classic rooms offer free Wi-Fi, 24-hr room service, and tea and coffeemaking
 
 Classic rooms and suites featuring natural wood furnishings and traditional decor include cable TV, tea and coffeemaking equipment, and complimentary Wi-Fi. Upgraded rooms add sitting areas, DVD players and free chocolates." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="ParkInfo" Content="?" 
+                    <Button Name="ParkInfo" Content="More Info" 
                     Click="ParkInfo_Click"
                     Style="{StaticResource LinkBtns}"
                    
                     HorizontalAlignment="Center"
                    ></Button>
                     
-                    <Button Name="ParkLoc" Content="Loc" 
+                    <Button Name="ParkLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Click="ParkLoc_Click"
                     ></Button>
@@ -411,11 +411,11 @@ Classic rooms and suites featuring natural wood furnishings and traditional deco
 
 The airy rooms and suites have free Wi-Fi, desks, flat-screen TVs, and tea and coffeemaking facilities. They also include pillow-top mattresses, as well as bathrooms with rainfall showerheads and heated floors. Upgraded rooms can add private balconies and Bose sound systems. Room service is available." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="ClayInfo" Content="?" 
+                    <Button Name="ClayInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="ClayInfo_Click"
                    ></Button>
-                    <Button Name="ClayLoc" Content="Loc" 
+                    <Button Name="ClayLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Click="ClayLoc_Click"
                     ></Button>
@@ -450,12 +450,12 @@ The airy rooms and suites have free Wi-Fi, desks, flat-screen TVs, and tea and c
 
 The simple rooms include custom-designed beds, desks, flat-screen TVs and WiFi (fee), as well as tea and coffeemaking facilities. Family rooms add sofabeds." />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="travelInfo" Content="?" 
+                    <Button Name="travelInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     Click="travelInfo_Click"
                    ></Button>
                     
-                    <Button Name="travelLoc" Content="Loc"
+                    <Button Name="travelLoc" Content="Location"
                     Style="{StaticResource LinkBtns}"
                     Click="travelLoc_Click"
                     ></Button>

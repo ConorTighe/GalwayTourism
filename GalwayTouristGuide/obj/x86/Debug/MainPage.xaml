@@ -15,7 +15,7 @@
 
         <StackPanel>
             <RelativePanel Grid.Row="0" Background="#B9314F">
-                <Button x:ConnectionId='14' Name="MainMenuBtn" 
+                <Button x:ConnectionId='16' Name="MainMenuBtn" 
                         FontFamily="Assets/Irish.ttf#Irish" 
                         Content="&#x00F9;"  
                         FontSize="45" 
@@ -24,7 +24,7 @@
                                                  
                         RelativePanel.AlignLeftWithPanel="True"
                         ></Button>
-                <TextBlock x:ConnectionId='15' Name="TitleText"
+                <TextBlock x:ConnectionId='17' Name="TitleText"
                            FontSize="40"
                            FontFamily="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"
                            RelativePanel.RightOf="MainMenuBtn"
@@ -47,7 +47,7 @@
                  >
                         <ListBoxItem x:ConnectionId='3' Name="LandmarksListBoxItem">
                             <StackPanel Orientation="Horizontal" >
-                                <Button x:ConnectionId='12' Name="LandmarksBtn" 
+                                <Button x:ConnectionId='14' Name="LandmarksBtn" 
                                         FontFamily="Assets/Irish.ttf#Irish"
                                         Content="&#x00F6;" 
                                         FontSize="26"
@@ -60,7 +60,7 @@
                         </ListBoxItem>
                         <ListBoxItem x:ConnectionId='4' Name="FoodListBoxItem">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:ConnectionId='11' Name="FoodBtn" 
+                                <Button x:ConnectionId='13' Name="FoodBtn" 
                                         FontFamily="Assets/Irish.ttf#Irish" 
                                         Content="&#x005F;" 
                                         FontSize="26"
@@ -72,7 +72,7 @@
                         </ListBoxItem>
                         <ListBoxItem x:ConnectionId='5' Name="HotelsListBoxItem">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:ConnectionId='10' Name="HotelBtn" 
+                                <Button x:ConnectionId='12' Name="HotelBtn" 
                                         FontFamily="Assets/Irish.ttf#Irish" 
                                         Content="&#x0048;" 
                                         FontSize="26"
@@ -84,7 +84,7 @@
                         </ListBoxItem>
                         <ListBoxItem x:ConnectionId='6' Name="NightListBoxItem">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:ConnectionId='9' Name="NightBtn" 
+                                <Button x:ConnectionId='11' Name="NightBtn" 
                                         FontFamily="Assets/Irish.ttf#Irish" 
                                         Content="&#x002C;" 
                                         FontSize="26"
@@ -96,7 +96,7 @@
                         </ListBoxItem>
                         <ListBoxItem x:ConnectionId='7' Name="EventsListBoxItem">
                             <StackPanel Orientation="Horizontal">
-                                <Button x:ConnectionId='8' Name="EventsBtn" 
+                                <Button x:ConnectionId='10' Name="EventsBtn" 
                                         FontFamily="Assets/Irish.ttf#Irish" 
                                         Content="&#x00DA;" 
                                         FontSize="26"
@@ -107,11 +107,23 @@
                                 <TextBlock Text="Events" FontSize="24" Margin="20,0,0,0" />
                             </StackPanel>
                         </ListBoxItem>
-                        
+                        <ListBoxItem x:ConnectionId='8' Name="GithubListBoxItem">
+                            <StackPanel Orientation="Horizontal">
+                                <Button x:ConnectionId='9' Name="Githubbtn"
+                                        FontFamily="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish" 
+                                        Content="i" 
+                                        FontSize="26"
+                                        Height="40"
+                                        Width="40"
+                                                               
+                                        ></Button>
+                                <TextBlock Text="About App" FontSize="24" Margin="20,0,0,0" />
+                            </StackPanel>
+                        </ListBoxItem>
                     </ListBox>
                 </SplitView.Pane>
                 <SplitView.Content>
-                    <Frame x:ConnectionId='13' Name="MyFrame">
+                    <Frame x:ConnectionId='15' Name="MyFrame">
 
                     </Frame>
                 </SplitView.Content>

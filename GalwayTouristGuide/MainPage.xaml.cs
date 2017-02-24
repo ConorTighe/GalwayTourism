@@ -71,5 +71,10 @@ namespace GalwayTouristGuide
         {
             await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.galwaytourism.ie/pgalway-events-calendar.html"));
         }
+
+        private async void Githubbtn_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("https://github.com/ConorTighe1995/GalwayTourism"));
+        }
     }
 }
