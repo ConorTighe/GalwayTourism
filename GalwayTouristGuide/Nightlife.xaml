@@ -76,11 +76,11 @@
                 <StackPanel Orientation="Horizontal">
                     <Button Name="kingsInfo" Content="?" 
                     Style="{StaticResource LinkBtns}"
-                    Click="rosinInfo_Click"
+                    Click="kingsInfo_Click"
                    ></Button>
                     <Button Name="KingsLoc" Content="Loc"
                     Style="{StaticResource LinkBtns}"
-                    Click="rosinLoc_Click"
+                    Click="KingsLoc_Click"
                     ></Button>
 
                 </StackPanel>

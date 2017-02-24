@@ -90,6 +90,7 @@
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Content Include="Assets\Bay.jpg" />
+    <Content Include="Assets\bensound-sweet.mp3" />
     <Content Include="Assets\carbon.jpg" />
     <Content Include="Assets\clayton.jpg" />
     <Content Include="Assets\conn.jpg" />

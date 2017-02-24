@@ -111,5 +111,17 @@ namespace GalwayTouristGuide
             Geopoint cityCenter = new Geopoint(cityPosition);
             MyFrame.Navigate(typeof(MapView), cityCenter);
         }
+
+        private async void kingsInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.thekingshead.ie/"));
+        }
+
+        private void KingsLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2722, Longitude = -9.0534 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
     }
 }

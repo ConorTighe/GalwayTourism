@@ -8,6 +8,8 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Devices.Geolocation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Media.Core;
+using Windows.Media.Playback;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Maps;
@@ -24,11 +26,19 @@ namespace GalwayTouristGuide
   
     public sealed partial class MainPage : Page
     {
-        
+        public static MediaPlayer BackgroundPlayer;
+
         public MainPage()
         {
             
             this.InitializeComponent();
+
+            //Background music
+            BackgroundPlayer = new MediaPlayer();
+            BackgroundPlayer.Source = MediaSource.CreateFromUri(new Uri(@"ms-appx:///Assets/bensound-sweet.mp3"));
+            BackgroundPlayer.Play();
+            BackgroundPlayer.IsLoopingEnabled = true;
+            //Move around the pages
             MyFrame.Navigate(typeof(Feed));
         }
 

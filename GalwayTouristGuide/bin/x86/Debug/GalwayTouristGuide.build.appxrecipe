@@ -460,6 +460,9 @@
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\travel.jpg">
       <PackagePath>Assets\travel.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\bensound-sweet.mp3">
+      <PackagePath>Assets\bensound-sweet.mp3</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Irish.ttf">
       <PackagePath>Assets\Irish.ttf</PackagePath>
     </AppxPackagedFile>
