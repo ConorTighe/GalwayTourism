@@ -14,11 +14,13 @@ Once open you are given a brief history of galway with a navigation menu to the 
 
 4. Nightlife
 
-5. Events
+5. Sports
 
-6. About App
+6. Events
 
-The first 4 will give to details related to the topic and buttons to show there location and there website, the events button will bring you to a website with up and coming events in Galway, the About App button will bring you to the user guide and source code.
+7. About App
+
+The first 5 will give to details related to the topic and buttons to show there location and there website, the events button will bring you to a website with up and coming events in Galway, the About App button will bring you to the user guide and source code.
 
 #References:
 

@@ -97,9 +97,11 @@
     <Content Include="Assets\elec.jpg" />
     <Content Include="Assets\flannerys.jpg" />
     <Content Include="Assets\front.jpg" />
+    <Content Include="Assets\gaelic.jpg" />
     <Content Include="Assets\gtown.jpg" />
     <Content Include="Assets\halo.jpg" />
     <Content Include="Assets\harbour.jpg" />
+    <Content Include="Assets\hurling.jpg" />
     <Content Include="Assets\Irish.ttf" />
     <Content Include="Assets\jury.jpg" />
     <Content Include="Assets\karma.jpg" />
@@ -136,6 +138,9 @@
       <DependentUpon>Nightlife.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sports.xaml.cs">
+      <DependentUpon>Sports.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -162,10 +167,14 @@
     <Content Include="Assets\pucan.jpg" />
     <Content Include="Assets\pushpin.png" />
     <Content Include="Assets\quay.jpg" />
+    <Content Include="Assets\race.jpg" />
     <Content Include="Assets\rad.jpg" />
+    <Content Include="Assets\rede.jpg" />
     <Content Include="Assets\roisin.jpg" />
+    <Content Include="Assets\rugby.JPG" />
     <Content Include="Assets\salthill.jpg" />
     <Content Include="Assets\SaltHouse.jpg" />
+    <Content Include="Assets\soccer.jpg" />
     <Content Include="Assets\Sparch.jpg" />
     <Content Include="Assets\stnicholascollegiatechurch.jpg" />
     <Content Include="Assets\the-dough-bros.jpg" />
@@ -173,6 +182,7 @@
     <Content Include="Assets\the-g-hotel.jpg" />
     <Content Include="Assets\the-skeff.jpg" />
     <Content Include="Assets\travel.jpg" />
+    <Content Include="Assets\walls.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -208,6 +218,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Nightlife.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Sports.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

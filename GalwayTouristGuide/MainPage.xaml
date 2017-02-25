@@ -94,6 +94,18 @@
                                 <TextBlock Text="Nightlife" FontSize="24" Margin="20,0,0,0" />
                             </StackPanel>
                         </ListBoxItem>
+                        <ListBoxItem Name="SportsBoxItem">
+                            <StackPanel Orientation="Horizontal">
+                                <Button Name="SportsBtn" 
+                                        FontFamily="Assets/Irish.ttf#Irish" 
+                                        Content="&#x0023;" 
+                                        FontSize="26"
+                                        Height="40"
+                                        Width="40"
+                                        Click="SportsBtn_Click"></Button>
+                                <TextBlock Text="Sports" FontSize="24" Margin="20,0,0,0" />
+                            </StackPanel>
+                        </ListBoxItem>
                         <ListBoxItem Name="EventsListBoxItem">
                             <StackPanel Orientation="Horizontal">
                                 <Button Name="EventsBtn" 

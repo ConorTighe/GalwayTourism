@@ -1,0 +1,201 @@
+﻿<Page
+    x:Class="GalwayTouristGuide.Sports"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GalwayTouristGuide"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="Button" x:Key="LinkBtns">
+            <Setter Property="Background" Value="#B9314F"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+            <Setter Property="FontSize" Value="22"></Setter>
+            <Setter Property="Width" Value="225"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Place">
+            <Setter Property="FontSize" Value="36"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+            <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#3A4F41">
+
+        <ScrollViewer
+                Grid.Row="0" 
+                Height="600"
+                VerticalScrollBarVisibility="Auto"
+            >
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="connImg" Source="Assets\rugby.jpg" />
+                <TextBlock Name="connTitle"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Connacht rugby" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="connInfo" Content="Fixtures"
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="connInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button Name="connLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="connLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="connText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      FontSize="36"
+                      Text="Sport: Rugby " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+
+                <Image Name="fcImg" Source="Assets\soccer.jpg" />
+                <TextBlock Name="fcTitle"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Galway FC" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="fcInfo" Content="Fixtures"
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="fcInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button Name="fcLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="fcLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+
+                </StackPanel>
+                <TextBlock
+                      Name="fcText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      FontSize="36"
+                      Text="Sport: Soccer " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="gaelicImg" Source="Assets\gaelic.jpg" />
+                <TextBlock Name="gaelicTitle"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Galway's Gaelic team" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="gaelicInfo" Content="Fixtures"
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="gaelicInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button Name="galicLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="gaelicLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+                </StackPanel>
+                <TextBlock
+                      Name="gaelicText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      FontSize="36"
+                      Text="Sport: Gaelic" />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="hurlingImg" Source="Assets\hurling.jpg" />
+                <TextBlock Name="hurlingTitle"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Galway's Hurling team" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="hurlingInfo" Content="Fixtures"
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="hurlingInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button Name="hurlingLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="hurlingLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+                </StackPanel>
+                <TextBlock
+                      Name="hurlingText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      FontSize="36"
+                      Text="Sport: Hurling " />
+
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image Name="raceImg" Source="Assets\race.jpg" />
+                <TextBlock Name="raceitle"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Horse Racing" />
+                <StackPanel Orientation="Horizontal">
+                    <Button Name="raceInfo" Content="Fixtures"
+                    FontSize="22" 
+                    Height="50"
+                    Style="{StaticResource LinkBtns}"
+                    Click="raceInfo_Click"
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button Name="raceLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Click="raceLoc_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
+                </StackPanel>
+                <TextBlock
+                      Name="raceText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      FontSize="36"
+                      Text="Sport: Horse Racing " />
+
+
+
+            </StackPanel>
+        </ScrollViewer>
+        <Frame Name="MyFrame">
+
+        </Frame>
+    </Grid>
+</Page>

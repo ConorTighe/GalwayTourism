@@ -140,5 +140,6 @@
     </RootType>
     <RootType FullName="GalwayTouristGuide.MapView" />
     <RootType FullName="GalwayTouristGuide.Nightlife" />
+    <RootType FullName="GalwayTouristGuide.Sports" />
   </Roots.RootTypes>
 </Roots>

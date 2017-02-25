@@ -54,7 +54,7 @@
                            HorizontalAlignment="Center"
                            Text="Spanish Arch" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='37' Name="SparchInfo" Content="More Info"
+                    <Button x:ConnectionId='47' Name="SparchInfo" Content="More Info"
                     FontSize="22" 
                     Height="50"
                     Style="{StaticResource LinkBtns}"
@@ -62,7 +62,7 @@
                     HorizontalAlignment="Center"
                    ></Button>
                     
-                    <Button x:ConnectionId='38' Name="SparchLoc" Content="Location" 
+                    <Button x:ConnectionId='48' Name="SparchLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -85,7 +85,7 @@
                            HorizontalAlignment="Center"
                            Text="Galway City Museum" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='35' Name="MuseumInfo" Content="More Info" 
+                    <Button x:ConnectionId='45' Name="MuseumInfo" Content="More Info" 
                                             
                     FontSize="22" 
                     Height="50"
@@ -93,7 +93,7 @@
                     HorizontalAlignment="Center"
                     ></Button>
 
-                    <Button x:ConnectionId='36' Name="MuseumLoc" Content="Location" 
+                    <Button x:ConnectionId='46' Name="MuseumLoc" Content="Location" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -114,14 +114,14 @@
                            HorizontalAlignment="Center"
                            Text="St.Nicholas church" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='33' Name="ChruchInfo" Content="More Info" 
+                    <Button x:ConnectionId='43' Name="ChruchInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                                             
                     FontSize="22" 
                     Height="50" 
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='34' Name="ChurchLoc" Content="Location" 
+                    <Button x:ConnectionId='44' Name="ChurchLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
                     Height="50" 
@@ -135,7 +135,6 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="0,10,0,0"
-                      FontFamily="Sitka Small"
                       Text="Large, 14th-century Anglican Episcopal church visited by Oliver Cromwell and Christopher Columbus. " />
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
                 <Image x:ConnectionId='13' Name="EyreSquareImg" Source="Assets\eyre.jpg" />
@@ -145,7 +144,7 @@
                            HorizontalAlignment="Center"
                            Text="Eyre Square" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='31' Name="EyreInfo" Content="More Info" 
+                    <Button x:ConnectionId='41' Name="EyreInfo" Content="More Info" 
                     Style="{StaticResource LinkBtns}"
                     FontSize="22" 
                     Height="50" 
@@ -153,7 +152,7 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='32' Name="EyreLoc" Content="Location" 
+                    <Button x:ConnectionId='42' Name="EyreLoc" Content="Location" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -174,7 +173,7 @@
                            HorizontalAlignment="Center"
                            Text="Dunguaire Castle" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='29' Name="DunguaireInfo" Content="More Info" 
+                    <Button x:ConnectionId='39' Name="DunguaireInfo" Content="More Info" 
                     FontSize="22" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -182,7 +181,7 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='30' Name="DunguaireLoc" Content="Location" 
+                    <Button x:ConnectionId='40' Name="DunguaireLoc" Content="Location" 
                     FontSize="22" 
                     Height="50" 
                     HorizontalAlignment="Center"
@@ -203,14 +202,14 @@
                            HorizontalAlignment="Center"
                            Text="St Nicholas Cathedral" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='27' Name="CathedraInfo" Content="More Info" 
+                    <Button x:ConnectionId='37' Name="CathedraInfo" Content="More Info" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
                                               
                     HorizontalAlignment="Center"
                    ></Button>
-                    <Button x:ConnectionId='28' Name="CathedraLoc" Content="Location" 
+                    <Button x:ConnectionId='38' Name="CathedraLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -231,7 +230,7 @@
                            HorizontalAlignment="Center"
                            Text="James Mitchell Museum" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='25' Name="JamesMitchellInfo" Content="More Info"  
+                    <Button x:ConnectionId='35' Name="JamesMitchellInfo" Content="More Info"  
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -239,7 +238,7 @@
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='26' Name="JamesMitchellLoc" Content="Location" 
+                    <Button x:ConnectionId='36' Name="JamesMitchellLoc" Content="Location" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -253,8 +252,65 @@
                       HorizontalAlignment="Center"
                       Text="James Mitchell Museum is a geological museum based in NUI Galway, the only remnant of the university's defunct Natural History Museum. " />
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image x:ConnectionId='25' Name="wallsImg" Source="Assets\walls.jpg" />
+                <TextBlock x:ConnectionId='26' Name="walls"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Medieval city walls" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='33' Name="wallsInfo" Content="More Info"  
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                                           
+                    HorizontalAlignment="Center"
+                   ></Button>
 
+                    <Button x:ConnectionId='34' Name="wallsLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                                          
+                    HorizontalAlignment="Center"
+                    ></Button>
+                </StackPanel>
+                <TextBlock x:ConnectionId='27'
+                      Name="wallsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Full of life and with a seemingly constant festival atmosphere, the medieval city centre of Galway is a place that demands to be visited. Today, the Galway is known as a cultural capital. However, originally it was merely a small fishing village located where the Corrib River met the bay. In 1232, with the Anglo Norman conquest it became a walled town. Some sections of the walls can still be seen today such as one of the icons of the city, the Spanish Arch.  " />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
 
+                <Image x:ConnectionId='28' Name="redImg" Source="Assets\rede.jpg" />
+                <TextBlock x:ConnectionId='29' Name="redearl"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Hall of the Red Earl" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='31' Name="redInfo" Content="More Info"  
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                                         
+                    HorizontalAlignment="Center"
+                   ></Button>
+
+                    <Button x:ConnectionId='32' Name="redLoc" Content="Location" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                                        
+                    HorizontalAlignment="Center"
+                    ></Button>
+                </StackPanel>
+                <TextBlock x:ConnectionId='30'
+                      Name="redText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Text="Back in the 13th century when the de Burgo family ran things in Galway, Richard – the Red Earl – erected a large hall as a seat of power. Locals would arrive to curry favour or to grovel as a sign of future fealty. After the 14 tribes took over, the hall fell into ruin, lost until 1997 when expansion of the city's Custom House uncovered its foundations. The Custom House was built on stilts overhead, leaving the old foundations open. " />
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
             </StackPanel>
         </ScrollViewer>
         <Frame x:ConnectionId='1' Name="MyFrame">

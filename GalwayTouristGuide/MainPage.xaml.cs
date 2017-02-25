@@ -76,5 +76,10 @@ namespace GalwayTouristGuide
         {
             await Windows.System.Launcher.LaunchUriAsync(new Uri("https://github.com/ConorTighe1995/GalwayTourism"));
         }
+
+        private void SportsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(typeof(Sports));
+        }
     }
 }

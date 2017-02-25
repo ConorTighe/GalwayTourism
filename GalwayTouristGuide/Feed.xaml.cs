@@ -112,5 +112,30 @@ namespace GalwayTouristGuide
             Geopoint cityCenter = new Geopoint(cityPosition);
             MyFrame.Navigate(typeof(MapView), cityCenter);
         }
+
+        private async void wallsInfo_Click(object sender, RoutedEventArgs e)
+        {
+
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.eyresquarecentre.com/galways-medieval-walls/"));
+        }
+
+        private void wallsLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2731, Longitude = -9.0498 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void redInfo_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri("http://www.discoverireland.ie/Arts-Culture-Heritage/hall-of-the-red-earl/92102"));
+        }
+
+        private void redLoc_Click(object sender, RoutedEventArgs e)
+        {
+            BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2710, Longitude = -9.0536 };
+            Geopoint cityCenter = new Geopoint(cityPosition);
+            MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
     }
 }
