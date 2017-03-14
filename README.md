@@ -18,9 +18,11 @@ Once open you are given a brief history of galway with a navigation menu to the 
 
 6. Events
 
-7. About App
+7. Last Seen
 
-The first 5 will give to details related to the topic and buttons to show there location and there website, the events button will bring you to a website with up and coming events in Galway, the About App button will bring you to the user guide and source code.
+8. About App
+
+The first 5 will give to details related to the topic and buttons to show there location and there website, the events button will bring you to a website with up and coming events in Galway, The Last Seen tab shows you the last landmark you've visited and the About App button will bring you to the user guide and source code.
 
 #References:
 

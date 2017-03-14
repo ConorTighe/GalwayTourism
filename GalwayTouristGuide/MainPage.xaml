@@ -130,7 +130,7 @@
                                         Width="40"
                                         Click="Todobtn_Click"
                                         ></Button>
-                                <TextBlock Text="Visit next" FontSize="24" Margin="20,0,0,0" />
+                                <TextBlock Text="Last Seen" FontSize="24" Margin="20,0,0,0" />
                             </StackPanel>
                         </ListBoxItem>
                         <ListBoxItem Name="GithubListBoxItem">
