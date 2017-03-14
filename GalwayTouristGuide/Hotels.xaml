@@ -27,6 +27,10 @@
             <Setter Property="Foreground" Value="#000066"></Setter>
             <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
         </Style>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+        </Style>
     </Page.Resources>
 
     <Grid Background="#3A4F41">
@@ -48,6 +52,7 @@
                 <TextBlock Name="radBio"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
                            TextWrapping="Wrap"
                            Text="This stylish waterfront hotel, set on the Lough Atalia, lies 230 m from the Galway railway station and a 5-minute walk from Eyre Square. Offering free Wi-Fi, the sophisticated rooms also have flat-screens with premium channels, minibars and 24/7 room service. 
                            
@@ -68,11 +73,13 @@
                       Name="RadDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="WiFi - Free    Phone - (091) 538 300 " />
                 <TextBlock
                       Name="RadDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
                 <HyperlinkButton Name="RadExpedia" Click="RadExpedia_Click" Content="Expedia.com" Style="{StaticResource Sites}"></HyperlinkButton>
@@ -90,6 +97,7 @@
                 <TextBlock Name="HarbourBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
+                           Style="{StaticResource Desc}"
                            HorizontalAlignment="Center"
                            Text="This upscale waterfront hotel is a 7-minute walk from Eyre Square and a kilometer from Saint Nicholas Collegiate Church. 
 The modern rooms come with free WiFi, desks, flat-screen TVs, pillow-top mattresses, and tea and coffeemaking facilities. Upgrades add free bottled water and snacks. Room service is available." />
@@ -109,11 +117,13 @@ The modern rooms come with free WiFi, desks, flat-screen TVs, pillow-top mattres
                       Name="HarbourDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="WiFi - Free    Phone - (091) 894 800 " />
                 <TextBlock
                       Name="HarbourDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
                 <HyperlinkButton Name="HarbourSite" Click="Harbour_Click" Content="harbour.ie" Style="{StaticResource Sites}"></HyperlinkButton>
@@ -130,6 +140,7 @@ The modern rooms come with free WiFi, desks, flat-screen TVs, pillow-top mattres
                 <TextBlock Name="TheGBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
+                           Style="{StaticResource Desc}"
                            HorizontalAlignment="Center"
                            Text="This ultra-chic hotel in a contemporary building is a 6-minute drive from Eyre Square and a 9-minute drive from the National University of Ireland. 
 
@@ -149,12 +160,14 @@ Posh rooms featuring modern, bespoke decor and furnishings include minifridges a
                 <TextBlock
                       Name="TheGDetails"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 865 200 " />
                 <TextBlock
                       Name="TheGDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Exclusive Deal: " />
                 <HyperlinkButton Name="TheGSite" Click="TheGSite_Click" Content="Booking.ie" FontSize="22" HorizontalAlignment="Center" Style="{StaticResource Sites}"></HyperlinkButton>
@@ -168,6 +181,7 @@ Posh rooms featuring modern, bespoke decor and furnishings include minifridges a
                 <TextBlock Name="FlanBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
+                           Style="{StaticResource Desc}"
                            HorizontalAlignment="Center"
                            Text="This casual hotel is 2.9 miles from Eyre Square and 7.2 km from Galway Airport. 
 Traditional rooms feature free Wi-Fi, desks, cable TV, and tea and coffeemaking facilities; some have views of Galway Bay. Room service is offered." />
@@ -186,11 +200,13 @@ Traditional rooms feature free Wi-Fi, desks, cable TV, and tea and coffeemaking 
                       Name="FlanDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="WiFi - Free    Phone - (091) 755 111 " />
                 <TextBlock
                       Name="FlanDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
                 <HyperlinkButton Name="FlanBooking" Click="FlanBooking_Click" Content="Booking.ie" Style="{StaticResource Sites}"></HyperlinkButton>
@@ -206,6 +222,7 @@ Traditional rooms feature free Wi-Fi, desks, cable TV, and tea and coffeemaking 
                 <TextBlock Name="ConnBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
+                           Style="{StaticResource Desc}"
                            HorizontalAlignment="Center"
                            Text="This ultra-chic hotel in a contemporary building is a 6-minute drive from Eyre Square and a 9-minute drive from the National University of Ireland. 
 
@@ -225,11 +242,13 @@ Posh rooms featuring modern, bespoke decor and furnishings include minifridges a
                       Name="connDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="WiFi - Free    Phone - (091) 381 200 " />
                 <TextBlock
                       Name="connDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
                 <HyperlinkButton Name="connBooking" Click="connBooking_Click" Content="Booking.ie" Style="{StaticResource Sites}"></HyperlinkButton>
@@ -246,6 +265,7 @@ Posh rooms featuring modern, bespoke decor and furnishings include minifridges a
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
                            Text="This informal hotel overlooking the River Corrib is 3 minutes' walk from the 16th-century Spanish Arch, 4 minutes' walk from shopping and nightlife on Shop Street, and 11 minutes' walk from Galway railway station.
 
 The unfussy rooms provide complimentary Wi-Fi and flat-screen TVs, as well as tea and coffeemaking facilities. Some add sofabeds and/or river views. Room service is available." />
@@ -265,11 +285,13 @@ The unfussy rooms provide complimentary Wi-Fi and flat-screen TVs, as well as te
                       Name="JuryDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="WiFi - Free    Phone - (091) 566 444 " />
                 <TextBlock
                       Name="JuryDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
                 <HyperlinkButton Name="JuryBooking" Click="JuryBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
@@ -285,6 +307,7 @@ The unfussy rooms provide complimentary Wi-Fi and flat-screen TVs, as well as te
                 <TextBlock Name="SalthillBio"
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
+                           Style="{StaticResource Desc}"
                            HorizontalAlignment="Center"
                            Text="On the oceanfront promenade, this modern, upscale hotel overlooking Galway Bay is 4 km from Eyre Square and 3 km from Galway City Museum. 
 
@@ -304,11 +327,13 @@ Bright, contemporary rooms come with free Wi-Fi, desks, flat-screen TVs, and tea
                       Name="SalthillDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="WiFi - Free    Phone - (091) 566 444 " />
                 <TextBlock
                       Name="SalthillDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
                 <HyperlinkButton Name="SaltBooking" Click="SaltBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
@@ -325,6 +350,7 @@ Bright, contemporary rooms come with free Wi-Fi, desks, flat-screen TVs, and tea
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
                            Text="On Galway's Salthill promenade, this traditional seafront hotel is 0.8 km from the National Aquarium of Ireland. 
 
 The classic rooms offer free Wi-Fi, 24-hr room service, and tea and coffeemaking facilities; suites add Galway Bay views and complimentary wine, fruit, bottled water and homemade treats." />
@@ -343,12 +369,14 @@ The classic rooms offer free Wi-Fi, 24-hr room service, and tea and coffeemaking
                 <TextBlock
                       Name="BayDetails"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="WiFi - Free    Phone - (091) 566 444 " />
                 <TextBlock
                       Name="BayDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
                 <HyperlinkButton Name="BayBooking" Click="BayBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
@@ -365,6 +393,7 @@ The classic rooms offer free Wi-Fi, 24-hr room service, and tea and coffeemaking
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
                            Text="This upscale hotel in a grand Victorian-style stone building with a columned entrance is a 2-minute walk from Eyre Square and an 11-minute walk from Galway City Museum. 
 
 Classic rooms and suites featuring natural wood furnishings and traditional decor include cable TV, tea and coffeemaking equipment, and complimentary Wi-Fi. Upgraded rooms add sitting areas, DVD players and free chocolates." />
@@ -386,11 +415,13 @@ Classic rooms and suites featuring natural wood furnishings and traditional deco
                       Name="ParkDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="WiFi - Free    Phone - (091) 564 924 " />
                 <TextBlock
                       Name="ParkDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
                 <HyperlinkButton Name="ParkBooking" Click="ParkBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
@@ -407,6 +438,7 @@ Classic rooms and suites featuring natural wood furnishings and traditional deco
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
                            Text="This modern, upscale hotel is 3.8 km from Galway Airport and 5.0 km from Eyre Square. 
 
 The airy rooms and suites have free Wi-Fi, desks, flat-screen TVs, and tea and coffeemaking facilities. They also include pillow-top mattresses, as well as bathrooms with rainfall showerheads and heated floors. Upgraded rooms can add private balconies and Bose sound systems. Room service is available." />
@@ -425,11 +457,13 @@ The airy rooms and suites have free Wi-Fi, desks, flat-screen TVs, and tea and c
                       Name="ClayDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="WiFi - Free    Phone - (091) 721 900 " />
                 <TextBlock
                       Name="ClayDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
                 <HyperlinkButton Name="ClayBooking" Click="ClayBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>
@@ -446,6 +480,7 @@ The airy rooms and suites have free Wi-Fi, desks, flat-screen TVs, and tea and c
                            Margin="0,10,0,0"
                            TextWrapping="Wrap"
                            HorizontalAlignment="Center"
+                           Style="{StaticResource Desc}"
                            Text="This budget hotel, set in the city center, is a 2-minute walk from the closest bus stop on Tuam Road. It's also 0.8 miles from Eyre Square and 1.4 miles from Galway City Museum. 
 
 The simple rooms include custom-designed beds, desks, flat-screen TVs and WiFi (fee), as well as tea and coffeemaking facilities. Family rooms add sofabeds." />
@@ -465,11 +500,13 @@ The simple rooms include custom-designed beds, desks, flat-screen TVs and WiFi (
                       Name="travelDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="WiFi - Free    Phone - (091) 781 400 " />
                 <TextBlock
                       Name="travelDeals"
                       TextWrapping="Wrap" 
                       FontSize="24"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Room Deals: " />
                 <HyperlinkButton Name="travelBooking" Click="travelBooking_Click" Content="Booking.com" Style="{StaticResource Sites}"></HyperlinkButton>

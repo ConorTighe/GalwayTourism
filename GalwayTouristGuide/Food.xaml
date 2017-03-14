@@ -21,6 +21,10 @@
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
         </Style>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+        </Style>
     </Page.Resources>
 
     <Grid Background="#3A4F41">
@@ -49,13 +53,15 @@
                     <TextBlock
                       Name="SkeffMealsText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
                       Text="Meals Avalible: Brunch, Breakfast, Drinks " />
                     <Rectangle Name="Skeffbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="SkeffMealsText" />
                     <TextBlock
                       Name="SkeffPhoneText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
                       RelativePanel.Below="Skeffbreak1"
@@ -64,6 +70,7 @@
                       Name="SkeffTypeText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Margin="50,25,0,0"
                       RelativePanel.RightOf="SkeffPhoneText"
                       Text="Type: Irish Pub " />
@@ -72,6 +79,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="SkeffPhoneText"
                       Text="Features:  Delivery, Takeout, Seating, Wheelchair Accessible, Serves Alcohol, Accepts Mastercard, Accepts Visa, Free Wifi " />
                     <Rectangle Name="Skeffbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="SkeffFeaturesText" />
@@ -79,6 +87,7 @@
                       Name="SkeffOpeningHours"
                       TextWrapping="Wrap" 
                       FontWeight="Bold"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
                       RelativePanel.Below="Skeffbreak2"
@@ -87,6 +96,7 @@
                       Name="SkeffSatText"
                       TextWrapping="Wrap"
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SkeffOpeningHours"
@@ -95,6 +105,7 @@
                       Name="SkeffSunText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SkeffSatText"
@@ -103,6 +114,7 @@
                       Name="SkeffMonText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SkeffSunText"
@@ -111,6 +123,7 @@
                       Name="SkeffTueText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SkeffMonText"
@@ -121,12 +134,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="SkeffTueText"
                       Text="Wednesday	8a.m.–2a.m." />
                     <TextBlock
                       Name="SkeffThurText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SkeffWedText"
@@ -135,6 +150,7 @@
                       Name="SkeffFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SkeffThurText"
@@ -165,6 +181,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
                       Text="Meals Avalible: Brunch, Lunch, Dinner " />
                     <Rectangle Name="Chillibreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="ChilliMealsText" />
                     <TextBlock
@@ -172,6 +189,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="Chillibreak1"
                       Text="Phone: (083) 810 8892 " />
                     <TextBlock
@@ -179,11 +197,13 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.RightOf="ChilliPhoneText"
                       Text="Type: Wing House " />
                     <TextBlock
                       Name="ChilliFeaturesText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
                       RelativePanel.Below="ChilliPhoneText"
@@ -193,6 +213,7 @@
                       Name="ChilliOpeningHours"
                       TextWrapping="Wrap" 
                       FontWeight="Bold"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
                       RelativePanel.Below="Chillibreak2"
@@ -201,6 +222,7 @@
                       Name="ChilliSatText"
                       TextWrapping="Wrap"
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="ChilliOpeningHours"
@@ -209,6 +231,7 @@
                       Name="ChilliSunText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="ChilliSatText"
@@ -219,6 +242,7 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="ChilliSunText"
                       Text="Monday	12a.m. - 9p.m." />
                     <TextBlock
@@ -227,12 +251,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="ChilliMonText"
                       Text="Tuesday	12a.m. - 9p.m." />
                     <TextBlock
                       Name="ChilliWedText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="ChilliTueText"
@@ -243,12 +269,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="ChilliWedText"
                       Text="Thursday	8a.m.–2a.m." />
                     <TextBlock
                       Name="ChilliFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="ChilliThurText"
@@ -277,6 +305,7 @@
                     <TextBlock
                       Name="DoughMealsText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
                       Text="Meals Avalible: Brunch, Lunch, Dinner, After-hours " />
@@ -286,6 +315,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="Doughbreak1"
                       Text="Phone: (087) 176 1662" />
                     <TextBlock
@@ -293,6 +323,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.RightOf="DoughPhoneText"
                       Text="Type: Pizza Place " />
                     <TextBlock
@@ -300,6 +331,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="DoughPhoneText"
                       Text="Features:  Takeout, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Free Wifi " />
                     <Rectangle Name="Doughbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="DoughFeaturesText" />
@@ -307,6 +339,7 @@
                       Name="DoughOpeningHours"
                       TextWrapping="Wrap" 
                       FontWeight="Bold"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
                       RelativePanel.Below="Doughbreak2"
@@ -317,12 +350,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="DoughOpeningHours"
                       Text="Saturday	12a.m. - 10p.m." />
                     <TextBlock
                       Name="DoughSunText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="DoughSatText"
@@ -333,12 +368,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="DoughSunText"
                       Text="Monday	12a.m. - 10p.m." />
                     <TextBlock
                       Name="DoughTueText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="DoughMonText"
@@ -347,6 +384,7 @@
                       Name="DoughWedText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="DoughTueText"
@@ -357,12 +395,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="DoughWedText"
                       Text="Thursday	12a.m. - 10p.m." />
                     <TextBlock
                       Name="DoughFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="DoughThurText"
@@ -393,11 +433,13 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
                       Text="Meals Avalible: Brunch, Lunch, Dinner" />
                     <Rectangle Name="Quaybreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="QuayMealsText" />
                     <TextBlock
                       Name="QuayPhoneText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
                       RelativePanel.Below="Quaybreak1"
@@ -407,6 +449,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.RightOf="QuayPhoneText"
                       Text="Type: Irish Pub " />
                     <TextBlock
@@ -414,6 +457,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="QuayPhoneText"
                       Text="Features:  Outdoor Seating, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Wine and Beer, Accepts Mastercard, Accepts Visa, Free Wifi " />
                     <Rectangle Name="Quaybreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="QuayFeaturesText" />
@@ -421,6 +465,7 @@
                       Name="QuayOpeningHours"
                       TextWrapping="Wrap" 
                       FontWeight="Bold"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
                       RelativePanel.Below="Quaybreak2"
@@ -429,6 +474,7 @@
                       Name="QuaySatText"
                       TextWrapping="Wrap"
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="QuayOpeningHours"
@@ -436,6 +482,7 @@
                     <TextBlock
                       Name="QuaySunText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
@@ -445,6 +492,7 @@
                       Name="QuayMonText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="QuaySunText"
@@ -452,6 +500,7 @@
                     <TextBlock
                       Name="QuayTueText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
@@ -461,6 +510,7 @@
                       Name="QuayWedText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="QuayTueText"
@@ -469,6 +519,7 @@
                       Name="QuayThurText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="QuayWedText"
@@ -477,6 +528,7 @@
                       Name="QuayFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="QuayThurText"
@@ -504,7 +556,8 @@
                 <RelativePanel>
                     <TextBlock
                       Name="McDonaghsMealsText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
                       Text="Meals Avalible: Irish, Fast food, British, Soups, Seafood" />
@@ -512,6 +565,7 @@
                     <TextBlock
                       Name="McDonaghsPhoneText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
                       RelativePanel.Below="McDonaghsbreak1"
@@ -521,11 +575,13 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.RightOf="McDonaghsPhoneText"
                       Text="Type: Seafood " />
                     <TextBlock
                       Name="McDonaghsFeaturesText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
                       RelativePanel.Below="McDonaghsPhoneText"
@@ -534,6 +590,7 @@
                     <TextBlock
                       Name="McDonaghsOpeningHours"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       FontWeight="Bold"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
@@ -542,6 +599,7 @@
                     <TextBlock
                       Name="McDonaghsSatText"
                       TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
@@ -549,7 +607,8 @@
                       Text="Saturday	2:00.pm - 11:00pm." />
                     <TextBlock
                       Name="McDonaghsSunText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
@@ -559,6 +618,7 @@
                       Name="McDonaghsMonText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="McDonaghsSunText"
@@ -567,6 +627,7 @@
                       Name="McDonaghsTueText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="McDonaghsMonText"
@@ -575,6 +636,7 @@
                       Name="McDonaghsWedText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="McDonaghsTueText"
@@ -585,12 +647,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="McDonaghsWedText"
                       Text="Thursday	12:00.am - 11:00.pm." />
                     <TextBlock
                       Name="McDonaghsFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="McDonaghsThurText"
@@ -621,11 +685,13 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
                       Text="Meals Avalible: Lunch, Dinner, After-hours, Brunch" />
                     <Rectangle Name="McGettiganbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="McGettiganMealsText" />
                     <TextBlock
                       Name="McGettiganPhoneText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
                       RelativePanel.Below="McGettiganbreak1"
@@ -635,6 +701,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.RightOf="McGettiganPhoneText"
                       Text="Type: Sports Bar " />
                     <TextBlock
@@ -642,6 +709,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="McGettiganPhoneText"
                       Text="Features:  Outdoor Seating, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Wine and Beer, Accepts Mastercard, Accepts Visa, Free Wifi " />
                     <Rectangle Name="McGettiganbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="McGettiganFeaturesText" />
@@ -649,6 +717,7 @@
                       Name="McGettiganOpeningHours"
                       TextWrapping="Wrap" 
                       FontWeight="Bold"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
                       RelativePanel.Below="McGettiganbreak2"
@@ -657,6 +726,7 @@
                       Name="McGettiganSatText"
                       TextWrapping="Wrap"
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="McGettiganOpeningHours"
@@ -665,6 +735,7 @@
                       Name="McGettiganSunText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="McGettiganSatText"
@@ -675,6 +746,7 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="McGettiganSunText"
                       Text="Monday	11:00.am - 11:30.pm." />
                     <TextBlock
@@ -683,12 +755,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="McGettiganMonText"
                       Text="Tuesday	11:00.am - 11:30.pm." />
                     <TextBlock
                       Name="McGettiganWedText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="McGettiganTueText"
@@ -697,6 +771,7 @@
                       Name="McGettiganThurText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="McGettiganWedText"
@@ -705,6 +780,7 @@
                       Name="McGettiganFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="McGettiganThurText"
@@ -736,11 +812,13 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
                       Text="Meals Avalible: Lunch, Dinner, After-hours, Brunch" />
                     <Rectangle Name="BuskerBrownesbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="BuskerBrownesMealsText" />
                     <TextBlock
                       Name="BuskerBrownesPhoneText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
                       RelativePanel.Below="BuskerBrownesbreak1"
@@ -750,11 +828,13 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.RightOf="BuskerBrownesPhoneText"
                       Text="Type: Irish Pub " />
                     <TextBlock
                       Name="BuskerBrownesFeaturesText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
                       RelativePanel.Below="BuskerBrownesPhoneText"
@@ -762,7 +842,8 @@
                     <Rectangle Name="BuskerBrownesbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="BuskerBrownesFeaturesText" />
                     <TextBlock
                       Name="BuskerBrownesOpeningHours"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       FontWeight="Bold"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
@@ -774,11 +855,13 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="BuskerBrownesOpeningHours"
                       Text="Saturday	10:00.am - 2:30am." />
                     <TextBlock
                       Name="BuskerBrownesSunText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
@@ -786,7 +869,8 @@
                       Text="Sunday	10:00.am - 11:30.pm." />
                     <TextBlock
                       Name="BuskerBrownesMonText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
@@ -796,13 +880,15 @@
                       Name="BuskerBrownesTueText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="BuskerBrownesMonText"
                       Text="Tuesday	10:00.am - 11:30.pm." />
                     <TextBlock
                       Name="BuskerBrownesWedText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
@@ -812,6 +898,7 @@
                       Name="BuskerBrownesThurText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="BuskerBrownesWedText"
@@ -822,6 +909,7 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="BuskerBrownesThurText"
                       Text="Friday	10:00.am - 2:30.pm." />
                 </RelativePanel>
@@ -850,18 +938,21 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
                       Text="Meals Avalible: Lunch, Dinner, Drinks" />
                     <Rectangle Name="Dailbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="DailMealsText" />
                     <TextBlock
                       Name="DailPhoneText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Margin="50,0,0,0"
                       RelativePanel.Below="Dailbreak1"
                       Text="Phone: (091) 563 777" />
                     <TextBlock
                       Name="DailTypeText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,25,0,0"
                       RelativePanel.RightOf="DailPhoneText"
@@ -869,6 +960,7 @@
                     <TextBlock
                       Name="DailFeaturesText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
                       RelativePanel.Below="DailPhoneText"
@@ -878,6 +970,7 @@
                       Name="DailOpeningHours"
                       TextWrapping="Wrap" 
                       FontWeight="Bold"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
                       RelativePanel.Below="Dailbreak2"
@@ -886,6 +979,7 @@
                       Name="DailSatText"
                       TextWrapping="Wrap"
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="DailOpeningHours"
@@ -894,6 +988,7 @@
                       Name="DailSunText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="DailSatText"
@@ -902,6 +997,7 @@
                       Name="DailMonText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="DailSunText"
@@ -910,13 +1006,15 @@
                       Name="DailTueText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="DailMonText"
                       Text="Tuesday	10:30am - 02:00pm" />
                     <TextBlock
                       Name="DailWedText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
@@ -924,7 +1022,8 @@
                       Text="Wednesday	10:30am - 02:00pm" />
                     <TextBlock
                       Name="DailThurText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
@@ -934,6 +1033,7 @@
                       Name="DailFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="DailThurText"
@@ -964,6 +1064,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
                       Text="Meals Avalible: Drinks" />
                     <Rectangle Name="Saltbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="SaltMealsText" />
                     <TextBlock
@@ -971,6 +1072,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="Saltbreak1"
                       Text="Phone: (091) 441 550" />
                     <TextBlock
@@ -978,11 +1080,13 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.RightOf="SaltPhoneText"
                       Text="Type: Irish Pub " />
                     <TextBlock
                       Name="SaltFeaturesText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
                       RelativePanel.Below="SaltPhoneText"
@@ -994,12 +1098,14 @@
                       FontWeight="Bold"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="Saltbreak2"
                       Text="Opening Hours:" />
                     <TextBlock
                       Name="SaltSatText"
                       TextWrapping="Wrap"
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SaltOpeningHours"
@@ -1008,6 +1114,7 @@
                       Name="SaltSunText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SaltSatText"
@@ -1018,6 +1125,7 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="SaltSunText"
                       Text="Monday	10:00.am - 2:00am." />
                     <TextBlock
@@ -1026,12 +1134,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="SaltMonText"
                       Text="Tuesday	10:00.am - 2:00am." />
                     <TextBlock
                       Name="SaltWedText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SaltTueText"
@@ -1040,6 +1150,7 @@
                       Name="SaltThurText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SaltWedText"
@@ -1048,6 +1159,7 @@
                       Name="SaltFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="SaltThurText"
@@ -1078,6 +1190,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
                       Text="Meals Avalible: Brunch, Lunch, Dinner, After-hours, Drinks" />
                     <Rectangle Name="Kingsbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="KingsMealsText" />
                     <TextBlock
@@ -1085,12 +1198,14 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="Kingsbreak1"
                       Text="Phone: (091) 566 630" />
                     <TextBlock
                       Name="KingsTypeText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Margin="50,25,0,0"
                       RelativePanel.RightOf="KingsPhoneText"
                       Text="Type: Irish Pub " />
@@ -1098,6 +1213,7 @@
                       Name="KingsFeaturesText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Margin="20,25,0,0"
                       RelativePanel.Below="KingsPhoneText"
                       Text="Features:   Reservations, Seating, Waitstaff, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Free Wifi " />
@@ -1106,6 +1222,7 @@
                       Name="KingsOpeningHours"
                       TextWrapping="Wrap" 
                       FontWeight="Bold"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
                       RelativePanel.Below="Kingsbreak2"
@@ -1114,6 +1231,7 @@
                       Name="KingsSatText"
                       TextWrapping="Wrap"
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="KingsOpeningHours"
@@ -1122,6 +1240,7 @@
                       Name="KingsSunText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="KingsSatText"
@@ -1130,6 +1249,7 @@
                       Name="KingsMonText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="KingsSunText"
@@ -1138,6 +1258,7 @@
                       Name="KingsTueText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="KingsMonText"
@@ -1146,6 +1267,7 @@
                       Name="KingsWedText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="KingsTueText"
@@ -1154,6 +1276,7 @@
                       Name="KingsThurText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="KingsWedText"
@@ -1162,6 +1285,7 @@
                       Name="KingsFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="KingsThurText"
@@ -1191,19 +1315,22 @@
                       Name="OscarsMealsText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
                       Text="Meals Avalible: Dinner, After-hours" />
                     <Rectangle Name="Oscarsbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="OscarsMealsText" />
                     <TextBlock
                       Name="OscarsPhoneText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
                       RelativePanel.Below="Oscarsbreak1"
                       Text="Phone: (091) 582 180" />
                     <TextBlock
                       Name="OscarsTypeText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,25,0,0"
                       RelativePanel.RightOf="OscarsPhoneText"
@@ -1212,6 +1339,7 @@
                       Name="OscarsFeaturesText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Margin="20,25,0,0"
                       RelativePanel.Below="OscarsPhoneText"
                       Text="Features:   Reservations, Seating, Waitstaff, Wheelchair Accessible, Serves Alcohol, Full Bar " />
@@ -1222,6 +1350,7 @@
                       FontWeight="Bold"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="Oscarsbreak2"
                       Text="Opening Hours:" />
                     <TextBlock
@@ -1230,12 +1359,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="OscarsOpeningHours"
                       Text="Saturday	11:30.am - 12:00pm." />
                     <TextBlock
                       Name="OscarsSunText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="OscarsSatText"
@@ -1246,12 +1377,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="OscarsSunText"
                       Text="Monday	10:30.am - 11:30am." />
                     <TextBlock
                       Name="OscarsTueText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="OscarsMonText"
@@ -1262,12 +1395,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="OscarsTueText"
                       Text="Wednesday	10:30.am - 11:30am." />
                     <TextBlock
                       Name="OscarsThurText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="OscarsWedText"
@@ -1276,6 +1411,7 @@
                       Name="OscarsFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="OscarsThurText"
@@ -1305,12 +1441,14 @@
                       Name="FrontMealsText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
                       Text="Meals Avalible: Dinner, After-hours" />
                     <Rectangle Name="Frontbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="FrontMealsText" />
                     <TextBlock
                       Name="FrontPhoneText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
                       RelativePanel.Below="Frontbreak1"
@@ -1319,6 +1457,7 @@
                       Name="FrontTypeText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Margin="50,25,0,0"
                       RelativePanel.RightOf="FrontPhoneText"
                       Text="Type: Irish Pub " />
@@ -1327,6 +1466,7 @@
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="FrontPhoneText"
                       Text="Features:   Reservations, Seating, Waitstaff, Wheelchair Accessible, Serves Alcohol, Full Bar " />
                     <Rectangle Name="Frontbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="FrontFeaturesText" />
@@ -1336,6 +1476,7 @@
                       FontWeight="Bold"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="Frontbreak2"
                       Text="Opening Hours:" />
                     <TextBlock
@@ -1343,6 +1484,7 @@
                       TextWrapping="Wrap"
                       FontWeight="Light"
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Margin="50,5,0,0"
                       RelativePanel.Below="FrontOpeningHours"
                       Text="Saturday	11:30.am - 2:00am" />
@@ -1352,12 +1494,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="FrontSatText"
                       Text="Sunday	11:30.am - 2:00am" />
                     <TextBlock
                       Name="FrontMonText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="FrontSunText"
@@ -1368,6 +1512,7 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="FrontMonText"
                       Text="Tuesday	11:30.am - 2:00am" />
                     <TextBlock
@@ -1376,6 +1521,7 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="FrontTueText"
                       Text="Wednesday	11:30.am - 2:00am" />
                     <TextBlock
@@ -1384,12 +1530,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="FrontWedText"
                       Text="Thursday	11:30.am - 2:00am" />
                     <TextBlock
                       Name="FrontFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="FrontThurText"
@@ -1419,26 +1567,30 @@
                       Name="BiteMealsText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       RelativePanel.AlignHorizontalCenterWithPanel="True"
                       Text="Meals Avalible: Breakfast, Lunch, Dinner, Brunch, After-hours, Drinks" />
                     <Rectangle Name="Bitebreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="BiteMealsText" />
                     <TextBlock
                       Name="BitePhoneText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,0,0,0"
                       RelativePanel.Below="Bitebreak1"
                       Text="Phone: (091) 565 976" />
                     <TextBlock
                       Name="BiteTypeText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,25,0,0"
                       RelativePanel.RightOf="BitePhoneText"
                       Text="Type: Irish Pub " />
                     <TextBlock
                       Name="BiteFeaturesText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="20,25,0,0"
                       RelativePanel.Below="BitePhoneText"
@@ -1447,6 +1599,7 @@
                     <TextBlock
                       Name="BiteOpeningHours"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       FontWeight="Bold"
                       HorizontalAlignment="Center"
                       Margin="50,20,0,0"
@@ -1458,12 +1611,14 @@
                       FontWeight="Light"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
                       RelativePanel.Below="BiteOpeningHours"
                       Text="Saturday	12:00.am - 10:00pm." />
                     <TextBlock
                       Name="BiteSunText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="BiteSatText"
@@ -1472,6 +1627,7 @@
                       Name="BiteMonText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="BiteSunText"
@@ -1480,6 +1636,7 @@
                       Name="BiteTueText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="BiteMonText"
@@ -1488,6 +1645,7 @@
                       Name="BiteWedText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="BiteTueText"
@@ -1496,6 +1654,7 @@
                       Name="BiteThurText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="BiteWedText"
@@ -1504,6 +1663,7 @@
                       Name="BiteFriText"
                       TextWrapping="Wrap" 
                       FontWeight="Light"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="50,5,0,0"
                       RelativePanel.Below="BiteThurText"

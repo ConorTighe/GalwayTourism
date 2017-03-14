@@ -6,6 +6,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Devices.Geolocation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -23,6 +24,8 @@ namespace GalwayTouristGuide
     /// </summary>
     public sealed partial class Feed : Page
     {
+        
+
         public Feed()
         {
             this.InitializeComponent();
@@ -136,6 +139,150 @@ namespace GalwayTouristGuide
             BasicGeoposition cityPosition = new BasicGeoposition() { Latitude = 53.2710, Longitude = -9.0536 };
             Geopoint cityCenter = new Geopoint(cityPosition);
             MyFrame.Navigate(typeof(MapView), cityCenter);
+        }
+
+        private async void SparchSave_Click(object sender, RoutedEventArgs e)
+        {
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFile sampleFile;
+
+            if (localFolder.GetFileAsync("Sites.txt") == null)
+            {
+                sampleFile = await localFolder.CreateFileAsync("Sites.txt");
+            }else
+            {
+                sampleFile = await localFolder.GetFileAsync("Sites.txt");
+                await FileIO.WriteTextAsync(sampleFile, "Spanish Arch\n");
+            }
+
+        }
+
+        private async void MuseumSave_Click(object sender, RoutedEventArgs e)
+        {
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFile sampleFile;
+
+            if (localFolder.GetFileAsync("Sites.txt") == null)
+            {
+                sampleFile = await localFolder.CreateFileAsync("Sites.txt");
+            }
+            else
+            {
+                sampleFile = await localFolder.GetFileAsync("Sites.txt");
+                await FileIO.WriteTextAsync(sampleFile, "Galway Museum\n");
+            }
+        }
+
+        private async void ChurchSave_Click(object sender, RoutedEventArgs e)
+        {
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFile sampleFile;
+
+            if (localFolder.GetFileAsync("Sites.txt") == null)
+            {
+                sampleFile = await localFolder.CreateFileAsync("Sites.txt\n");
+            }
+            else
+            {
+                sampleFile = await localFolder.GetFileAsync("Sites.txt");
+                await FileIO.WriteTextAsync(sampleFile, "St.Nicholas church\n");
+            }
+        }
+
+        private async void EyreSave_Click(object sender, RoutedEventArgs e)
+        {
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFile sampleFile;
+
+            if (localFolder.GetFileAsync("Sites.txt") == null)
+            {
+                sampleFile = await localFolder.CreateFileAsync("Sites.txt\n");
+            }
+            else
+            {
+                sampleFile = await localFolder.GetFileAsync("Sites.txt\n");
+                await FileIO.WriteTextAsync(sampleFile, "Eyre Square");
+            }
+        }
+
+        private async void DunSave_Click(object sender, RoutedEventArgs e)
+        {
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFile sampleFile;
+
+            if (localFolder.GetFileAsync("Sites.txt") == null)
+            {
+                sampleFile = await localFolder.CreateFileAsync("Sites.txt\n");
+            }
+            else
+            {
+                sampleFile = await localFolder.GetFileAsync("Sites.txt");
+                await FileIO.WriteTextAsync(sampleFile, "Dunguaire");
+            }
+        }
+
+        private async void CathedralSave_Click(object sender, RoutedEventArgs e)
+        {
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFile sampleFile;
+
+            if (localFolder.GetFileAsync("Sites.txt") == null)
+            {
+                sampleFile = await localFolder.CreateFileAsync("Sites.txt");
+            }
+            else
+            {
+                sampleFile = await localFolder.GetFileAsync("Sites.txt");
+                await FileIO.WriteTextAsync(sampleFile, "Cathedral\n");
+            }
+        }
+
+        private async void wallsSave_Click(object sender, RoutedEventArgs e)
+        {
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFile sampleFile;
+
+            if (localFolder.GetFileAsync("Sites.txt") == null)
+            {
+                sampleFile = await localFolder.CreateFileAsync("Sites.txt\n");
+            }
+            else
+            {
+                sampleFile = await localFolder.GetFileAsync("Sites.txt");
+                await FileIO.WriteTextAsync(sampleFile, "Medieval city walls\n");
+            }
+        }
+
+        private async void redSave_Click(object sender, RoutedEventArgs e)
+        {
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFile sampleFile;
+
+            if (localFolder.GetFileAsync("Sites.txt") == null)
+            {
+                sampleFile = await localFolder.CreateFileAsync("Sites.txt");
+            }
+            else
+            {
+                sampleFile = await localFolder.GetFileAsync("Sites.txt");
+                await FileIO.WriteTextAsync(sampleFile, "Hall of the Red Earl\n");
+            }
+        }
+
+        private async void JamesMitchellSave_Click(object sender, RoutedEventArgs e)
+        {
+            StorageFolder localFolder = ApplicationData.Current.LocalFolder;
+            StorageFile sampleFile;
+
+            if (localFolder.GetFileAsync("Sites.txt") == null)
+            {
+                sampleFile = await localFolder.CreateFileAsync("Sites.txt");
+            }
+            else
+            {
+                sampleFile = await localFolder.GetFileAsync("Sites.txt");
+                await FileIO.WriteTextAsync(sampleFile, "JamesMitchell");
+            }
         }
     }
 }

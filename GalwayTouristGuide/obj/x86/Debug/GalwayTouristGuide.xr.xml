@@ -15,8 +15,8 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Height" />
-      <RootProperty Name="FontFamily" />
       <RootProperty Name="Width" />
+      <RootProperty Name="FontFamily" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Control">
@@ -141,5 +141,6 @@
     <RootType FullName="GalwayTouristGuide.MapView" />
     <RootType FullName="GalwayTouristGuide.Nightlife" />
     <RootType FullName="GalwayTouristGuide.Sports" />
+    <RootType FullName="GalwayTouristGuide.Todo" />
   </Roots.RootTypes>
 </Roots>

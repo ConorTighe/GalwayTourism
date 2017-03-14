@@ -21,6 +21,10 @@
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
         </Style>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+        </Style>
     </Page.Resources>
 
     <Grid Background="#3A4F41">
@@ -40,16 +44,14 @@
                            HorizontalAlignment="Center"
                            Text="Connacht rugby" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='25' Name="connInfo" Content="Fixtures"
-                    FontSize="22" 
+                    <Button x:ConnectionId='30' Name="connInfo" Content="Fixtures"
                     Height="50"
                     Style="{StaticResource LinkBtns}"
                                           
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='26' Name="connLoc" Content="Location" 
-                    FontSize="22"
+                    <Button x:ConnectionId='31' Name="connLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
                                          
@@ -61,28 +63,33 @@
                       Name="connText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
-                      FontSize="36"
+                      Style="{StaticResource Place}"
                       Text="Sport: Rugby " />
-
+                <TextBlock x:ConnectionId='5'
+                      Name="connDesc"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Text="You beat the opposition by scoring more points. You do this mainly by scoring tries. You are awarded 5 points for each one.
+You get a try by grounding the ball in the opposition's ingoal area. Roughly speaking the in goal is the area marked out at each end behind the goal posts.
+You can also get points by kicking at the goals. It involves kicking the ball both between the uprights and over the cross bar in a number of clearly defined situations. " />
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
 
-                <Image x:ConnectionId='5' Name="fcImg" Source="Assets\soccer.jpg" />
-                <TextBlock x:ConnectionId='6' Name="fcTitle"
+                <Image x:ConnectionId='6' Name="fcImg" Source="Assets\soccer.jpg" />
+                <TextBlock x:ConnectionId='7' Name="fcTitle"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Galway FC" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='23' Name="fcInfo" Content="Fixtures"
-                    FontSize="22" 
+                    <Button x:ConnectionId='28' Name="fcInfo" Content="Fixtures"
                     Height="50"
                     Style="{StaticResource LinkBtns}"
                                         
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='24' Name="fcLoc" Content="Location" 
-                    FontSize="22"
+                    <Button x:ConnectionId='29' Name="fcLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
                                        
@@ -90,106 +97,123 @@
                     ></Button>
 
                 </StackPanel>
-                <TextBlock x:ConnectionId='7'
+                <TextBlock x:ConnectionId='8'
                       Name="fcText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
-                      FontSize="36"
+                      Style="{StaticResource Place}"
                       Text="Sport: Soccer " />
+                <TextBlock x:ConnectionId='9'
+                      Name="fcDesc"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Text="Soccer is a game played by two teams with 11 players each on a field with a goal for each team. It's the most popular team sport on the planet, a fast-paced game with few breaks and one simple aim — to score a goal. " />
 
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='8' Name="gaelicImg" Source="Assets\gaelic.jpg" />
-                <TextBlock x:ConnectionId='9' Name="gaelicTitle"
+                <Image x:ConnectionId='10' Name="gaelicImg" Source="Assets\gaelic.jpg" />
+                <TextBlock x:ConnectionId='11' Name="gaelicTitle"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Galway's Gaelic team" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='21' Name="gaelicInfo" Content="Fixtures"
-                    FontSize="22" 
+                    <Button x:ConnectionId='26' Name="gaelicInfo" Content="Fixtures"
                     Height="50"
                     Style="{StaticResource LinkBtns}"
                                             
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='22' Name="galicLoc" Content="Location" 
-                    FontSize="22"
+                    <Button x:ConnectionId='27' Name="galicLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
                                            
                     HorizontalAlignment="Center"
                     ></Button>
                 </StackPanel>
-                <TextBlock x:ConnectionId='10'
+                <TextBlock x:ConnectionId='12'
                       Name="gaelicText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
-                      FontSize="36"
+                      Style="{StaticResource Place}"
                       Text="Sport: Gaelic" />
+                <TextBlock x:ConnectionId='13'
+                      Name="gaelicDesc"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Text="Gaelic football, commonly referred to as football or Gaelic, is an Irish team sport. It is played between two teams of 15 players on a rectangular grass pitch. The objective of the sport is to score by kicking or punching the ball into the other team's goals (3 points) or between two upright posts above the goals and over a crossbar 2.5 metres (8.2 ft) above the ground (1 point)." />
 
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='11' Name="hurlingImg" Source="Assets\hurling.jpg" />
-                <TextBlock x:ConnectionId='12' Name="hurlingTitle"
+                <Image x:ConnectionId='14' Name="hurlingImg" Source="Assets\hurling.jpg" />
+                <TextBlock x:ConnectionId='15' Name="hurlingTitle"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Galway's Hurling team" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='19' Name="hurlingInfo" Content="Fixtures"
-                    FontSize="22" 
+                    <Button x:ConnectionId='24' Name="hurlingInfo" Content="Fixtures"
                     Height="50"
                     Style="{StaticResource LinkBtns}"
                                              
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='20' Name="hurlingLoc" Content="Location" 
-                    FontSize="22"
+                    <Button x:ConnectionId='25' Name="hurlingLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
                                             
                     HorizontalAlignment="Center"
                     ></Button>
                 </StackPanel>
-                <TextBlock x:ConnectionId='13'
+                <TextBlock x:ConnectionId='16'
                       Name="hurlingText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
-                      FontSize="36"
+                      Style="{StaticResource Place}"
                       Text="Sport: Hurling " />
+                <TextBlock x:ConnectionId='17'
+                      Name="hurlingDesc"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Text="The objective of the game is for players to use a wooden stick called a hurley to hit a small ball called a sliotar between the opponents goalposts either over the crossbar for one point, or under the crossbar into a net guarded by a goalkeeper for one goal, which is equivalent to three points. The sliotar can be caught in the hand and carried for not more than four steps, struck in the air, or struck on the ground with the hurley. It can be kicked, or slapped with an open hand (the hand pass) for short-range passing. A player who wants to carry the ball for more than four steps has to bounce or balance the sliotar on the end of the stick, and the ball can only be handled twice while in his possession. " />
 
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-                <Image x:ConnectionId='14' Name="raceImg" Source="Assets\race.jpg" />
-                <TextBlock x:ConnectionId='15' Name="raceitle"
+                <Image x:ConnectionId='18' Name="raceImg" Source="Assets\race.jpg" />
+                <TextBlock x:ConnectionId='19' Name="raceitle"
                            Margin="0,10,0,0"
                            Style="{StaticResource Place}"
                            HorizontalAlignment="Center"
                            Text="Horse Racing" />
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='17' Name="raceInfo" Content="Fixtures"
-                    FontSize="22" 
+                    <Button x:ConnectionId='22' Name="raceInfo" Content="Fixtures"
                     Height="50"
                     Style="{StaticResource LinkBtns}"
                                           
                     HorizontalAlignment="Center"
                    ></Button>
 
-                    <Button x:ConnectionId='18' Name="raceLoc" Content="Location" 
-                    FontSize="22"
+                    <Button x:ConnectionId='23' Name="raceLoc" Content="Location" 
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
                                          
                     HorizontalAlignment="Center"
                     ></Button>
                 </StackPanel>
-                <TextBlock x:ConnectionId='16'
+                <TextBlock x:ConnectionId='20'
                       Name="raceText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
-                      FontSize="36"
+                      Style="{StaticResource Place}"
                       Text="Sport: Horse Racing " />
-
+                <TextBlock x:ConnectionId='21'
+                      Name="raceDesc"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Text="Horse racing is an equestrian performance sport, typically involving two or more horses ridden by jockeys or driven over a set distance for competition. It is one of the most ancient of all sports and its basic premise – to identify which of two or more horses is the fastest over a set course or distance " />
 
 
             </StackPanel>

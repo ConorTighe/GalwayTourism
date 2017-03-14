@@ -21,6 +21,11 @@
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
         </Style>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        </Style>
     </Page.Resources>
 
     <Grid Background="#3A4F41" >
@@ -43,6 +48,7 @@
                 <Image Name="GalwayImg" Source="Assets\gtown.jpg" />
                 <TextBlock Name="GalwayMain"
                            TextWrapping="Wrap"
+                           Style="{StaticResource Desc}"
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            Text="Galway, a harbour city on Ireland's west coast, sits where the River Corrib meets the Atlantic Ocean. The city's hub is 18th-century Eyre Square, a popular meeting spot surrounded by shops and traditional pubs that often offer live Irish folk music. Nearby, stone-clad cafes, boutiques and art galleries line the winding lanes of the Latin Quarter, which retains portions of the medieval city walls." />
@@ -74,9 +80,17 @@
                 <TextBlock
                       Name="SpachText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
-                      Text="The two arches were part of the extension of the city wall from Martin's Tower to the bank of the River Corrib, as a measure to protect the city's quays, which were in the area once known as the Fish Market. " />
-
+                      Text="The two arches were part of the extension of the city wall from Martin's Tower to the bank of the River Corrib, as a measure to protect the city's quays, which were in the area once known as the Fish Market (now Spanish Parade). It was constructed during the mayoralty of Wylliam Martin in 1584, being called ceann an bhalla (the head of the wall). In the 18th century the Eyre family of Eyrecourt, County Galway, created an extension of the quays called The Long Walk and created the arches to allow access from the town to the new quays. The designation Spanish is not historical to this period and was likely known as the Eyre Arch when built. " />
+                <Button Name="SparchSave" Content="Add to visited" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Width="450"
+                    Click="SparchSave_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
                 <Image Name="MuseumImg" Source="Assets\GalwayMuseum.jpg" />
                 <TextBlock Name="Museum"
@@ -102,10 +116,19 @@
                    ></Button>
                 </StackPanel>
                 <TextBlock
-                               Name="MuseumText"
-                               TextWrapping="Wrap" 
-                               HorizontalAlignment="Center"
-                               Text="Small displays of documents, photographs, memorabilia and medieval artefacts chronicling urban life.. " />
+                           Name="MuseumText"
+                           Style="{StaticResource Desc}"
+                           TextWrapping="Wrap" 
+                           HorizontalAlignment="Center"
+                           Text="Small displays of documents, photographs, memorabilia and medieval artefacts chronicling urban life. The Galway City Museum was founded in the mid-1970s. It was originally located in Comerford House, which prior to this had been the home of artist Clare Sheridan. The museum began as a residual collection of medieval stones from the city, acquired by Sheridan. Curated by Etienne Ryan, Michael Keaney, Bill Scanlan and Jim Higgins the museum built up a general folklife, industrial and militia collection. " />
+                <Button Name="MuseumSave" Content="Add to visited" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Width="450"
+                    Click="MuseumSave_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
                 <Image Name="ChurchImg" Source="Assets\stnicholascollegiatechurch.jpg" />
                 <TextBlock Name="Church"
@@ -133,9 +156,18 @@
                 <TextBlock
                       Name="ChurchText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Margin="0,10,0,0"
-                      Text="Large, 14th-century Anglican Episcopal church visited by Oliver Cromwell and Christopher Columbus. " />
+                      Text="Large, 14th-century Anglican Episcopal church visited by Oliver Cromwell and Christopher Columbus. The Collegiate Church of St. Nicholas is a collegiate church and the parish church of St. Nicholas' Church of Ireland parish, which covers Galway city. It was founded in 1320 and dedicated to Saint Nicholas of Myra, the patron saint of seafarers, in recognition of Galway's status as a port. The monumental work of Irish geneaology, " />
+                <Button Name="ChurchSave" Content="Add to visited" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Width="450"
+                    Click="ChurchSave_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
                 <Image Name="EyreSquareImg" Source="Assets\eyre.jpg" />
                 <TextBlock Name="EyreSquare"
@@ -164,7 +196,16 @@
                       Name="EyreText"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
-                      Text="Eyre Square, also known as John F. Kennedy Memorial Park is an inner-city public park in Galway, Ireland. The park is within the city centre in the heart of Galway " />
+                      Style="{StaticResource Desc}"
+                      Text="Eyre Square, also known as John F. Kennedy Memorial Park is an inner-city public park in Galway, Ireland. The park is within the city centre in the heart of Galway. The origin of the square comes from medieval open space in front of a town gate, known as the Green. Markets mostly took place in the northern part of the space. The earliest endeavour to formally enclose it was recorded in 1631. Some ash-trees were planted and the park was enclosed by a wooden fence. The plot of land that became Eyre Square was officially presented to the city in 1710 by Mayor Edward Eyre. " />
+                <Button Name="EyreSave" Content="Add to visited" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Width="450"
+                    Click="EyreSave_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
                 <Image Name="DunguaireImg" Source="Assets\dunguaire-castle.jpg" />
                 <TextBlock Name="Dunguaire"
@@ -192,8 +233,17 @@
                 <TextBlock
                       Name="DunguaireText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
-                      Text="Immaculately restored, 16th-century bay-side fortress with a literary history and evening banquets. " />
+                      Text="Immaculately restored,  bay-side fortress with a literary history and evening banquets. Dunguaire Castle is a 16th-century tower house on the southeastern shore of Galway Bay in County Galway, Ireland, near Kinvara (also spelled Kinvarra). The name derives from the Dun of King Guaire, the legendary king of Connacht. The castle's 75-foot (23 m) tower and its defensive wall have been restored, and the grounds are open to tourists during the summer." />
+                <Button Name="DunSave" Content="Add to visited" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Width="450"
+                    Click="DunSave_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
                 <Image Name="CathedralImg" Source="Assets\Galway_cathedral.jpg" />
                 <TextBlock Name="Cathedra"
@@ -202,7 +252,7 @@
                            HorizontalAlignment="Center"
                            Text="St Nicholas Cathedral" />
                 <StackPanel Orientation="Horizontal">
-                    <Button Name="CathedraInfo" Content="More Info" 
+                    <Button Name="CathedralInfo" Content="More Info" 
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
@@ -218,10 +268,19 @@
                     ></Button>
                 </StackPanel>
                 <TextBlock
-                      Name="CathedraText"
+                      Name="CathedralText"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
-                      Text="Modern and airy, green-domed, renaissance-style Catholic cathedral, with a mosaic of JF Kennedy. " />
+                      Text="Modern and airy, green-domed, renaissance-style Catholic cathedral, with a mosaic of JF Kennedy. The architect of the cathedral was John J. Robinson who had previously designed many churches in Dublin and around the country. The architecture of the cathedral draws on many influences. The dome and pillars reflect a Renaissance style. Other features, including the rose windows and mosaics, echo the broad tradition of Christian art. The cathedral dome, at a height of 44.2 metres (145 ft), is a prominent landmark on the city skyline. " />
+                <Button Name="CathedralSave" Content="Add to visited" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Width="450"
+                    Click="CathedralSave_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
                 <Image Name="JamesMitchellImg" Source="Assets\JamesMitchell.jpg" />
                 <TextBlock Name="JamesMitchell"
@@ -234,7 +293,7 @@
                     FontSize="22"
                     Style="{StaticResource LinkBtns}"
                     Height="50" 
-                            Click="JamesMitchellInfo_Click"
+                    Click="JamesMitchellInfo_Click"
                     HorizontalAlignment="Center"
                    ></Button>
 
@@ -248,9 +307,18 @@
                 </StackPanel>
                 <TextBlock
                       Name="JamesMitchellText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
-                      Text="James Mitchell Museum is a geological museum based in NUI Galway, the only remnant of the university's defunct Natural History Museum. " />
+                      Text="James Mitchell Museum is a geological museum based in NUI Galway, the only remnant of the university's defunct Natural History Museum. The Museum is now housed in one room, formerly the Geographical Museum. The Museum contains specimens of rocks, minerals and fossils, which primarily serve as an educational resource for the students and staff of NUI Galway, but also primary and secondary school children. There are approximately 5000 fossils and 3000 rocks and minerals within the collections. The collections are of particular interest to the study of Irish geology. " />
+                <Button Name="JamesMitchellSave" Content="Add to visited" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Width="450"
+                    Click="JamesMitchellSave_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
                 <Image Name="wallsImg" Source="Assets\walls.jpg" />
                 <TextBlock Name="walls"
@@ -277,11 +345,19 @@
                 </StackPanel>
                 <TextBlock
                       Name="wallsText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Full of life and with a seemingly constant festival atmosphere, the medieval city centre of Galway is a place that demands to be visited. Today, the Galway is known as a cultural capital. However, originally it was merely a small fishing village located where the Corrib River met the bay. In 1232, with the Anglo Norman conquest it became a walled town. Some sections of the walls can still be seen today such as one of the icons of the city, the Spanish Arch.  " />
+                <Button Name="wallsSave" Content="Add to visited" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Width="450"
+                    Click="wallsSave_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
-
                 <Image Name="redImg" Source="Assets\rede.jpg" />
                 <TextBlock Name="redearl"
                            Margin="0,10,0,0"
@@ -307,9 +383,18 @@
                 </StackPanel>
                 <TextBlock
                       Name="redText"
-                      TextWrapping="Wrap" 
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Back in the 13th century when the de Burgo family ran things in Galway, Richard – the Red Earl – erected a large hall as a seat of power. Locals would arrive to curry favour or to grovel as a sign of future fealty. After the 14 tribes took over, the hall fell into ruin, lost until 1997 when expansion of the city's Custom House uncovered its foundations. The Custom House was built on stilts overhead, leaving the old foundations open. " />
+                <Button Name="redSave" Content="Add to visited" 
+                    FontSize="22"
+                    Style="{StaticResource LinkBtns}"
+                    Height="50" 
+                    Width="450"
+                    Click="redSave_Click"
+                    HorizontalAlignment="Center"
+                    ></Button>
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
             </StackPanel>
         </ScrollViewer>

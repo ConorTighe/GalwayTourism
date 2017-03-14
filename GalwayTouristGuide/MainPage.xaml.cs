@@ -10,6 +10,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Media.Core;
 using Windows.Media.Playback;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Maps;
@@ -31,7 +32,7 @@ namespace GalwayTouristGuide
         public MainPage()
         {
             
-            this.InitializeComponent();
+            this.InitializeComponent();       
 
             //Background music
             BackgroundPlayer = new MediaPlayer();
@@ -80,6 +81,11 @@ namespace GalwayTouristGuide
         private void SportsBtn_Click(object sender, RoutedEventArgs e)
         {
             MyFrame.Navigate(typeof(Sports));
+        }
+
+        private void Todobtn_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Navigate(typeof(Todo));
         }
     }
 }

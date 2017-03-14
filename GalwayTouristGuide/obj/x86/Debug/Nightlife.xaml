@@ -21,6 +21,10 @@
             <Setter Property="Foreground" Value="#F8CF8B"></Setter>
             <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
         </Style>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+        </Style>
     </Page.Resources>
 
     <Grid Background="#3A4F41">
@@ -41,6 +45,7 @@
                            Text="Róisín Dubh" />
                 <TextBlock x:ConnectionId='4' Name="radBio"
                            Margin="0,10,0,0"
+                           Style="{StaticResource Desc}"
                            HorizontalAlignment="Center"
                            TextWrapping="Wrap"
                            Text=" Bar and club with two separate stages showcasing local and international live music and comedy acts." />
@@ -56,8 +61,9 @@
 
                 </StackPanel>
                 <TextBlock x:ConnectionId='5'
-                      Name="RadDetails"
+                      Name="RosinDetails"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Phone - (091) 586 540 " />
 
@@ -70,6 +76,7 @@
                            Text="The Kings Head" />
                 <TextBlock x:ConnectionId='8' Name="kingsBio"
                            Margin="0,10,0,0"
+                           Style="{StaticResource Desc}"
                            HorizontalAlignment="Center"
                            TextWrapping="Wrap"
                            Text=" Rich in period-detail, this 17th-century, 3-storey pub offers local seafood dishes and live music." />
@@ -87,6 +94,7 @@
                 <TextBlock x:ConnectionId='9'
                       Name="KingsDetails"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Phone - (091) 566 630 " />
 
@@ -101,6 +109,7 @@
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            TextWrapping="Wrap"
+                           Style="{StaticResource Desc}"
                            Text=" Laid-back, long-standing watering hole with 5 bars across 2 floors and cosy nook-and-cranny seating" />
                 <StackPanel Orientation="Horizontal">
                     <Button x:ConnectionId='44' Name="frontInfo" Content="More Info"
@@ -116,6 +125,7 @@
                 <TextBlock x:ConnectionId='13'
                       Name="frontDetails"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Phone - (091) 563 757 " />
 
@@ -128,6 +138,7 @@
                            Text="An Púcán" />
                 <TextBlock x:ConnectionId='16' Name="pucanBio"
                            Margin="0,10,0,0"
+                           Style="{StaticResource Desc}"
                            HorizontalAlignment="Center"
                            TextWrapping="Wrap"
                            Text=" An Púcán is now open off Eyre Square. We have live music daily from 9pm. On Fridays and Saturdays we have live bands down the back and on Saturdays we have a late night resident DJ. " />
@@ -146,6 +157,7 @@
                       Name="pucanDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="Phone - (091) 376 561 " />
 
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
@@ -159,6 +171,7 @@
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            TextWrapping="Wrap"
+                           Style="{StaticResource Desc}"
                            Text=" A club located just off Eyre Square, a great location for partys and nights out. " />
                 <StackPanel Orientation="Horizontal">
                     <Button x:ConnectionId='40' Name="karmaInfo" Content="More Info" 
@@ -174,6 +187,7 @@
                 <TextBlock x:ConnectionId='21'
                       Name="karmaDetails"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Phone - (091) 500 330 " />
 
@@ -186,6 +200,7 @@
                            Text="Carbon" />
                 <TextBlock x:ConnectionId='24' Name="carbonBio"
                            Margin="0,10,0,0"
+                           Style="{StaticResource Desc}"
                            HorizontalAlignment="Center"
                            TextWrapping="Wrap"
                            Text=" A club found on eglinton street, well known for its cheap drink events, boiler room and world renound DJ appearances. " />
@@ -204,6 +219,7 @@
                       Name="carbonDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="Phone - (091) 449 204 " />
 
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
@@ -217,6 +233,7 @@
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            TextWrapping="Wrap"
+                           Style="{StaticResource Desc}"
                            Text=" Just off shop street Electric is host to great music in a spectacular venue. " />
                 <StackPanel Orientation="Horizontal">
                     <Button x:ConnectionId='36' Name="electricInfo" Content="More Info"
@@ -233,6 +250,7 @@
                       Name="elecDetails"
                       TextWrapping="Wrap" 
                       HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
                       Text="Phone - (091) 565 976 " />
 
                 <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
@@ -246,6 +264,7 @@
                            Margin="0,10,0,0"
                            HorizontalAlignment="Center"
                            TextWrapping="Wrap"
+                           Style="{StaticResource Desc}"
                            Text=" Beside electric, this club is one of the biggest venues in Galway, know as 44 during the week and then turns into Halo for over 22s during the weekend. " />
                 <StackPanel Orientation="Horizontal">
                     <Button x:ConnectionId='34' Name="haloInfo" Content="More Info" 
@@ -261,6 +280,7 @@
                 <TextBlock x:ConnectionId='33'
                       Name="haloDetails"
                       TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
                       HorizontalAlignment="Center"
                       Text="Phone - (091) 565 976 " />
             </StackPanel>

@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
@@ -19,8 +20,8 @@
                         FontFamily="Assets/Irish.ttf#Irish" 
                         Content="&#x00F9;"  
                         FontSize="45" 
-                         Height="50"
-                        Width="60"
+                        Height="50"
+                        Width="200"
                         Click="MainMenuBtn_Click"
                         RelativePanel.AlignLeftWithPanel="True"
                         ></Button>
@@ -117,6 +118,19 @@
                                         Click="EventsBtn_Click"
                                         ></Button>
                                 <TextBlock Text="Events" FontSize="24" Margin="20,0,0,0" />
+                            </StackPanel>
+                        </ListBoxItem>
+                        <ListBoxItem Name="TodoBoxItem">
+                            <StackPanel Orientation="Horizontal">
+                                <Button Name="Todobtn"
+                                        FontFamily="Assets/Irish.ttf#Irish" 
+                                        Content="&#x0047;"
+                                        FontSize="26"
+                                        Height="40"
+                                        Width="40"
+                                        Click="Todobtn_Click"
+                                        ></Button>
+                                <TextBlock Text="Visit next" FontSize="24" Margin="20,0,0,0" />
                             </StackPanel>
                         </ListBoxItem>
                         <ListBoxItem Name="GithubListBoxItem">

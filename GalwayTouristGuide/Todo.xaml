@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="GalwayTouristGuide.Todo"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GalwayTouristGuide"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#3A4F41">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <Button Name="UpdateBtn"
+                    FontFamily="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"
+                    Content="Refresh List" 
+                    FontSize="70"
+                    Height="100"
+                    Width="400"
+                    Click="UpdateBtn_Click"
+                    ></Button>
+            <TextBlock Name="PlacesSeen" FontSize="50" Margin="20,0,0,0" TextWrapping="WrapWholeWords" />
+        </StackPanel>
+    </Grid>
+</Page>
