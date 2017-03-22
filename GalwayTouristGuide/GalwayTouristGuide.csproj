@@ -16,7 +16,12 @@
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>GalwayTouristGuide_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>GalwayTouristGuide_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxPackageDir>C:\Users\Conor\Desktop\app\</AppxPackageDir>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>8F53248E112E7FFD7A7243D56F786E42FE740A64</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -89,6 +94,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="Assets\BadgeLogo.scale-200.png" />
     <Content Include="Assets\Bay.jpg" />
     <Content Include="Assets\bensound-sweet.mp3" />
     <Content Include="Assets\carbon.jpg" />
@@ -98,7 +104,15 @@
     <Content Include="Assets\flannerys.jpg" />
     <Content Include="Assets\front.jpg" />
     <Content Include="Assets\gaelic.jpg" />
+    <Content Include="Assets\galway1.scale-200.png" />
     <Content Include="Assets\gtown.jpg" />
+    <Content Include="Assets\gtownlogo.jpg" />
+    <Content Include="Assets\gtownlogo150.jpg" />
+    <Content Include="Assets\gtownlogo300.jpg" />
+    <Content Include="Assets\gtownlogo310.png" />
+    <Content Include="Assets\gtownlogo620.png" />
+    <Content Include="Assets\gtownlogo71.scale-200.jpg" />
+    <Content Include="Assets\gtownlogostore.png" />
     <Content Include="Assets\halo.jpg" />
     <Content Include="Assets\harbour.jpg" />
     <Content Include="Assets\hurling.jpg" />
@@ -111,6 +125,7 @@
     <Content Include="Assets\IrishUncialfabeta-Bold.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="GalwayTouristGuide_StoreKey.pfx" />
     <None Include="project.json" />
     <PRIResource Include="Strings\en-US\Resources.resw" />
   </ItemGroup>
@@ -179,20 +194,24 @@
     <Content Include="Assets\SaltHouse.jpg" />
     <Content Include="Assets\soccer.jpg" />
     <Content Include="Assets\Sparch.jpg" />
+    <Content Include="Assets\SplashScreen.scale-200.jpg" />
+    <Content Include="Assets\Square150x150Logo.scale-100.jpg" />
+    <Content Include="Assets\Square150x150Logo.scale-200.jpg" />
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
     <Content Include="Assets\stnicholascollegiatechurch.jpg" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
     <Content Include="Assets\the-dough-bros.jpg" />
     <Content Include="Assets\the-front-door.jpg" />
     <Content Include="Assets\the-g-hotel.jpg" />
     <Content Include="Assets\the-skeff.jpg" />
     <Content Include="Assets\travel.jpg" />
     <Content Include="Assets\walls.jpg" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
-    <Content Include="Assets\Square150x150Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
-    <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>

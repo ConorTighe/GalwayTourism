@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="GalwayTouristGuide.MapView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GalwayTouristGuide"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Maps:MapControl x:ConnectionId='1' Name="myMap" 
+                         MapServiceToken="ZQ7wGGqOHNpVUazj57Rw~CY_xcX2bOcxBelPfuPXcEA~At0pVaj4xO2tvUyEzB6Qfh5CFQ90NUZpfKS2sBJyE5b16ApJgWuZwoXFJ8O3LWIk"
+                         
+                         ></Maps:MapControl>
+    </Grid>
+</Page>
+

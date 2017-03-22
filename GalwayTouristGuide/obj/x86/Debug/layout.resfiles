@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+Assets\BadgeLogo.scale-200.png
 Assets\Bay.jpg
 Assets\bensound-sweet.mp3
 Assets\biteclub.jpg
@@ -15,8 +16,16 @@ Assets\flannerys.jpg
 Assets\front.jpg
 Assets\gaelic.jpg
 Assets\Galway_cathedral.jpg
+Assets\galway1.scale-200.png
 Assets\GalwayMuseum.jpg
 Assets\gtown.jpg
+Assets\gtownlogo.jpg
+Assets\gtownlogo150.jpg
+Assets\gtownlogo300.jpg
+Assets\gtownlogo310.png
+Assets\gtownlogo620.png
+Assets\gtownlogo71.scale-200.jpg
+Assets\gtownlogostore.png
 Assets\halo.jpg
 Assets\harbour.jpg
 Assets\hurling.jpg
@@ -45,12 +54,16 @@ Assets\salthill.jpg
 Assets\SaltHouse.jpg
 Assets\soccer.jpg
 Assets\Sparch.jpg
+Assets\SplashScreen.scale-200.jpg
 Assets\SplashScreen.scale-200.png
+Assets\Square150x150Logo.scale-100.jpg
+Assets\Square150x150Logo.scale-200.jpg
 Assets\Square150x150Logo.scale-200.png
+Assets\Square310x310Logo.scale-100.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\stnicholascollegiatechurch.jpg
-Assets\StoreLogo.png
+Assets\StoreLogo.scale-200.png
 Assets\the-dough-bros.jpg
 Assets\the-front-door.jpg
 Assets\the-g-hotel.jpg
@@ -58,5 +71,6 @@ Assets\the-skeff.jpg
 Assets\travel.jpg
 Assets\walls.jpg
 Assets\Wide310x150Logo.scale-200.png
+Assets\Wide310x150Logo.scale-400.png
 GalwayTouristGuide.xr.xml
 Properties\Default.rd.xml

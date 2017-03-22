@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="36545ConorT.4041208597662" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>200</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://36545ConorT.4041208597662/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Feed.xbf" uri="ms-resource://36545ConorT.4041208597662/Files/Feed.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Food.xbf" uri="ms-resource://36545ConorT.4041208597662/Files/Food.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="GalwayTouristGuide.xr.xml" uri="ms-resource://36545ConorT.4041208597662/Files/GalwayTouristGuide.xr.xml">
+				<Candidate type="Path">
+					<Value>GalwayTouristGuide.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Hotels.xbf" uri="ms-resource://36545ConorT.4041208597662/Files/Hotels.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://36545ConorT.4041208597662/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MapView.xbf" uri="ms-resource://36545ConorT.4041208597662/Files/MapView.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Nightlife.xbf" uri="ms-resource://36545ConorT.4041208597662/Files/Nightlife.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Sports.xbf" uri="ms-resource://36545ConorT.4041208597662/Files/Sports.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Todo.xbf" uri="ms-resource://36545ConorT.4041208597662/Files/Todo.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="BadgeLogo.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/BadgeLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\BadgeLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Bay.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/Bay.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Bay.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="bensound-sweet.mp3" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/bensound-sweet.mp3">
+					<Candidate type="Path">
+						<Value>Assets\bensound-sweet.mp3</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="biteclub.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/biteclub.jpg">
+					<Candidate type="Path">
+						<Value>Assets\biteclub.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="busker-brownes.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/busker-brownes.jpg">
+					<Candidate type="Path">
+						<Value>Assets\busker-brownes.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="carbon.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/carbon.jpg">
+					<Candidate type="Path">
+						<Value>Assets\carbon.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="chillishack.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/chillishack.jpg">
+					<Candidate type="Path">
+						<Value>Assets\chillishack.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="clayton.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/clayton.jpg">
+					<Candidate type="Path">
+						<Value>Assets\clayton.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="conn.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/conn.jpg">
+					<Candidate type="Path">
+						<Value>Assets\conn.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dail.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/dail.jpg">
+					<Candidate type="Path">
+						<Value>Assets\dail.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="dunguaire-castle.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/dunguaire-castle.jpg">
+					<Candidate type="Path">
+						<Value>Assets\dunguaire-castle.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="elec.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/elec.jpg">
+					<Candidate type="Path">
+						<Value>Assets\elec.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="eyre.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/eyre.jpg">
+					<Candidate type="Path">
+						<Value>Assets\eyre.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="flannerys.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/flannerys.jpg">
+					<Candidate type="Path">
+						<Value>Assets\flannerys.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="front.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/front.jpg">
+					<Candidate type="Path">
+						<Value>Assets\front.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gaelic.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/gaelic.jpg">
+					<Candidate type="Path">
+						<Value>Assets\gaelic.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="galway1.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/galway1.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\galway1.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="GalwayMuseum.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/GalwayMuseum.jpg">
+					<Candidate type="Path">
+						<Value>Assets\GalwayMuseum.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Galway_cathedral.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/Galway_cathedral.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Galway_cathedral.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gtown.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/gtown.jpg">
+					<Candidate type="Path">
+						<Value>Assets\gtown.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gtownlogo.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/gtownlogo.jpg">
+					<Candidate type="Path">
+						<Value>Assets\gtownlogo.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gtownlogo150.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/gtownlogo150.jpg">
+					<Candidate type="Path">
+						<Value>Assets\gtownlogo150.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gtownlogo300.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/gtownlogo300.jpg">
+					<Candidate type="Path">
+						<Value>Assets\gtownlogo300.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gtownlogo310.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/gtownlogo310.png">
+					<Candidate type="Path">
+						<Value>Assets\gtownlogo310.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gtownlogo620.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/gtownlogo620.png">
+					<Candidate type="Path">
+						<Value>Assets\gtownlogo620.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gtownlogo71.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/gtownlogo71.jpg">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\gtownlogo71.scale-200.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gtownlogostore.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/gtownlogostore.png">
+					<Candidate type="Path">
+						<Value>Assets\gtownlogostore.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="halo.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/halo.jpg">
+					<Candidate type="Path">
+						<Value>Assets\halo.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="harbour.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/harbour.jpg">
+					<Candidate type="Path">
+						<Value>Assets\harbour.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="hurling.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/hurling.jpg">
+					<Candidate type="Path">
+						<Value>Assets\hurling.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Irish.ttf" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/Irish.ttf">
+					<Candidate type="Path">
+						<Value>Assets\Irish.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="IrishUncialfabeta-Bold.ttf" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/IrishUncialfabeta-Bold.ttf">
+					<Candidate type="Path">
+						<Value>Assets\IrishUncialfabeta-Bold.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="JamesMitchell.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/JamesMitchell.jpg">
+					<Candidate type="Path">
+						<Value>Assets\JamesMitchell.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="jury.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/jury.jpg">
+					<Candidate type="Path">
+						<Value>Assets\jury.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="karma.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/karma.jpg">
+					<Candidate type="Path">
+						<Value>Assets\karma.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="KGLuckoftheIrish.ttf" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/KGLuckoftheIrish.ttf">
+					<Candidate type="Path">
+						<Value>Assets\KGLuckoftheIrish.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Kings-Head.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/Kings-Head.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Kings-Head.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="kings.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/kings.jpg">
+					<Candidate type="Path">
+						<Value>Assets\kings.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="McDonaghs.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/McDonaghs.jpg">
+					<Candidate type="Path">
+						<Value>Assets\McDonaghs.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="McGettigans.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/McGettigans.jpg">
+					<Candidate type="Path">
+						<Value>Assets\McGettigans.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="oscars.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/oscars.jpg">
+					<Candidate type="Path">
+						<Value>Assets\oscars.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="park.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/park.jpg">
+					<Candidate type="Path">
+						<Value>Assets\park.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="pucan.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/pucan.jpg">
+					<Candidate type="Path">
+						<Value>Assets\pucan.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="pushpin.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/pushpin.png">
+					<Candidate type="Path">
+						<Value>Assets\pushpin.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="quay.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/quay.jpg">
+					<Candidate type="Path">
+						<Value>Assets\quay.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="race.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/race.jpg">
+					<Candidate type="Path">
+						<Value>Assets\race.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rad.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/rad.jpg">
+					<Candidate type="Path">
+						<Value>Assets\rad.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rede.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/rede.jpg">
+					<Candidate type="Path">
+						<Value>Assets\rede.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="roisin.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/roisin.jpg">
+					<Candidate type="Path">
+						<Value>Assets\roisin.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rugby.JPG" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/rugby.JPG">
+					<Candidate type="Path">
+						<Value>Assets\rugby.JPG</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="salthill.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/salthill.jpg">
+					<Candidate type="Path">
+						<Value>Assets\salthill.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SaltHouse.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/SaltHouse.jpg">
+					<Candidate type="Path">
+						<Value>Assets\SaltHouse.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="soccer.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/soccer.jpg">
+					<Candidate type="Path">
+						<Value>Assets\soccer.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Sparch.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/Sparch.jpg">
+					<Candidate type="Path">
+						<Value>Assets\Sparch.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/SplashScreen.jpg">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/Square150x150Logo.jpg">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/Square310x310Logo.png"/>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="stnicholascollegiatechurch.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/stnicholascollegiatechurch.jpg">
+					<Candidate type="Path">
+						<Value>Assets\stnicholascollegiatechurch.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="the-dough-bros.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/the-dough-bros.jpg">
+					<Candidate type="Path">
+						<Value>Assets\the-dough-bros.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="the-front-door.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/the-front-door.jpg">
+					<Candidate type="Path">
+						<Value>Assets\the-front-door.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="the-g-hotel.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/the-g-hotel.jpg">
+					<Candidate type="Path">
+						<Value>Assets\the-g-hotel.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="the-skeff.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/the-skeff.jpg">
+					<Candidate type="Path">
+						<Value>Assets\the-skeff.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="travel.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/travel.jpg">
+					<Candidate type="Path">
+						<Value>Assets\travel.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="walls.jpg" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/walls.jpg">
+					<Candidate type="Path">
+						<Value>Assets\walls.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://36545ConorT.4041208597662/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://36545ConorT.4041208597662/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://36545ConorT.4041208597662/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

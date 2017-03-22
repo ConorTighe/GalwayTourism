@@ -232,3 +232,4 @@ C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTo
 C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\obj\x86\Debug\Todo.g.cs
 C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\obj\x86\Debug\Todo.xaml
 C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\obj\x86\Debug\Todo.xbf
+C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\Core\ForBundle\AppxManifest.xml

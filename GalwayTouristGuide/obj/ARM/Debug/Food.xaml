@@ -1,0 +1,1680 @@
+﻿<Page
+    x:Class="GalwayTouristGuide.Food"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GalwayTouristGuide"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <Style TargetType="Button" x:Key="LinkBtns">
+            <Setter Property="Background" Value="#B9314F"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+            <Setter Property="FontSize" Value="22"></Setter>
+            <Setter Property="Width" Value="225"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Place">
+            <Setter Property="FontSize" Value="36"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+            <Setter Property="FontFamily" Value="Assets/KGLuckoftheIrish.ttf#KG Luck of the Irish"></Setter>
+        </Style>
+        <Style TargetType="TextBlock" x:Key="Desc">
+            <Setter Property="FontSize" Value="18"></Setter>
+            <Setter Property="Foreground" Value="#F8CF8B"></Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#3A4F41">
+
+        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="600" >
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" >
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image x:ConnectionId='2' Name="SkeffImg" Source="Assets\the-skeff.jpg" />
+                <TextBlock x:ConnectionId='3' Name="Skeff"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The Skeff" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='234' Name="SkeffInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                   
+                   ></Button>
+                    
+                    <Button x:ConnectionId='235' Name="SkeffLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                  
+                    ></Button>
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='220'
+                      Name="SkeffMealsText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Text="Meals Avalible: Brunch, Breakfast, Drinks " />
+                    <Rectangle x:ConnectionId='221' Name="Skeffbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="SkeffMealsText" />
+                    <TextBlock x:ConnectionId='222'
+                      Name="SkeffPhoneText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      RelativePanel.Below="Skeffbreak1"
+                      Text="Phone: (091) 563 173 " />
+                    <TextBlock x:ConnectionId='223'
+                      Name="SkeffTypeText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Margin="50,25,0,0"
+                      RelativePanel.RightOf="SkeffPhoneText"
+                      Text="Type: Irish Pub " />
+                    <TextBlock x:ConnectionId='224'
+                      Name="SkeffFeaturesText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="SkeffPhoneText"
+                      Text="Features:  Delivery, Takeout, Seating, Wheelchair Accessible, Serves Alcohol, Accepts Mastercard, Accepts Visa, Free Wifi " />
+                    <Rectangle x:ConnectionId='225' Name="Skeffbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="SkeffFeaturesText" />
+                    <TextBlock x:ConnectionId='226'
+                      Name="SkeffOpeningHours"
+                      TextWrapping="Wrap" 
+                      FontWeight="Bold"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      RelativePanel.Below="Skeffbreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='227'
+                      Name="SkeffSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SkeffOpeningHours"
+                      Text="Saturday	8a.m.–2a.m." />
+                    <TextBlock x:ConnectionId='228'
+                      Name="SkeffSunText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SkeffSatText"
+                      Text="Sunday	8a.m.–12a.m." />
+                    <TextBlock x:ConnectionId='229'
+                      Name="SkeffMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SkeffSunText"
+                      Text="Monday	8a.m.–12a.m." />
+                    <TextBlock x:ConnectionId='230'
+                      Name="SkeffTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SkeffMonText"
+                      Text="Tuesday	8a.m.–12a.m." />
+                    <TextBlock x:ConnectionId='231'
+                      Name="SkeffWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="SkeffTueText"
+                      Text="Wednesday	8a.m.–2a.m." />
+                    <TextBlock x:ConnectionId='232'
+                      Name="SkeffThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SkeffWedText"
+                      Text="Thursday	8a.m.–2a.m." />
+                    <TextBlock x:ConnectionId='233'
+                      Name="SkeffFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SkeffThurText"
+                      Text="Friday	8a.m.–2a.m. " />
+                </RelativePanel>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                <Image x:ConnectionId='4' Name="ChiiliImg" Source="Assets\chillishack.jpg" />
+                <TextBlock x:ConnectionId='5' Name="Chilli"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The Chilli Shack" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='218' Name="ChilliInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                            
+                   ></Button>
+        
+                    <Button x:ConnectionId='219' Name="ChilliLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                   
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='204'
+                      Name="ChilliMealsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
+                      Text="Meals Avalible: Brunch, Lunch, Dinner " />
+                    <Rectangle x:ConnectionId='205' Name="Chillibreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="ChilliMealsText" />
+                    <TextBlock x:ConnectionId='206'
+                      Name="ChilliPhoneText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="Chillibreak1"
+                      Text="Phone: (083) 810 8892 " />
+                    <TextBlock x:ConnectionId='207'
+                      Name="ChilliTypeText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.RightOf="ChilliPhoneText"
+                      Text="Type: Wing House " />
+                    <TextBlock x:ConnectionId='208'
+                      Name="ChilliFeaturesText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      RelativePanel.Below="ChilliPhoneText"
+                      Text="Features:  Delivery, Takeout, Seating, Wheelchair Accessible, Serves Alcohol, Accepts Mastercard, Accepts Visa, Free Wifi " />
+                    <Rectangle x:ConnectionId='209' Name="Chillibreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="ChilliFeaturesText" />
+                    <TextBlock x:ConnectionId='210'
+                      Name="ChilliOpeningHours"
+                      TextWrapping="Wrap" 
+                      FontWeight="Bold"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      RelativePanel.Below="Chillibreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='211'
+                      Name="ChilliSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="ChilliOpeningHours"
+                      Text="Saturday	12a.m. - 10p.m." />
+                    <TextBlock x:ConnectionId='212'
+                      Name="ChilliSunText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="ChilliSatText"
+                      Text="Sunday	12a.m. - 9p.m." />
+                    <TextBlock x:ConnectionId='213'
+                      Name="ChilliMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="ChilliSunText"
+                      Text="Monday	12a.m. - 9p.m." />
+                    <TextBlock x:ConnectionId='214'
+                      Name="ChilliTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="ChilliMonText"
+                      Text="Tuesday	12a.m. - 9p.m." />
+                    <TextBlock x:ConnectionId='215'
+                      Name="ChilliWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="ChilliTueText"
+                      Text="Wednesday	12a.m. - 9p.m." />
+                    <TextBlock x:ConnectionId='216'
+                      Name="ChilliThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="ChilliWedText"
+                      Text="Thursday	8a.m.–2a.m." />
+                    <TextBlock x:ConnectionId='217'
+                      Name="ChilliFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="ChilliThurText"
+                      Text="Friday	8a.m.–2a.m. " />
+                </RelativePanel>
+                <Rectangle HorizontalAlignment="Stretch" Height="5" Margin="0,2,0,2" Stroke="Black" Fill="black" />
+                
+                <Image x:ConnectionId='6' Name="DoughBroImg" Source="Assets\the-dough-bros.jpg" />
+                <TextBlock x:ConnectionId='7' Name="Dough"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The Dough Bros" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='202' Name="DoughInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                   
+                   ></Button>
+                    <Button x:ConnectionId='203' Name="DoughLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                  
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='188'
+                      Name="DoughMealsText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Text="Meals Avalible: Brunch, Lunch, Dinner, After-hours " />
+                    <Rectangle x:ConnectionId='189' Name="Doughbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="DoughMealsText" />
+                    <TextBlock x:ConnectionId='190'
+                      Name="DoughPhoneText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="Doughbreak1"
+                      Text="Phone: (087) 176 1662" />
+                    <TextBlock x:ConnectionId='191'
+                      Name="DoughTypeText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.RightOf="DoughPhoneText"
+                      Text="Type: Pizza Place " />
+                    <TextBlock x:ConnectionId='192'
+                      Name="DoughFeaturesText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="DoughPhoneText"
+                      Text="Features:  Takeout, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Free Wifi " />
+                    <Rectangle x:ConnectionId='193' Name="Doughbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="DoughFeaturesText" />
+                    <TextBlock x:ConnectionId='194'
+                      Name="DoughOpeningHours"
+                      TextWrapping="Wrap" 
+                      FontWeight="Bold"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      RelativePanel.Below="Doughbreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='195'
+                      Name="DoughSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="DoughOpeningHours"
+                      Text="Saturday	12a.m. - 10p.m." />
+                    <TextBlock x:ConnectionId='196'
+                      Name="DoughSunText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DoughSatText"
+                      Text="Sunday	12a.m. - 10p.m." />
+                    <TextBlock x:ConnectionId='197'
+                      Name="DoughMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="DoughSunText"
+                      Text="Monday	12a.m. - 10p.m." />
+                    <TextBlock x:ConnectionId='198'
+                      Name="DoughTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DoughMonText"
+                      Text="Tuesday	12a.m. - 10p.m." />
+                    <TextBlock x:ConnectionId='199'
+                      Name="DoughWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DoughTueText"
+                      Text="Wednesday	12a.m. - 10p.m." />
+                    <TextBlock x:ConnectionId='200'
+                      Name="DoughThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="DoughWedText"
+                      Text="Thursday	12a.m. - 10p.m." />
+                    <TextBlock x:ConnectionId='201'
+                      Name="DoughFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DoughThurText"
+                      Text="Friday	12a.m. - 10p.m. " />
+                </RelativePanel>
+
+                <Image x:ConnectionId='8' Name="QuayImg" Source="Assets\quay.jpg" />
+                <TextBlock x:ConnectionId='9' Name="Quay"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The Quay Street Kitchen" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='186' Name="QuayInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                  
+                   ></Button>
+                 
+                    <Button x:ConnectionId='187' Name="QuayLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                 
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='172'
+                      Name="QuayMealsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
+                      Text="Meals Avalible: Brunch, Lunch, Dinner" />
+                    <Rectangle x:ConnectionId='173' Name="Quaybreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="QuayMealsText" />
+                    <TextBlock x:ConnectionId='174'
+                      Name="QuayPhoneText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      RelativePanel.Below="Quaybreak1"
+                      Text="Phone: (091) 865 680" />
+                    <TextBlock x:ConnectionId='175'
+                      Name="QuayTypeText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.RightOf="QuayPhoneText"
+                      Text="Type: Irish Pub " />
+                    <TextBlock x:ConnectionId='176'
+                      Name="QuayFeaturesText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="QuayPhoneText"
+                      Text="Features:  Outdoor Seating, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Wine and Beer, Accepts Mastercard, Accepts Visa, Free Wifi " />
+                    <Rectangle x:ConnectionId='177' Name="Quaybreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="QuayFeaturesText" />
+                    <TextBlock x:ConnectionId='178'
+                      Name="QuayOpeningHours"
+                      TextWrapping="Wrap" 
+                      FontWeight="Bold"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      RelativePanel.Below="Quaybreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='179'
+                      Name="QuaySatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="QuayOpeningHours"
+                      Text="Saturday	11:45.am - 11:30pm." />
+                    <TextBlock x:ConnectionId='180'
+                      Name="QuaySunText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="QuaySatText"
+                      Text="Sunday	11:45.am - 11:30pm." />
+                    <TextBlock x:ConnectionId='181'
+                      Name="QuayMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="QuaySunText"
+                      Text="Monday	11:45.am - 11:30pm." />
+                    <TextBlock x:ConnectionId='182'
+                      Name="QuayTueText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="QuayMonText"
+                      Text="Tuesday	11:45.am - 11:30pm." />
+                    <TextBlock x:ConnectionId='183'
+                      Name="QuayWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="QuayTueText"
+                      Text="Wednesday	11:45.am - 11:30pm." />
+                    <TextBlock x:ConnectionId='184'
+                      Name="QuayThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="QuayWedText"
+                      Text="Thursday	11:45.am - 11:30pm." />
+                    <TextBlock x:ConnectionId='185'
+                      Name="QuayFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="QuayThurText"
+                      Text="Friday	11:45.am - 11:30pm. " />
+                </RelativePanel>
+
+                <Image x:ConnectionId='10' Name="McDonaghsImg" Source="Assets\McDonaghs.jpg" />
+                <TextBlock x:ConnectionId='11' Name="McDonaghs"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="McDonaghs" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='170' Name="McDonaghsInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                       
+                   ></Button>
+                   
+                    <Button x:ConnectionId='171' Name="McDonaghsLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                      
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='156'
+                      Name="McDonaghsMealsText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Text="Meals Avalible: Irish, Fast food, British, Soups, Seafood" />
+                    <Rectangle x:ConnectionId='157' Name="McDonaghsbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="McDonaghsMealsText" />
+                    <TextBlock x:ConnectionId='158'
+                      Name="McDonaghsPhoneText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      RelativePanel.Below="McDonaghsbreak1"
+                      Text="Phone: (091) 565 001" />
+                    <TextBlock x:ConnectionId='159'
+                      Name="McDonaghsTypeText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.RightOf="McDonaghsPhoneText"
+                      Text="Type: Seafood " />
+                    <TextBlock x:ConnectionId='160'
+                      Name="McDonaghsFeaturesText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      RelativePanel.Below="McDonaghsPhoneText"
+                      Text="Features:  Outdoor Seating, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Wine and Beer, Accepts Mastercard, Accepts Visa, Free Wifi " />
+                    <Rectangle x:ConnectionId='161' Name="McDonaghsbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="McDonaghsFeaturesText" />
+                    <TextBlock x:ConnectionId='162'
+                      Name="McDonaghsOpeningHours"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      FontWeight="Bold"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      RelativePanel.Below="McDonaghsbreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='163'
+                      Name="McDonaghsSatText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McDonaghsOpeningHours"
+                      Text="Saturday	2:00.pm - 11:00pm." />
+                    <TextBlock x:ConnectionId='164'
+                      Name="McDonaghsSunText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McDonaghsSatText"
+                      Text="Sunday	12:00.am - 11:00.pm." />
+                    <TextBlock x:ConnectionId='165'
+                      Name="McDonaghsMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McDonaghsSunText"
+                      Text="Monday	12:00.am - 11:00.pm." />
+                    <TextBlock x:ConnectionId='166'
+                      Name="McDonaghsTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McDonaghsMonText"
+                      Text="Tuesday	12:00.am - 11:00.pm." />
+                    <TextBlock x:ConnectionId='167'
+                      Name="McDonaghsWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McDonaghsTueText"
+                      Text="Wednesday	12:00.am - 11:00.pm." />
+                    <TextBlock x:ConnectionId='168'
+                      Name="McDonaghsThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="McDonaghsWedText"
+                      Text="Thursday	12:00.am - 11:00.pm." />
+                    <TextBlock x:ConnectionId='169'
+                      Name="McDonaghsFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McDonaghsThurText"
+                      Text="Friday	12:00.am - 11:00.pm. " />
+                </RelativePanel>
+
+                <Image x:ConnectionId='12' Name="McGettigansImg" Source="Assets\McGettigans.jpg" />
+                <TextBlock x:ConnectionId='13' Name="McGettigan"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="McGettigans" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='154' Name="McGettiganInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                        
+                   ></Button>
+                   
+                    <Button x:ConnectionId='155' Name="McGettiganLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                       
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='140'
+                      Name="McGettiganMealsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
+                      Text="Meals Avalible: Lunch, Dinner, After-hours, Brunch" />
+                    <Rectangle x:ConnectionId='141' Name="McGettiganbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="McGettiganMealsText" />
+                    <TextBlock x:ConnectionId='142'
+                      Name="McGettiganPhoneText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      RelativePanel.Below="McGettiganbreak1"
+                      Text="Phone: (091) 331 010" />
+                    <TextBlock x:ConnectionId='143'
+                      Name="McGettiganTypeText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.RightOf="McGettiganPhoneText"
+                      Text="Type: Sports Bar " />
+                    <TextBlock x:ConnectionId='144'
+                      Name="McGettiganFeaturesText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="McGettiganPhoneText"
+                      Text="Features:  Outdoor Seating, Seating, Waitstaff, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Wine and Beer, Accepts Mastercard, Accepts Visa, Free Wifi " />
+                    <Rectangle x:ConnectionId='145' Name="McGettiganbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="McGettiganFeaturesText" />
+                    <TextBlock x:ConnectionId='146'
+                      Name="McGettiganOpeningHours"
+                      TextWrapping="Wrap" 
+                      FontWeight="Bold"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      RelativePanel.Below="McGettiganbreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='147'
+                      Name="McGettiganSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McGettiganOpeningHours"
+                      Text="Saturday	12:00.pm - 2:00am." />
+                    <TextBlock x:ConnectionId='148'
+                      Name="McGettiganSunText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McGettiganSatText"
+                      Text="Sunday	12:00.am - 11:00.pm." />
+                    <TextBlock x:ConnectionId='149'
+                      Name="McGettiganMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="McGettiganSunText"
+                      Text="Monday	11:00.am - 11:30.pm." />
+                    <TextBlock x:ConnectionId='150'
+                      Name="McGettiganTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="McGettiganMonText"
+                      Text="Tuesday	11:00.am - 11:30.pm." />
+                    <TextBlock x:ConnectionId='151'
+                      Name="McGettiganWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McGettiganTueText"
+                      Text="Wednesday	11:00.am - 11:30.pm." />
+                    <TextBlock x:ConnectionId='152'
+                      Name="McGettiganThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McGettiganWedText"
+                      Text="Thursday	11:00.am - 11:30.pm." />
+                    <TextBlock x:ConnectionId='153'
+                      Name="McGettiganFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="McGettiganThurText"
+                      Text="Friday	11:00.am - 11:30.pm." />
+                </RelativePanel>
+
+                <Image x:ConnectionId='14' Name="BuskerBrownesImg" Source="Assets\busker-brownes.jpg" />
+                <TextBlock x:ConnectionId='15' Name="BuskerBrownes"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Busker Brownes" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='138' Name="BuskerBrownesInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                           
+                   ></Button>
+                    
+                    
+                    <Button x:ConnectionId='139' Name="BuskerBrownesLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                          
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='124'
+                      Name="BuskerBrownesMealsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
+                      Text="Meals Avalible: Lunch, Dinner, After-hours, Brunch" />
+                    <Rectangle x:ConnectionId='125' Name="BuskerBrownesbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="BuskerBrownesMealsText" />
+                    <TextBlock x:ConnectionId='126'
+                      Name="BuskerBrownesPhoneText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      RelativePanel.Below="BuskerBrownesbreak1"
+                      Text="Phone: (091) 563 377" />
+                    <TextBlock x:ConnectionId='127'
+                      Name="BuskerBrownesTypeText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.RightOf="BuskerBrownesPhoneText"
+                      Text="Type: Irish Pub " />
+                    <TextBlock x:ConnectionId='128'
+                      Name="BuskerBrownesFeaturesText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      RelativePanel.Below="BuskerBrownesPhoneText"
+                      Text="Features:   Reservations, Seating, Waitstaff, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Free Wifi " />
+                    <Rectangle x:ConnectionId='129' Name="BuskerBrownesbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="BuskerBrownesFeaturesText" />
+                    <TextBlock x:ConnectionId='130'
+                      Name="BuskerBrownesOpeningHours"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      FontWeight="Bold"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      RelativePanel.Below="BuskerBrownesbreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='131'
+                      Name="BuskerBrownesSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="BuskerBrownesOpeningHours"
+                      Text="Saturday	10:00.am - 2:30am." />
+                    <TextBlock x:ConnectionId='132'
+                      Name="BuskerBrownesSunText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BuskerBrownesSatText"
+                      Text="Sunday	10:00.am - 11:30.pm." />
+                    <TextBlock x:ConnectionId='133'
+                      Name="BuskerBrownesMonText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BuskerBrownesSunText"
+                      Text="Monday	10:00.am - 11:30.pm." />
+                    <TextBlock x:ConnectionId='134'
+                      Name="BuskerBrownesTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BuskerBrownesMonText"
+                      Text="Tuesday	10:00.am - 11:30.pm." />
+                    <TextBlock x:ConnectionId='135'
+                      Name="BuskerBrownesWedText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BuskerBrownesTueText"
+                      Text="Wednesday	10:00.am - 11:30.pm." />
+                    <TextBlock x:ConnectionId='136'
+                      Name="BuskerBrownesThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BuskerBrownesWedText"
+                      Text="Thursday	10:00am - 02:30am" />
+                    <TextBlock x:ConnectionId='137'
+                      Name="BuskerBrownesFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="BuskerBrownesThurText"
+                      Text="Friday	10:00.am - 2:30.pm." />
+                </RelativePanel>
+
+                <Image x:ConnectionId='16' Name="DailImg" Source="Assets\dail.jpg" />
+                <TextBlock x:ConnectionId='17' Name="Dail"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The Dail" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='122' Name="DailInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                  
+                   ></Button>
+                   
+                    <Button x:ConnectionId='123' Name="DailLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                 
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='108'
+                      Name="DailMealsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
+                      Text="Meals Avalible: Lunch, Dinner, Drinks" />
+                    <Rectangle x:ConnectionId='109' Name="Dailbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="DailMealsText" />
+                    <TextBlock x:ConnectionId='110'
+                      Name="DailPhoneText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Margin="50,0,0,0"
+                      RelativePanel.Below="Dailbreak1"
+                      Text="Phone: (091) 563 777" />
+                    <TextBlock x:ConnectionId='111'
+                      Name="DailTypeText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,25,0,0"
+                      RelativePanel.RightOf="DailPhoneText"
+                      Text="Type: Irish Pub " />
+                    <TextBlock x:ConnectionId='112'
+                      Name="DailFeaturesText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      RelativePanel.Below="DailPhoneText"
+                      Text="Features:   Takeout, Seating, Waitstaff, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Accepts American Express, Accepts Mastercard, Accepts Visa, Free Wifi, Reservations " />
+                    <Rectangle x:ConnectionId='113' Name="Dailbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="DailFeaturesText" />
+                    <TextBlock x:ConnectionId='114'
+                      Name="DailOpeningHours"
+                      TextWrapping="Wrap" 
+                      FontWeight="Bold"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      RelativePanel.Below="Dailbreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='115'
+                      Name="DailSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DailOpeningHours"
+                      Text="Saturday	10:30am - 02:00pm" />
+                    <TextBlock x:ConnectionId='116'
+                      Name="DailSunText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DailSatText"
+                      Text="Sunday	10:30am - 02:00pm" />
+                    <TextBlock x:ConnectionId='117'
+                      Name="DailMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DailSunText"
+                      Text="Monday	10:30am - 02:00pm" />
+                    <TextBlock x:ConnectionId='118'
+                      Name="DailTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DailMonText"
+                      Text="Tuesday	10:30am - 02:00pm" />
+                    <TextBlock x:ConnectionId='119'
+                      Name="DailWedText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DailTueText"
+                      Text="Wednesday	10:30am - 02:00pm" />
+                    <TextBlock x:ConnectionId='120'
+                      Name="DailThurText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DailWedText"
+                      Text="Thursday	10:30am - 02:00pm" />
+                    <TextBlock x:ConnectionId='121'
+                      Name="DailFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="DailThurText"
+                      Text="Friday	10:30am - 02:00pm" />
+                </RelativePanel>
+
+                <Image x:ConnectionId='18' Name="SaltImg" Source="Assets\SaltHouse.jpg" />
+                <TextBlock x:ConnectionId='19' Name="Salt"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The Salt House" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='106' Name="SaltInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                  
+                   ></Button>
+                    
+                    <Button x:ConnectionId='107' Name="SaltLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                 
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='92'
+                      Name="SaltMealsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
+                      Text="Meals Avalible: Drinks" />
+                    <Rectangle x:ConnectionId='93' Name="Saltbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="SaltMealsText" />
+                    <TextBlock x:ConnectionId='94'
+                      Name="SaltPhoneText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="Saltbreak1"
+                      Text="Phone: (091) 441 550" />
+                    <TextBlock x:ConnectionId='95'
+                      Name="SaltTypeText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.RightOf="SaltPhoneText"
+                      Text="Type: Irish Pub " />
+                    <TextBlock x:ConnectionId='96'
+                      Name="SaltFeaturesText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      RelativePanel.Below="SaltPhoneText"
+                      Text="Features:   Outdoor Seating, Seating, Wheelchair Accessible, Serves Alcohol, Full Bar, Free Wifi " />
+                    <Rectangle x:ConnectionId='97' Name="Saltbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="SaltFeaturesText" />
+                    <TextBlock x:ConnectionId='98'
+                      Name="SaltOpeningHours"
+                      TextWrapping="Wrap" 
+                      FontWeight="Bold"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="Saltbreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='99'
+                      Name="SaltSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SaltOpeningHours"
+                      Text="Saturday	10:00.am - 2:00am." />
+                    <TextBlock x:ConnectionId='100'
+                      Name="SaltSunText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SaltSatText"
+                      Text="Sunday	10:00.am - 2:00am." />
+                    <TextBlock x:ConnectionId='101'
+                      Name="SaltMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="SaltSunText"
+                      Text="Monday	10:00.am - 2:00am." />
+                    <TextBlock x:ConnectionId='102'
+                      Name="SaltTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="SaltMonText"
+                      Text="Tuesday	10:00.am - 2:00am." />
+                    <TextBlock x:ConnectionId='103'
+                      Name="SaltWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SaltTueText"
+                      Text="Wednesday	10:00.am - 2:00am." />
+                    <TextBlock x:ConnectionId='104'
+                      Name="SaltThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SaltWedText"
+                      Text="Thursday	10:00am - 2:00am." />
+                    <TextBlock x:ConnectionId='105'
+                      Name="SaltFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="SaltThurText"
+                      Text="Friday	10:00.am - 2:00am." />
+                </RelativePanel>
+
+                <Image x:ConnectionId='20' Name="KingsImg" Source="Assets\Kings-Head.jpg" />
+                <TextBlock x:ConnectionId='21' Name="Kings"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The Kings Head" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='90' Name="KingsInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                   
+                   ></Button>
+                   
+                    <Button x:ConnectionId='91' Name="KingsLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                  
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='76'
+                      Name="KingsMealsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Style="{StaticResource Desc}"
+                      Text="Meals Avalible: Brunch, Lunch, Dinner, After-hours, Drinks" />
+                    <Rectangle x:ConnectionId='77' Name="Kingsbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="KingsMealsText" />
+                    <TextBlock x:ConnectionId='78'
+                      Name="KingsPhoneText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="Kingsbreak1"
+                      Text="Phone: (091) 566 630" />
+                    <TextBlock x:ConnectionId='79'
+                      Name="KingsTypeText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Margin="50,25,0,0"
+                      RelativePanel.RightOf="KingsPhoneText"
+                      Text="Type: Irish Pub " />
+                    <TextBlock x:ConnectionId='80'
+                      Name="KingsFeaturesText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Margin="20,25,0,0"
+                      RelativePanel.Below="KingsPhoneText"
+                      Text="Features:   Reservations, Seating, Waitstaff, Television, Highchairs Available, Wheelchair Accessible, Serves Alcohol, Full Bar, Free Wifi " />
+                    <Rectangle x:ConnectionId='81' Name="Kingsbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="KingsFeaturesText" />
+                    <TextBlock x:ConnectionId='82'
+                      Name="KingsOpeningHours"
+                      TextWrapping="Wrap" 
+                      FontWeight="Bold"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      RelativePanel.Below="Kingsbreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='83'
+                      Name="KingsSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="KingsOpeningHours"
+                      Text="Saturday	10:30.am - 11:30am." />
+                    <TextBlock x:ConnectionId='84'
+                      Name="KingsSunText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="KingsSatText"
+                      Text="Sunday	11:30am - 11:00pm" />
+                    <TextBlock x:ConnectionId='85'
+                      Name="KingsMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="KingsSunText"
+                      Text="Monday	10:30.am - 11:30am." />
+                    <TextBlock x:ConnectionId='86'
+                      Name="KingsTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="KingsMonText"
+                      Text="Tuesday	10:30.am - 11:30am." />
+                    <TextBlock x:ConnectionId='87'
+                      Name="KingsWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="KingsTueText"
+                      Text="Wednesday	10:30.am - 11:30am." />
+                    <TextBlock x:ConnectionId='88'
+                      Name="KingsThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="KingsWedText"
+                      Text="Thursday	10:30.am - 11:30am." />
+                    <TextBlock x:ConnectionId='89'
+                      Name="KingsFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="KingsThurText"
+                      Text="Friday	10:30.am - 11:30am." />
+                </RelativePanel>
+
+                <Image x:ConnectionId='22' Name="OscarsImg" Source="Assets\oscars.jpg" />
+                <TextBlock x:ConnectionId='23' Name="Oscars"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Oscars Seafood" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='74' Name="OscarsInfo" Content="More Info" 
+                                                    
+                    Style="{StaticResource LinkBtns}"
+                   ></Button>
+                   
+                    <Button x:ConnectionId='75' Name="OscarsLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                   
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='60'
+                      Name="OscarsMealsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Text="Meals Avalible: Dinner, After-hours" />
+                    <Rectangle x:ConnectionId='61' Name="Oscarsbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="OscarsMealsText" />
+                    <TextBlock x:ConnectionId='62'
+                      Name="OscarsPhoneText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      RelativePanel.Below="Oscarsbreak1"
+                      Text="Phone: (091) 582 180" />
+                    <TextBlock x:ConnectionId='63'
+                      Name="OscarsTypeText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,25,0,0"
+                      RelativePanel.RightOf="OscarsPhoneText"
+                      Text="Type: Seafood " />
+                    <TextBlock x:ConnectionId='64'
+                      Name="OscarsFeaturesText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Margin="20,25,0,0"
+                      RelativePanel.Below="OscarsPhoneText"
+                      Text="Features:   Reservations, Seating, Waitstaff, Wheelchair Accessible, Serves Alcohol, Full Bar " />
+                    <Rectangle x:ConnectionId='65' Name="Oscarsbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="OscarsFeaturesText" />
+                    <TextBlock x:ConnectionId='66'
+                      Name="OscarsOpeningHours"
+                      TextWrapping="Wrap" 
+                      FontWeight="Bold"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="Oscarsbreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='67'
+                      Name="OscarsSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="OscarsOpeningHours"
+                      Text="Saturday	11:30.am - 12:00pm." />
+                    <TextBlock x:ConnectionId='68'
+                      Name="OscarsSunText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="OscarsSatText"
+                      Text="Sunday	11:30am - 11:00pm" />
+                    <TextBlock x:ConnectionId='69'
+                      Name="OscarsMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="OscarsSunText"
+                      Text="Monday	10:30.am - 11:30am." />
+                    <TextBlock x:ConnectionId='70'
+                      Name="OscarsTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="OscarsMonText"
+                      Text="Tuesday	10:30.am - 11:30am." />
+                    <TextBlock x:ConnectionId='71'
+                      Name="OscarsWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="OscarsTueText"
+                      Text="Wednesday	10:30.am - 11:30am." />
+                    <TextBlock x:ConnectionId='72'
+                      Name="OscarsThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="OscarsWedText"
+                      Text="Thursday	10:30.am - 11:30am." />
+                    <TextBlock x:ConnectionId='73'
+                      Name="OscarsFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="OscarsThurText"
+                      Text="Friday	10:30.am - 11:30am." />
+                </RelativePanel>
+
+                <Image x:ConnectionId='24' Name="FrontImg" Source="Assets\the-front-door.jpg" />
+                <TextBlock x:ConnectionId='25' Name="Front"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="The Front Door" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='58' Name="FrontInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                   
+                   ></Button>
+                   
+                    <Button x:ConnectionId='59' Name="FrontLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                  
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='44'
+                      Name="FrontMealsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Text="Meals Avalible: Dinner, After-hours" />
+                    <Rectangle x:ConnectionId='45' Name="Frontbreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="FrontMealsText" />
+                    <TextBlock x:ConnectionId='46'
+                      Name="FrontPhoneText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      RelativePanel.Below="Frontbreak1"
+                      Text="Phone: (091) 563 757" />
+                    <TextBlock x:ConnectionId='47'
+                      Name="FrontTypeText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Margin="50,25,0,0"
+                      RelativePanel.RightOf="FrontPhoneText"
+                      Text="Type: Irish Pub " />
+                    <TextBlock x:ConnectionId='48'
+                      Name="FrontFeaturesText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="FrontPhoneText"
+                      Text="Features:   Reservations, Seating, Waitstaff, Wheelchair Accessible, Serves Alcohol, Full Bar " />
+                    <Rectangle x:ConnectionId='49' Name="Frontbreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="FrontFeaturesText" />
+                    <TextBlock x:ConnectionId='50'
+                      Name="FrontOpeningHours"
+                      TextWrapping="Wrap" 
+                      FontWeight="Bold"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="Frontbreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='51'
+                      Name="FrontSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="FrontOpeningHours"
+                      Text="Saturday	11:30.am - 2:00am" />
+                    <TextBlock x:ConnectionId='52'
+                      Name="FrontSunText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="FrontSatText"
+                      Text="Sunday	11:30.am - 2:00am" />
+                    <TextBlock x:ConnectionId='53'
+                      Name="FrontMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="FrontSunText"
+                      Text="Monday	11:30.am - 2:00am" />
+                    <TextBlock x:ConnectionId='54'
+                      Name="FrontTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="FrontMonText"
+                      Text="Tuesday	11:30.am - 2:00am" />
+                    <TextBlock x:ConnectionId='55'
+                      Name="FrontWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="FrontTueText"
+                      Text="Wednesday	11:30.am - 2:00am" />
+                    <TextBlock x:ConnectionId='56'
+                      Name="FrontThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="FrontWedText"
+                      Text="Thursday	11:30.am - 2:00am" />
+                    <TextBlock x:ConnectionId='57'
+                      Name="FrontFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="FrontThurText"
+                      Text="Friday	11:30.am - 2:00am." />
+                </RelativePanel>
+
+                <Image x:ConnectionId='26' Name="BiteImg" Source="Assets\biteclub.jpg" />
+                <TextBlock x:ConnectionId='27' Name="Bite"
+                           Margin="0,10,0,0"
+                           Style="{StaticResource Place}"
+                           HorizontalAlignment="Center"
+                           Text="Biteclub" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:ConnectionId='42' Name="BiteInfo" Content="More Info" 
+                    Style="{StaticResource LinkBtns}"
+                                                  
+                   ></Button>
+                    
+                    <Button x:ConnectionId='43' Name="BiteLoc" Content="Location" 
+                    Style="{StaticResource LinkBtns}"
+                                                 
+                    ></Button>
+
+                </StackPanel>
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='28'
+                      Name="BiteMealsText"
+                      TextWrapping="Wrap" 
+                      HorizontalAlignment="Center"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True"
+                      Text="Meals Avalible: Breakfast, Lunch, Dinner, Brunch, After-hours, Drinks" />
+                    <Rectangle x:ConnectionId='29' Name="Bitebreak1" HorizontalAlignment="Stretch" Width="Auto" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="BiteMealsText" />
+                    <TextBlock x:ConnectionId='30'
+                      Name="BitePhoneText"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,0,0,0"
+                      RelativePanel.Below="Bitebreak1"
+                      Text="Phone: (091) 565 976" />
+                    <TextBlock x:ConnectionId='31'
+                      Name="BiteTypeText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,25,0,0"
+                      RelativePanel.RightOf="BitePhoneText"
+                      Text="Type: Irish Pub " />
+                    <TextBlock x:ConnectionId='32'
+                      Name="BiteFeaturesText"
+                      TextWrapping="Wrap"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="20,25,0,0"
+                      RelativePanel.Below="BitePhoneText"
+                      Text="Features:   Reservations, Seating, Wheelchair Accessible, Serves Alcohol, Full Bar, Waitstaff " />
+                    <Rectangle x:ConnectionId='33' Name="Bitebreak2" HorizontalAlignment="Stretch" Height="5" Margin="0,1,0,1" Stroke="Black" Fill="black" RelativePanel.Below="BiteFeaturesText" />
+                    <TextBlock x:ConnectionId='34'
+                      Name="BiteOpeningHours"
+                      TextWrapping="Wrap" 
+                      Style="{StaticResource Desc}"
+                      FontWeight="Bold"
+                      HorizontalAlignment="Center"
+                      Margin="50,20,0,0"
+                      RelativePanel.Below="Bitebreak2"
+                      Text="Opening Hours:" />
+                    <TextBlock x:ConnectionId='35'
+                      Name="BiteSatText"
+                      TextWrapping="Wrap"
+                      FontWeight="Light"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      Style="{StaticResource Desc}"
+                      RelativePanel.Below="BiteOpeningHours"
+                      Text="Saturday	12:00.am - 10:00pm." />
+                    <TextBlock x:ConnectionId='36'
+                      Name="BiteSunText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BiteSatText"
+                      Text="Sunday	12:00.am - 10:00pm." />
+                    <TextBlock x:ConnectionId='37'
+                      Name="BiteMonText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BiteSunText"
+                      Text="Monday	12:00.am - 10:00pm." />
+                    <TextBlock x:ConnectionId='38'
+                      Name="BiteTueText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BiteMonText"
+                      Text="Tuesday	12:00.am - 10:00pm." />
+                    <TextBlock x:ConnectionId='39'
+                      Name="BiteWedText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BiteTueText"
+                      Text="Wednesday	12:00.am - 10:00pm." />
+                    <TextBlock x:ConnectionId='40'
+                      Name="BiteThurText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BiteWedText"
+                      Text="Thursday	12:00.am - 10:00pm." />
+                    <TextBlock x:ConnectionId='41'
+                      Name="BiteFriText"
+                      TextWrapping="Wrap" 
+                      FontWeight="Light"
+                      Style="{StaticResource Desc}"
+                      HorizontalAlignment="Center"
+                      Margin="50,5,0,0"
+                      RelativePanel.Below="BiteThurText"
+                      Text="Friday	12:00.am - 10:00pm." />
+                </RelativePanel>
+
+            </StackPanel>
+        </ScrollViewer>
+        <Frame x:ConnectionId='1' Name="MyFrame">
+
+        </Frame>
+    </Grid>
+</Page>
+
