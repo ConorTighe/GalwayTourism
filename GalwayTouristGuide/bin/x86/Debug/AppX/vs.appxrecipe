@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-26T00:52:51.752</Modified>
+      <Modified>2017-03-26T01:14:02.872</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\GalwayTouristGuide.exe">
       <PackagePath>entrypoint\GalwayTouristGuide.exe</PackagePath>
-      <Modified>2017-03-26T00:52:49.961</Modified>
+      <Modified>2017-03-26T01:14:00.186</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -771,7 +771,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\Core\GalwayTouristGuide.exe">
       <PackagePath>GalwayTouristGuide.exe</PackagePath>
-      <Modified>2017-03-26T00:52:51.731</Modified>
+      <Modified>2017-03-26T01:14:02.847</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

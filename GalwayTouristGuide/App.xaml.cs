@@ -76,8 +76,9 @@ namespace GalwayTouristGuide
                     rootFrame.Navigate(typeof(MainPage), e.Arguments);
                 }
                 // Sets the size of the window on open
-                ApplicationView.PreferredLaunchViewSize = new Size(800, 800);
+                ApplicationView.PreferredLaunchViewSize = new Size(432, 768);
                 ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
+
                 Window.Current.Activate();
             }
         }
