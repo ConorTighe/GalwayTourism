@@ -24,7 +24,7 @@ Once open you are given a brief history of galway with a navigation menu to the 
 
 The first 5 will give to details related to the topic and buttons to show there location and there website, the events button will bring you to a website with up and coming events in Galway, The Last Seen tab shows you the last landmark you've visited and the About App button will bring you to the user guide and source code.
 
-#References:
+# References:
 
 [Bing maps API](https://docs.microsoft.com/en-us/windows/uwp/maps-and-location/)
 
@@ -32,6 +32,6 @@ The first 5 will give to details related to the topic and buttons to show there 
 
 [Background Music](http://www.bensound.com/)
 
-#Store:
+# Store:
 
 [Download here](https://www.microsoft.com/en-us/store/p/galway-guide/9ns02w2v9dlb)
