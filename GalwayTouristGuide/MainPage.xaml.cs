@@ -21,9 +21,10 @@ namespace GalwayTouristGuide
             
             this.InitializeComponent();
 
-            // Sets the size of the window on open
-            ApplicationView.PreferredLaunchViewSize = new Size(432, 768);
-            ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
+            // Sets the size of the window on open, has been moved to app.xaml.cs but I left it here too to show the code,
+            // this only works sometimes according to msdn forms and theres no full proof way to set the screen size 
+            //ApplicationView.PreferredLaunchViewSize = new Size(432, 768);
+            //ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
 
             //Background music
             BackgroundPlayer = new MediaPlayer();

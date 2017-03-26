@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>45e0c5f1-9c40-4a22-9f26-af4e36d75691</PackageIdentityName>
     <PackageIdentityPublisher>CN=C73E1786-84F9-42C7-9B49-0242C9FC60E1</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\obj\x86\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Release\ilc\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Release\GalwayTouristGuide.exe">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Release\GalwayTouristGuide.exe">
       <PackagePath>GalwayTouristGuide.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -340,237 +340,237 @@
     <AppxPackagedFile Include="C:\Users\Conor\.nuget\packages\System.Xml.XmlSerializer\4.0.10\runtimes\win8-aot\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\BadgeLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\galway1.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\galway1.scale-200.png">
       <PackagePath>Assets\galway1.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo310.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo310.png">
       <PackagePath>Assets\gtownlogo310.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo620.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo620.png">
       <PackagePath>Assets\gtownlogo620.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogostore.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogostore.png">
       <PackagePath>Assets\gtownlogostore.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\pushpin.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\pushpin.png">
       <PackagePath>Assets\pushpin.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square310x310Logo.scale-100.png">
       <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Bay.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Bay.jpg">
       <PackagePath>Assets\Bay.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\carbon.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\carbon.jpg">
       <PackagePath>Assets\carbon.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\clayton.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\clayton.jpg">
       <PackagePath>Assets\clayton.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\conn.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\conn.jpg">
       <PackagePath>Assets\conn.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\elec.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\elec.jpg">
       <PackagePath>Assets\elec.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\flannerys.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\flannerys.jpg">
       <PackagePath>Assets\flannerys.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\front.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\front.jpg">
       <PackagePath>Assets\front.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gaelic.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gaelic.jpg">
       <PackagePath>Assets\gaelic.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtown.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtown.jpg">
       <PackagePath>Assets\gtown.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo.jpg">
       <PackagePath>Assets\gtownlogo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo150.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo150.jpg">
       <PackagePath>Assets\gtownlogo150.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo300.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo300.jpg">
       <PackagePath>Assets\gtownlogo300.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo71.scale-200.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogo71.scale-200.jpg">
       <PackagePath>Assets\gtownlogo71.scale-200.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\halo.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\halo.jpg">
       <PackagePath>Assets\halo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\harbour.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\harbour.jpg">
       <PackagePath>Assets\harbour.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\hurling.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\hurling.jpg">
       <PackagePath>Assets\hurling.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\jury.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\jury.jpg">
       <PackagePath>Assets\jury.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\karma.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\karma.jpg">
       <PackagePath>Assets\karma.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\biteclub.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\biteclub.jpg">
       <PackagePath>Assets\biteclub.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\busker-brownes.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\busker-brownes.jpg">
       <PackagePath>Assets\busker-brownes.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\chillishack.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\chillishack.jpg">
       <PackagePath>Assets\chillishack.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\dail.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\dail.jpg">
       <PackagePath>Assets\dail.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\dunguaire-castle.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\dunguaire-castle.jpg">
       <PackagePath>Assets\dunguaire-castle.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\eyre.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\eyre.jpg">
       <PackagePath>Assets\eyre.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\GalwayMuseum.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\GalwayMuseum.jpg">
       <PackagePath>Assets\GalwayMuseum.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Galway_cathedral.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Galway_cathedral.jpg">
       <PackagePath>Assets\Galway_cathedral.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\JamesMitchell.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\JamesMitchell.jpg">
       <PackagePath>Assets\JamesMitchell.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Kings-Head.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Kings-Head.jpg">
       <PackagePath>Assets\Kings-Head.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\kings.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\kings.jpg">
       <PackagePath>Assets\kings.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\McDonaghs.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\McDonaghs.jpg">
       <PackagePath>Assets\McDonaghs.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\McGettigans.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\McGettigans.jpg">
       <PackagePath>Assets\McGettigans.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\oscars.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\oscars.jpg">
       <PackagePath>Assets\oscars.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\park.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\park.jpg">
       <PackagePath>Assets\park.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\pucan.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\pucan.jpg">
       <PackagePath>Assets\pucan.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\quay.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\quay.jpg">
       <PackagePath>Assets\quay.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\race.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\race.jpg">
       <PackagePath>Assets\race.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\rad.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\rad.jpg">
       <PackagePath>Assets\rad.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\rede.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\rede.jpg">
       <PackagePath>Assets\rede.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\roisin.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\roisin.jpg">
       <PackagePath>Assets\roisin.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\rugby.JPG">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\rugby.JPG">
       <PackagePath>Assets\rugby.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\salthill.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\salthill.jpg">
       <PackagePath>Assets\salthill.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\SaltHouse.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\SaltHouse.jpg">
       <PackagePath>Assets\SaltHouse.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\soccer.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\soccer.jpg">
       <PackagePath>Assets\soccer.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Sparch.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Sparch.jpg">
       <PackagePath>Assets\Sparch.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\SplashScreen.scale-200.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\SplashScreen.scale-200.jpg">
       <PackagePath>Assets\SplashScreen.scale-200.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square150x150Logo.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square150x150Logo.scale-100.jpg">
       <PackagePath>Assets\Square150x150Logo.scale-100.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square150x150Logo.scale-200.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square150x150Logo.scale-200.jpg">
       <PackagePath>Assets\Square150x150Logo.scale-200.jpg</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\stnicholascollegiatechurch.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\stnicholascollegiatechurch.jpg">
       <PackagePath>Assets\stnicholascollegiatechurch.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\the-dough-bros.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\the-dough-bros.jpg">
       <PackagePath>Assets\the-dough-bros.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\the-front-door.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\the-front-door.jpg">
       <PackagePath>Assets\the-front-door.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\the-g-hotel.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\the-g-hotel.jpg">
       <PackagePath>Assets\the-g-hotel.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\the-skeff.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\the-skeff.jpg">
       <PackagePath>Assets\the-skeff.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\travel.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\travel.jpg">
       <PackagePath>Assets\travel.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\walls.jpg">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\walls.jpg">
       <PackagePath>Assets\walls.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\bensound-sweet.mp3">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\bensound-sweet.mp3">
       <PackagePath>Assets\bensound-sweet.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Irish.ttf">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Irish.ttf">
       <PackagePath>Assets\Irish.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\KGLuckoftheIrish.ttf">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\KGLuckoftheIrish.ttf">
       <PackagePath>Assets\KGLuckoftheIrish.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\IrishUncialfabeta-Bold.ttf">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\IrishUncialfabeta-Bold.ttf">
       <PackagePath>Assets\IrishUncialfabeta-Bold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Release\GalwayTouristGuide.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Release\GalwayTouristGuide.xr.xml">
       <PackagePath>GalwayTouristGuide.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Release\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Conor\documents\visual studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
