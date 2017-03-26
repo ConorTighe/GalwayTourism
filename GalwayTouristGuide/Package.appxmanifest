@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="36545ConorT.4041208597662" Publisher="CN=C73E1786-84F9-42C7-9B49-0242C9FC60E1" Version="1.1.26.0" />
+  <Identity Name="36545ConorT.4041208597662" Publisher="CN=C73E1786-84F9-42C7-9B49-0242C9FC60E1" Version="1.2.0.0" />
   <mp:PhoneIdentity PhoneProductId="45e0c5f1-9c40-4a22-9f26-af4e36d75691" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Galway Guide</DisplayName>

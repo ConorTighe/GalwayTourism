@@ -1,19 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Devices.Geolocation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,7 +14,9 @@ namespace GalwayTouristGuide
     public sealed partial class Feed : Page
     {
         
-
+        /* The Loc_Click functions use Giopoints to set the desired location using custom coordinates for each place,
+         * The Info_Click functions are used to bring the user to a page with more information and acts as a resource from where I go the info
+         * The Save_Click function saves the name of the location youve been to into a text file */
         public Feed()
         {
             this.InitializeComponent();

@@ -1,2 +1,2 @@
-MainPackage=C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x64\Release\GalwayTouristGuide_1.1.26.0_x64.appx
-SymbolPackage=C:\Users\Conor\Desktop\app\GalwayTouristGuide_1.1.26.0_Test\GalwayTouristGuide_1.1.26.0_x64.appxsym
+MainPackage=C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x64\Release\GalwayTouristGuide_1.2.0.0_x64.appx
+SymbolPackage=C:\Users\Conor\Desktop\app\GalwayTouristGuide_1.2.0.0_Test\GalwayTouristGuide_1.2.0.0_x64.appxsym

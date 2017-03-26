@@ -34387,6 +34387,95 @@ namespace Windows.UI.Text
 	}
 }
 
+namespace Windows.UI.ViewManagement
+{
+	// Windows.UI.ViewManagement.IApplicationViewStatics3
+	public unsafe static class IApplicationViewStatics3__Impl
+	{
+		// StubClass for 'Windows.UI.ViewManagement.IApplicationViewStatics3'
+		public static partial class StubClass
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void put_PreferredLaunchWindowingMode(
+						global::System.__ComObject __this, 
+						global::Windows.UI.ViewManagement.ApplicationViewWindowingMode value)
+			{
+				global::McgInterop.ForwardComSharedStubs.Proc_int<global::Windows.UI.ViewManagement.IApplicationViewStatics3>(
+									__this, 
+									((int)value), 
+									global::Windows.UI.ViewManagement.IApplicationViewStatics3__Impl.Vtbl.idx_put_PreferredLaunchWindowingMode
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			// Signature, Windows.UI.ViewManagement.IApplicationViewStatics3.put_PreferredLaunchViewSize, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] Windows_Foundation_Size__Windows_Foundation__Size, 
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			public static void put_PreferredLaunchViewSize(
+						global::System.__ComObject __this, 
+						global::Windows.Foundation.Size value)
+			{
+				// Setup
+				int unsafe___return__;
+				// Marshalling
+				// Call to native method
+				unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
+									__this, 
+									typeof(global::Windows.UI.ViewManagement.IApplicationViewStatics3).TypeHandle, 
+									global::Windows.UI.ViewManagement.IApplicationViewStatics3__Impl.Vtbl.idx_put_PreferredLaunchViewSize, 
+									value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				// Return
+			}
+		}
+
+		// DispatchClass for 'Windows.UI.ViewManagement.IApplicationViewStatics3'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.ViewManagement.IApplicationViewStatics3))]
+		public abstract partial class DispatchClass : global::System.__ComObject, global::Windows.UI.ViewManagement.IApplicationViewStatics3
+		{
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Windows.UI.ViewManagement.IApplicationViewStatics3.PreferredLaunchWindowingMode")]
+			void global::Windows.UI.ViewManagement.IApplicationViewStatics3.put_PreferredLaunchWindowingMode(global::Windows.UI.ViewManagement.ApplicationViewWindowingMode value)
+			{
+				global::Windows.UI.ViewManagement.IApplicationViewStatics3__Impl.StubClass.put_PreferredLaunchWindowingMode(
+									this, 
+									value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+
+			[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+			[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "Windows.UI.ViewManagement.IApplicationViewStatics3.PreferredLaunchViewSize")]
+			void global::Windows.UI.ViewManagement.IApplicationViewStatics3.put_PreferredLaunchViewSize(global::Windows.Foundation.Size value)
+			{
+				global::Windows.UI.ViewManagement.IApplicationViewStatics3__Impl.StubClass.put_PreferredLaunchViewSize(
+									this, 
+									value
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			}
+		}
+
+		// v-table for 'Windows.UI.ViewManagement.IApplicationViewStatics3'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.ViewManagement.IApplicationViewStatics3))]
+		public unsafe partial struct Vtbl
+		{
+			internal const int idx_put_PreferredLaunchWindowingMode = 7;
+			internal const int idx_put_PreferredLaunchViewSize = 9;
+		}
+	}
+
+	// Windows.UI.ViewManagement.IApplicationView
+	public unsafe static class IApplicationView__Impl
+	{
+		// v-table for 'Windows.UI.ViewManagement.IApplicationView'
+		[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.ViewManagement.IApplicationView))]
+		public unsafe partial struct Vtbl
+		{
+		}
+	}
+}
+
 namespace Windows.UI.Xaml
 {
 	// Windows.UI.Xaml.IApplicationFactory

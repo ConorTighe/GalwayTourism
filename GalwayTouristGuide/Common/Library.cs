@@ -22,8 +22,9 @@ namespace GalwayTouristGuide.Common
 
         public UIElement Marker()
         {
-            Canvas marker = new Canvas();
-            Ellipse outer = new Ellipse();
+            // Creating the canvas and the elements need to show where the user is and where there destinaton is.
+            Canvas marker = new Canvas(); 
+            Ellipse outer = new Ellipse(); 
             outer.Fill = new SolidColorBrush(Color.FromArgb(255,0,0,0));
             outer.Margin = new Thickness(-12.5, -12.5, 0, 0);
             Ellipse inner = new Ellipse() { Width = 50, Height = 50 };
@@ -44,6 +45,7 @@ namespace GalwayTouristGuide.Common
 
         public UIElement MarkerText(String Text)
         {
+            // Creating the text for the marker
             Canvas marker = new Canvas();
             TextBlock text = new TextBlock();
             text.Foreground = new SolidColorBrush(Colors.Red);

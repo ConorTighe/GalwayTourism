@@ -16,25 +16,25 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>B0CBB06E06B7B121FB803F3ECEBEB4D3901721ADC9F20E574BE838F4402CDA9A</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>36545ConorT.4041208597662_1.1.22.0_x86__3pfer5xdgfh7p</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>1063D52A65E3CB7462F8BAE6BC89E1B89CB3BFA7C0FD8072C3B4E1A24ACC86A5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>36545ConorT.4041208597662_1.2.0.0_x86__3pfer5xdgfh7p</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>36545ConorT.4041208597662_3pfer5xdgfh7p!App</RegisteredUserModeAppID>
     <RegisteredPackageID>36545ConorT.4041208597662</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=C73E1786-84F9-42C7-9B49-0242C9FC60E1</RegisteredPackagePublisher>
-    <RegisteredVersion>1.1.22.0</RegisteredVersion>
+    <RegisteredVersion>1.2.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-16T01:55:23.512</Modified>
+      <Modified>2017-03-26T00:52:51.752</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\GalwayTouristGuide.exe">
       <PackagePath>entrypoint\GalwayTouristGuide.exe</PackagePath>
-      <Modified>2017-03-16T01:55:15.577</Modified>
+      <Modified>2017-03-26T00:52:49.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -459,7 +459,7 @@
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-15T22:43:11.270</Modified>
+      <Modified>2017-03-16T13:41:04.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\galway1.scale-200.png">
       <PackagePath>Assets\galway1.scale-200.png</PackagePath>
@@ -476,7 +476,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\gtownlogostore.png">
       <PackagePath>Assets\gtownlogostore.png</PackagePath>
-      <Modified>2017-03-15T22:40:44.133</Modified>
+      <Modified>2017-03-16T13:36:10.023</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\pushpin.png">
       <PackagePath>Assets\pushpin.png</PackagePath>
@@ -503,19 +503,10 @@
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <Modified>2015-09-20T17:30:08.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2017-03-15T15:29:31.828</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
@@ -776,11 +767,11 @@
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-16T01:55:21.409</Modified>
+      <Modified>2017-03-26T00:05:53.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\x86\Debug\Core\GalwayTouristGuide.exe">
       <PackagePath>GalwayTouristGuide.exe</PackagePath>
-      <Modified>2017-03-16T01:55:23.486</Modified>
+      <Modified>2017-03-26T00:52:51.731</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,4 @@
-MainPackage=C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\ARM\Release\Upload\GalwayTouristGuide_1.1.26.0_ARM.appx
-SymbolPackage=C:\Users\Conor\Desktop\app\GalwayTouristGuide_1.1.26.0\GalwayTouristGuide_1.1.26.0_ARM.appxsym
+MainPackage=C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\bin\ARM\Release\Upload\GalwayTouristGuide_1.2.0.0_ARM.appx
+SymbolPackage=C:\Users\Conor\Desktop\app\GalwayTouristGuide_1.2.0.0\GalwayTouristGuide_1.2.0.0_ARM.appxsym
 ResourcePack=C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\_scale-100.appx
 ResourcePack=C:\Users\Conor\Documents\Visual Studio 2015\Projects\GalwayTouristGuide\GalwayTouristGuide\_scale-400.appx

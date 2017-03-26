@@ -7208,6 +7208,101 @@ namespace Windows.UI.Text
 	}
 }
 
+namespace Windows.UI.ViewManagement
+{
+	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.ViewManagement.IApplicationView))]
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(65536)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe sealed class ApplicationView : global::System.__ComObject, global::Windows.UI.ViewManagement.IApplicationView
+	{
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PreferredLaunchWindowingMode")]
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void put_PreferredLaunchWindowingMode(global::Windows.UI.ViewManagement.ApplicationViewWindowingMode value)
+		{
+			__Factory_Windows_UI_ViewManagement__IApplicationViewStatics3_put_PreferredLaunchWindowingMode(
+								"Windows.UI.ViewManagement.ApplicationView", 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static void __Factory_Windows_UI_ViewManagement__IApplicationViewStatics3_put_PreferredLaunchWindowingMode(
+					string typeName, 
+					global::Windows.UI.ViewManagement.ApplicationViewWindowingMode value)
+		{
+			global::Windows.UI.ViewManagement.IApplicationViewStatics3__Impl.StubClass.put_PreferredLaunchWindowingMode(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.UI.ViewManagement.IApplicationViewStatics3).TypeHandle
+												), 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PreferredLaunchViewSize")]
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		public static void put_PreferredLaunchViewSize(global::Windows.Foundation.Size value)
+		{
+			__Factory_Windows_UI_ViewManagement__IApplicationViewStatics3_put_PreferredLaunchViewSize(
+								"Windows.UI.ViewManagement.ApplicationView", 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		static void __Factory_Windows_UI_ViewManagement__IApplicationViewStatics3_put_PreferredLaunchViewSize(
+					string typeName, 
+					global::Windows.Foundation.Size value)
+		{
+			global::Windows.UI.ViewManagement.IApplicationViewStatics3__Impl.StubClass.put_PreferredLaunchViewSize(
+								global::System.Runtime.InteropServices.McgModuleManager.GetActivationFactory(
+													typeName, 
+													typeof(global::Windows.UI.ViewManagement.IApplicationViewStatics3).TypeHandle
+												), 
+								value
+							);
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+		}
+
+		public ApplicationView(global::System.IntPtr dummy)
+		{
+		}
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IApplicationViewStatics3
+	{
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PreferredLaunchWindowingMode")]
+		void put_PreferredLaunchWindowingMode(global::Windows.UI.ViewManagement.ApplicationViewWindowingMode value);
+
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgAccessor(global::System.Runtime.InteropServices.McgAccessorKind.PropertySet, "PreferredLaunchViewSize")]
+		void put_PreferredLaunchViewSize(global::Windows.Foundation.Size value);
+	}
+
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public unsafe interface IApplicationView
+	{
+	}
+
+	[global::System.Runtime.InteropServices.McgWindowsRuntimeVersion(0)]
+	[global::Internal.Reflection.MetadataTransformed(global::Internal.Reflection.MetadataTransformation.OriginallyForeignObject)]
+	[global::Internal.Reflection.ExplicitScope("Windows, Version=255.255.255.255, Culture=neutral, PublicKeyToken=null, ContentType=WindowsRuntime")]
+	public enum ApplicationViewWindowingMode
+	{
+		Auto = 0,
+		PreferredLaunchViewSize = 1,
+		FullScreen = 2,
+	}
+}
+
 namespace Windows.UI.Xaml
 {
 	[global::System.Runtime.CompilerServices.DependencyReductionConditionallyDependent(typeof(global::Windows.UI.Xaml.IApplication))]
